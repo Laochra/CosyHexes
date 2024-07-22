@@ -1,0 +1,26 @@
+{
+  "Attributes": [
+    {
+      "Exposed": false,
+      "Name": "Position",
+      "Type": "Float4"
+    },
+    {
+      "Exposed": false,
+      "Name": "VertColour",
+      "Type": "Float4"
+    }
+  ],
+  "Fragment": "Assets\\Shaders\\Particles.frag",
+  "Geometry": "Assets\\Shaders\\Particles.geom",
+  "TessControl": "None",
+  "TessEvaluation": "None",
+  "Uniforms": [
+    {
+      "Exposed": false,
+      "Name": "ProjectionViewModel",
+      "Type": "Float4x4"
+    }
+  ],
+  "Vertex": "Assets\\Shaders\\Particles.vert"
+}

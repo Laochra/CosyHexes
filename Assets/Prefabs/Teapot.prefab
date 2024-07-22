@@ -1,0 +1,30 @@
+{
+  "Active": true,
+  "Children": [],
+  "GUID": 13470793279445932117,
+  "Material": "Default",
+  "Mesh": "Assets\\Meshes\\Teapot.mesh",
+  "Name": "Teapot",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    -3.4041612195778725e-08
+  ],
+  "Rotation": [
+    1.0,
+    2.1855694143368964e-08,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 181025226017607
+}

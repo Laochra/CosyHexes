@@ -1,0 +1,10 @@
+# Temporary Assets
+Engine/Temp/*
+!Engine/Temp/temp.meta
+
+# User Specific Settings
+UserSettings/*
+!Engine/UserSettings/usersettings.meta
+
+# Log File
+Debug.log

@@ -1,0 +1,231 @@
+{
+  "Attributes": [
+    {
+      "Exposed": false,
+      "Name": "BiTangent",
+      "Type": "Float4"
+    },
+    {
+      "Exposed": false,
+      "Name": "Normal",
+      "Type": "Float4"
+    },
+    {
+      "Exposed": false,
+      "Name": "Position",
+      "Type": "Float4"
+    },
+    {
+      "Exposed": false,
+      "Name": "Tangent",
+      "Type": "Float4"
+    },
+    {
+      "Exposed": false,
+      "Name": "TexCoords",
+      "Type": "Float2"
+    }
+  ],
+  "Fragment": "PBRLit",
+  "Geometry": "None",
+  "TessControl": "None",
+  "TessEvaluation": "None",
+  "Uniforms": [
+    {
+      "Exposed": false,
+      "Name": "CameraPosition",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": true,
+      "Name": "ColourMap",
+      "Type": "Texture"
+    },
+    {
+      "Exposed": true,
+      "Name": "ColourTint",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "DirectionalLightCount",
+      "Type": "Int"
+    },
+    {
+      "Exposed": false,
+      "Name": "DirectionalLights[0].colour",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "DirectionalLights[0].direction",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "DirectionalLights[1].colour",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "DirectionalLights[1].direction",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "DirectionalLights[2].colour",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "DirectionalLights[2].direction",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "DirectionalLights[3].colour",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "DirectionalLights[3].direction",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": true,
+      "Name": "EmissionColour",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": true,
+      "Name": "EmissionIntensity",
+      "Type": "Float"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjectCount",
+      "Type": "Int"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[0].angle",
+      "Type": "Float"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[0].colour",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[0].direction",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[0].position",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[0].range",
+      "Type": "Float"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[1].angle",
+      "Type": "Float"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[1].colour",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[1].direction",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[1].position",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[1].range",
+      "Type": "Float"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[2].angle",
+      "Type": "Float"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[2].colour",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[2].direction",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[2].position",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[2].range",
+      "Type": "Float"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[3].angle",
+      "Type": "Float"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[3].colour",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[3].direction",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[3].position",
+      "Type": "Float3"
+    },
+    {
+      "Exposed": false,
+      "Name": "LightObjects[3].range",
+      "Type": "Float"
+    },
+    {
+      "Exposed": false,
+      "Name": "ModelMatrix",
+      "Type": "Float4x4"
+    },
+    {
+      "Exposed": true,
+      "Name": "NormalMap",
+      "Type": "Texture"
+    },
+    {
+      "Exposed": false,
+      "Name": "ProjectionViewModel",
+      "Type": "Float4x4"
+    },
+    {
+      "Exposed": true,
+      "Name": "RMAOMap",
+      "Type": "Texture"
+    }
+  ],
+  "Vertex": "Default3D"
+}

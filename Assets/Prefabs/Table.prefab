@@ -1,0 +1,61 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 14044014695234508932,
+      "Material": "Assets\\Materials\\Table.mat",
+      "Mesh": "Assets\\Meshes\\TableDrawer.mesh",
+      "Name": "TableDrawer",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 3847896575786137635,
+  "Material": "Assets\\Materials\\Table.mat",
+  "Mesh": "Assets\\Meshes\\Table.mesh",
+  "Name": "Table",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    0.009999999776482582,
+    0.009999999776482582,
+    0.009999999776482582
+  ],
+  "TypeID": 181025226017607
+}
