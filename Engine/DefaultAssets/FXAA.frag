@@ -18,7 +18,7 @@ float saturate(float value) {
 	return clamp(value, 0.0, 1.0);
 }
 
-float GetLuma (vec2 uv, float uOffset = 0.0, float vOffset = 0.0) {
+float GetLuma(vec2 uv, float uOffset, float vOffset) {
 	uv += vec2(uOffset, vOffset) * GetSourceTexelSize().xy;
 	return GetSource(uv).g;
 }
@@ -30,7 +30,7 @@ struct LumaNeighborhood {
 
 LumaNeighborhood GetLumaNeighborhood (vec2 uv) {
 	LumaNeighborhood luma;
-	luma.m = GetLuma(uv);
+	luma.m = GetLuma(uv, 0.0, 0.0);
 	luma.n = GetLuma(uv, 0.0, 1.0);
 	luma.e = GetLuma(uv, 1.0, 0.0);
 	luma.s = GetLuma(uv, 0.0, -1.0);
@@ -135,13 +135,13 @@ float GetEdgeBlendFactor (LumaNeighborhood luma, FXAAEdge edge, vec2 uv) {
 	float gradientThreshold = 0.25 * edge.lumaGradient;
 			
 	vec2 uvP = edgeUV + uvStep;
-	float lumaDeltaP = GetLuma(uvP) - edgeLuma;
+	float lumaDeltaP = GetLuma(uvP, 0.0, 0.0) - edgeLuma;
 	bool atEndP = abs(lumaDeltaP) >= gradientThreshold;
 
 	int i;
 	for (i = 0; i < EXTRA_EDGE_STEPS && !atEndP; i++) {
 		uvP += uvStep * edgeStepSizes[i];
-		lumaDeltaP = GetLuma(uvP) - edgeLuma;
+		lumaDeltaP = GetLuma(uvP, 0.0, 0.0) - edgeLuma;
 		atEndP = abs(lumaDeltaP) >= gradientThreshold;
 	}
 	if (!atEndP) {
@@ -149,12 +149,12 @@ float GetEdgeBlendFactor (LumaNeighborhood luma, FXAAEdge edge, vec2 uv) {
 	}
 	
 	vec2 uvN = edgeUV - uvStep;
-	float lumaDeltaN = GetLuma(uvN) - edgeLuma;
+	float lumaDeltaN = GetLuma(uvN, 0.0, 0.0) - edgeLuma;
 	bool atEndN = abs(lumaDeltaN) >= gradientThreshold;
 	
 	for (i = 0; i < EXTRA_EDGE_STEPS && !atEndN; i++) {
 		uvN -= uvStep * edgeStepSizes[i];
-		lumaDeltaN = GetLuma(uvN) - edgeLuma;
+		lumaDeltaN = GetLuma(uvN, 0.0, 0.0) - edgeLuma;
 		atEndN = abs(lumaDeltaN) >= gradientThreshold;
 	}
 	if (!atEndN) {
