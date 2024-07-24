@@ -4,7 +4,7 @@ Engine/Temp/*
 
 # User Specific Settings
 UserSettings/*
-!Engine/UserSettings/usersettings.meta
+!UserSettings/usersettings.meta
 
 # Log File
 Debug.log
