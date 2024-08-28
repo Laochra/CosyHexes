@@ -5,7 +5,7 @@
   },
   "Flowers": [
     {
-      "Name": "New Variant",
+      "Name": "Everlasting Daisy",
       "Prefabs": [
         "None",
         "None",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "Name": "New Variant",
+      "Name": "Happy Wanderer",
       "Prefabs": [
         "None",
         "None",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "Name": "New Variant",
+      "Name": "Prickly Tea Tree",
       "Prefabs": [
         "None",
         "None",
@@ -31,7 +31,7 @@
   ],
   "Lands": [
     {
-      "Name": "New Variant",
+      "Name": "Grass",
       "Prefabs": [
         "None",
         "None",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "Name": "New Variant",
+      "Name": "Red Gravel",
       "Prefabs": [
         "None",
         "None",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "Name": "New Variant",
+      "Name": "Mushrooms",
       "Prefabs": [
         "None",
         "None",
@@ -57,24 +57,24 @@
   ],
   "RadialSprites": {
     "Flower": {
-      "Hovered": "None",
-      "Locked": "None",
-      "Regular": "None"
+      "Hovered": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Unlocked.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Locked.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Hovered.png"
     },
     "Land": {
-      "Hovered": "None",
-      "Locked": "None",
-      "Regular": "None"
+      "Hovered": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Unlocked.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Locked.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Hovered.png"
     },
     "Trees": {
-      "Hovered": "None",
-      "Locked": "None",
-      "Regular": "None"
+      "Hovered": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Unlocked.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Locked.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Hovered.png"
     },
     "Water": {
-      "Hovered": "None",
-      "Locked": "None",
-      "Regular": "None"
+      "Hovered": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Locked.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Hovered.png"
     }
   },
   "Trees": [
@@ -105,7 +105,7 @@
   ],
   "Waters": [
     {
-      "Name": "New Variant",
+      "Name": "Water",
       "Prefabs": [
         "None",
         "None",
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "Name": "New Variant",
+      "Name": "Water with Reeds",
       "Prefabs": [
         "None",
         "None",
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "Name": "New Variant",
+      "Name": "Lily Pad",
       "Prefabs": [
         "None",
         "None",
