@@ -1,0 +1,32 @@
+{
+  "Active": true,
+  "Children": [],
+  "GUID": 11888109926272918744,
+  "HexType": 0,
+  "HexVariant": "None",
+  "Material": "Assets\\Tiles\\Empty\\Empty.mat",
+  "Mesh": "Hexagon",
+  "Name": "Empty",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    0.75,
+    0.75,
+    0.75
+  ],
+  "TypeID": 73778508
+}

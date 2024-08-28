@@ -1,0 +1,92 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 14237254295067814417,
+      "Material": "Assets\\Materials\\FernWood.mat",
+      "Mesh": "Assets\\Meshes\\FernTrunks.mesh",
+      "Name": "Trunks",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 10944276110852521522,
+      "Material": "Assets\\Materials\\FernLeaves.mat",
+      "Mesh": "Assets\\Meshes\\FernLeaves.mesh",
+      "Name": "Leaves",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 3332715281445110804,
+  "HexType": 3,
+  "Material": "Assets\\Materials\\Grass.mat",
+  "Mesh": "ProceduralHexagon",
+  "Name": "FernHex",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 73778508
+}

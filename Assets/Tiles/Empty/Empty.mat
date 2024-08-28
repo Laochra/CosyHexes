@@ -1,0 +1,27 @@
+{
+  "Attributes": [],
+  "ShaderProgram": "Unlit",
+  "Uniforms": [
+    {
+      "Data": [
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63
+      ],
+      "Name": "ColourTint"
+    },
+    {
+      "Data": "None",
+      "Name": "ColourMap"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "Defaults": {
+    "DefaultTile": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
+    "EmptyTile": "Assets\\Tiles\\Empty\\Empty.prefab"
+  },
+  "Flowers": [
+    {
+      "Name": "New Variant",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "Name": "New Variant",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "Name": "New Variant",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    }
+  ],
+  "Lands": [
+    {
+      "Name": "New Variant",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "Name": "New Variant",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "Name": "New Variant",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    }
+  ],
+  "RadialSprites": {
+    "Flower": {
+      "Hovered": "None",
+      "Locked": "None",
+      "Regular": "None"
+    },
+    "Land": {
+      "Hovered": "None",
+      "Locked": "None",
+      "Regular": "None"
+    },
+    "Trees": {
+      "Hovered": "None",
+      "Locked": "None",
+      "Regular": "None"
+    },
+    "Water": {
+      "Hovered": "None",
+      "Locked": "None",
+      "Regular": "None"
+    }
+  },
+  "Trees": [
+    {
+      "Name": "Eucalyptus",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "Name": "Acacia Blackwood",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "Name": "Fern",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    }
+  ],
+  "Waters": [
+    {
+      "Name": "New Variant",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "Name": "New Variant",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    },
+    {
+      "Name": "New Variant",
+      "Prefabs": [
+        "None",
+        "None",
+        "None"
+      ]
+    }
+  ]
+}

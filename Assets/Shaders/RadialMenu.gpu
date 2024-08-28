@@ -1,0 +1,33 @@
+{
+  "Attributes": [
+    {
+      "Exposed": false,
+      "Name": "Position",
+      "Type": "Float2"
+    }
+  ],
+  "Fragment": "Assets\\Shaders\\RadialMenu.frag",
+  "Geometry": "None",
+  "TessControl": "None",
+  "TessEvaluation": "None",
+  "Uniforms": [
+    {
+      "Exposed": false,
+      "Name": "HoveredSlice",
+      "Type": "Int",
+	  "Exposed": false,
+      "Name": "InverseAspect",
+      "Type": "Float",
+      "Exposed": true,
+      "Name": "Scale",
+      "Type": "Float",
+      "Exposed": false,
+      "Name": "SliceCount",
+      "Type": "Int",
+      "Exposed": true,
+      "Name": "Sprites",
+      "Type": "Texture[]"
+    }
+  ],
+  "Vertex": "Assets\\Shaders\\RadialMenu.vert"
+}
