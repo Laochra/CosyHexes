@@ -34,7 +34,7 @@
     {
       "Name": "Grass",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
         "None",
         "None"
       ]
@@ -42,7 +42,7 @@
     {
       "Name": "Red Gravel",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Lands\\RedGravel\\RedGravel.prefab",
         "None",
         "None"
       ]
@@ -50,7 +50,7 @@
     {
       "Name": "Mushrooms",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.prefab",
         "None",
         "None"
       ]
@@ -82,7 +82,7 @@
     {
       "Name": "Eucalyptus",
       "Prefabs": [
-        "None",
+        "Assets\\Prefabs\\EucalyptusHex.prefab",
         "None",
         "None"
       ]
@@ -98,7 +98,7 @@
     {
       "Name": "Fern",
       "Prefabs": [
-        "None",
+        "Assets\\Prefabs\\FernHex.prefab",
         "None",
         "None"
       ]
@@ -108,7 +108,7 @@
     {
       "Name": "Water",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Water\\Water\\Water.prefab",
         "None",
         "None"
       ]
@@ -116,7 +116,7 @@
     {
       "Name": "Water with Reeds",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Water\\Reeds\\Reeds.prefab",
         "None",
         "None"
       ]
@@ -124,7 +124,7 @@
     {
       "Name": "Lily Pad",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Water\\LilyPad\\LilyPad.prefab",
         "None",
         "None"
       ]
