@@ -7,7 +7,7 @@
     {
       "Name": "Everlasting Daisy",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy.prefab",
         "None",
         "None"
       ]
@@ -15,7 +15,7 @@
     {
       "Name": "Happy Wanderer",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer.prefab",
         "None",
         "None"
       ]
@@ -23,13 +23,59 @@
     {
       "Name": "Prickly Tea Tree",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\PricklyTeaTree.prefab",
         "None",
         "None"
       ]
     }
   ],
-  "Habitats": [],
+  "Habitats": [
+    {
+      "Name": "Green Carpenter Bee",
+      "PrefabFilepath": "Assets\\Tiles\\Habitats\\Green Carpenter Bee\\GreenCarpenterBeeHabitat.prefab",
+      "RequiredTiles": [
+        "Fern",
+        "Everlasting Daisy",
+        "Happy Wanderer"
+      ]
+    },
+    {
+      "Name": "Tasmanian Tiger",
+      "PrefabFilepath": "Assets\\Tiles\\Habitats\\TasmanianTiger\\TasmanianTigerHabitat.prefab",
+      "RequiredTiles": [
+        "Grass",
+        "Eucalyptus",
+        "Red Gravel"
+      ]
+    },
+    {
+      "Name": "Armoured Mist Frog",
+      "PrefabFilepath": "Assets\\Tiles\\Habitats\\ArmouredMistFrog\\ArmouredMistFrogHabitat.prefab",
+      "RequiredTiles": [
+        "Fern",
+        "Eucalyptus",
+        "Lily Pad"
+      ]
+    },
+    {
+      "Name": "Pink Slug",
+      "PrefabFilepath": "Assets\\Tiles\\Habitats\\Pink Slug\\PinkSlugHabitat.prefab",
+      "RequiredTiles": [
+        "Eucalyptus",
+        "Prickly Tea Tree",
+        "Water"
+      ]
+    },
+    {
+      "Name": "Platypus",
+      "PrefabFilepath": "Assets\\Tiles\\Habitats\\Platypus\\PlatypusHabitat.prefab",
+      "RequiredTiles": [
+        "Acacia Blackwood",
+        "Mushrooms",
+        "Water with Reeds"
+      ]
+    }
+  ],
   "Lands": [
     {
       "Name": "Grass",
@@ -58,24 +104,24 @@
   ],
   "RadialSprites": {
     "Flower": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Unlocked.png",
-      "Locked": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Hovered.png"
+      "Hovered": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Unlocked_BG.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Locked_BG.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Hovered_BG.png"
     },
     "Land": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Unlocked.png",
-      "Locked": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Hovered.png"
+      "Hovered": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Unlocked_BG.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Locked_BG.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Hovered_BG.png"
     },
     "Trees": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Unlocked.png",
-      "Locked": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Hovered.png"
+      "Hovered": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Unlocked_BG.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Locked_BG.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Hovered_BG.png"
     },
     "Water": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked.png",
-      "Locked": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Hovered.png"
+      "Hovered": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked_BG.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Locked_BG.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Hovered_BG.png"
     }
   },
   "Trees": [
@@ -90,7 +136,7 @@
     {
       "Name": "Acacia Blackwood",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Trees\\Acacia Blackwood\\AcaciaBlackwood.prefab",
         "None",
         "None"
       ]

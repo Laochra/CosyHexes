@@ -1,0 +1,35 @@
+{
+  "Attributes": [],
+  "ShaderProgram": "PBRLit",
+  "Uniforms": [
+    {
+      "Data": [
+        0,
+        0,
+        128,
+        63,
+        54,
+        44,
+        189,
+        62,
+        20,
+        41,
+        87,
+        63
+      ],
+      "Name": "ColourTint"
+    },
+    {
+      "Data": "None",
+      "Name": "ColourMap"
+    },
+    {
+      "Data": "None",
+      "Name": "NormalMap"
+    },
+    {
+      "Data": "None",
+      "Name": "RMAOMap"
+    }
+  ]
+}
