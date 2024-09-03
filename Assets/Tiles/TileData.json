@@ -71,7 +71,7 @@
       "PrefabFilepath": "Assets\\Tiles\\Habitats\\Green Carpenter Bee\\GreenCarpenterBeeHabitat.prefab",
       "RequiredTiles": [
         "Fern",
-        "Happy Wanderer",
+        "Grass",
         "Everlasting Daisy"
       ]
     }
