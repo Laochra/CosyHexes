@@ -31,24 +31,6 @@
   ],
   "Habitats": [
     {
-      "Name": "Green Carpenter Bee",
-      "PrefabFilepath": "Assets\\Tiles\\Habitats\\Green Carpenter Bee\\GreenCarpenterBeeHabitat.prefab",
-      "RequiredTiles": [
-        "Fern",
-        "Everlasting Daisy",
-        "Happy Wanderer"
-      ]
-    },
-    {
-      "Name": "Tasmanian Tiger",
-      "PrefabFilepath": "Assets\\Tiles\\Habitats\\TasmanianTiger\\TasmanianTigerHabitat.prefab",
-      "RequiredTiles": [
-        "Grass",
-        "Eucalyptus",
-        "Red Gravel"
-      ]
-    },
-    {
       "Name": "Armoured Mist Frog",
       "PrefabFilepath": "Assets\\Tiles\\Habitats\\ArmouredMistFrog\\ArmouredMistFrogHabitat.prefab",
       "RequiredTiles": [
@@ -73,6 +55,24 @@
         "Acacia Blackwood",
         "Mushrooms",
         "Water with Reeds"
+      ]
+    },
+    {
+      "Name": "Tasmanian Tiger",
+      "PrefabFilepath": "Assets\\Tiles\\Habitats\\TasmanianTiger\\TasmanianTigerHabitat.prefab",
+      "RequiredTiles": [
+        "Eucalyptus",
+        "Water",
+        "Red Gravel"
+      ]
+    },
+    {
+      "Name": "Green Carpenter Bee",
+      "PrefabFilepath": "Assets\\Tiles\\Habitats\\Green Carpenter Bee\\GreenCarpenterBeeHabitat.prefab",
+      "RequiredTiles": [
+        "Fern",
+        "Happy Wanderer",
+        "Everlasting Daisy"
       ]
     }
   ],
@@ -126,6 +126,14 @@
   },
   "Trees": [
     {
+      "Name": "Fern",
+      "Prefabs": [
+        "Assets\\Prefabs\\FernHex.prefab",
+        "None",
+        "None"
+      ]
+    },
+    {
       "Name": "Eucalyptus",
       "Prefabs": [
         "Assets\\Prefabs\\EucalyptusHex.prefab",
@@ -137,14 +145,6 @@
       "Name": "Acacia Blackwood",
       "Prefabs": [
         "Assets\\Tiles\\Trees\\Acacia Blackwood\\AcaciaBlackwood.prefab",
-        "None",
-        "None"
-      ]
-    },
-    {
-      "Name": "Fern",
-      "Prefabs": [
-        "Assets\\Prefabs\\FernHex.prefab",
         "None",
         "None"
       ]
