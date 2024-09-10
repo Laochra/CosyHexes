@@ -58,9 +58,21 @@
   ],
   "Progression": {
     "HabitatLifeBonus": 3,
-    "LifeMilestones": [],
+    "LifeMilestones": [
+      {
+        "LifeRequirement": 100,
+        "Names": [],
+        "RadiusIncrease": 1,
+        "Type": 0
+      }
+    ],
     "StartingRadius": 3,
-    "StartingVariants": [],
+    "StartingVariants": [
+      "Eucalyptus",
+      "Fern",
+      "Water",
+      "Grass"
+    ],
     "TileLifeBonus": 1
   },
   "RadialSprites": {
@@ -95,7 +107,7 @@
       ]
     },
     {
-      "Name": "Acacia Blackwood",
+      "Name": "Fern",
       "Prefabs": [
         "None",
         "None",
@@ -103,7 +115,7 @@
       ]
     },
     {
-      "Name": "Fern",
+      "Name": "Acacia Blackwood",
       "Prefabs": [
         "None",
         "None",
