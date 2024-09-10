@@ -65,7 +65,7 @@
   "GUID": 10916301281909168731,
   "HexType": 1,
   "Material": "Assets\\Materials\\Grass.mat",
-  "Mesh": "ProceduralHexagon",
+  "Mesh": "Hexagon",
   "Name": "EucalyptusHex",
   "Pivot": [
     0.0,

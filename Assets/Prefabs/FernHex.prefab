@@ -65,7 +65,7 @@
   "GUID": 3332715281445110804,
   "HexType": 3,
   "Material": "Assets\\Materials\\Grass.mat",
-  "Mesh": "ProceduralHexagon",
+  "Mesh": "Hexagon",
   "Name": "FernHex",
   "Pivot": [
     0.0,
