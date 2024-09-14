@@ -1,4 +1,29 @@
 {
+  "Audio": {
+    "Ambience": [],
+    "AmbienceVolume": 1.0,
+    "Music": "None",
+    "MusicVolume": 1.0,
+    "SoundEffects": {
+      "FormHabitat": "None",
+      "PlaceFlower": "None",
+      "PlaceLand": "None",
+      "PlaceTree": "None",
+      "PlaceWater": "None",
+      "RadialClose": "None",
+      "RadialCycle Page": "None",
+      "RadialCycleDensity": "None",
+      "RadialOpen": "None",
+      "ScrapbookClose": "None",
+      "ScrapbookNewHabitatPage": "None",
+      "ScrapbookNotification": "None",
+      "ScrapbookOpen": "None",
+      "ScrapbookTurnPage": "None"
+    },
+    "SoundEffectsVolume": 1.0,
+    "SpiritSounds": null,
+    "SpiritSoundsVolume": 1.0
+  },
   "Defaults": {
     "DefaultTile": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
     "EmptyTile": "Assets\\Tiles\\Empty\\Empty.prefab"
