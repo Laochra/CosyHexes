@@ -1,0 +1,437 @@
+{
+  "FormatVersion": 1,
+  "GameObjects": [
+    {
+      "Active": true,
+      "Children": [],
+      "ComputeShader": "Assets\\Shaders\\Particles.comp",
+      "GUID": 4873002801545102455,
+      "Name": "Leafsplosion",
+      "ParticleProperties": {
+        "AlphaThreshold": 0.5,
+        "Autoplay": false,
+        "ColourRange": [
+          0.0,
+          0.7443946003913879,
+          0.7937219738960266,
+          1.0,
+          1.0,
+          0.34529146552085876,
+          0.7174887657165527,
+          0.6681613922119141,
+          1.0,
+          1.0
+        ],
+        "Delay": 0.0,
+        "Duration": 5.0,
+        "EmitOverTime": false,
+        "Gravity": -1.649999976158142,
+        "LifetimeRange": [
+          0.009999999776482582,
+          5.0
+        ],
+        "Loop": false,
+        "MaxCount": 100000,
+        "ParticlesPerSecond": 0,
+        "ShapeData": [
+          0.0,
+          0.009999999776482582,
+          0.0
+        ],
+        "ShapeID": 0,
+        "SizeRange": [
+          0.4000000059604645,
+          0.4000000059604645
+        ],
+        "SpeedRange": [
+          0.0,
+          3.0
+        ],
+        "Sprite": "Assets\\Textures\\Leaf.png"
+      },
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ShaderProgram": "Assets\\Shaders\\ParticleSystem.gpu",
+      "TypeID": 742185141793049119
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "ComputeShader": "Assets\\Shaders\\Particles.comp",
+      "GUID": 15289758046379933777,
+      "Name": "Flamethrower",
+      "ParticleProperties": {
+        "AlphaThreshold": 0.5,
+        "Autoplay": false,
+        "ColourRange": [
+          0.017937220633029938,
+          0.7982062697410583,
+          0.9910314083099365,
+          1.0,
+          1.25,
+          0.1434977650642395,
+          0.7443946003913879,
+          0.9237667918205261,
+          1.0,
+          1.5
+        ],
+        "Delay": 0.0,
+        "Duration": 10.0,
+        "EmitOverTime": false,
+        "Gravity": 0.0,
+        "LifetimeRange": [
+          0.10000000149011612,
+          10.0
+        ],
+        "Loop": false,
+        "MaxCount": 10000,
+        "ParticlesPerSecond": 0,
+        "ShapeData": [
+          0.0,
+          0.009999999776482582,
+          0.5235987901687622
+        ],
+        "ShapeID": 1,
+        "SizeRange": [
+          0.009999999776482582,
+          0.6000000238418579
+        ],
+        "SpeedRange": [
+          0.0010000000474974513,
+          10.0
+        ],
+        "Sprite": "Assets\\Textures\\Fire.png"
+      },
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ShaderProgram": "Assets\\Shaders\\ParticleSystem.gpu",
+      "TypeID": 742185141793049119
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "ComputeShader": "Assets\\Shaders\\Particles.comp",
+      "GUID": 14755545984096445147,
+      "Name": "Sparklebomb",
+      "ParticleProperties": {
+        "AlphaThreshold": 0.5,
+        "Autoplay": false,
+        "ColourRange": [
+          0.14798206090927124,
+          0.7040358781814575,
+          1.0,
+          1.0,
+          1.2000000476837158,
+          0.16143497824668884,
+          0.29147982597351074,
+          1.0,
+          1.0,
+          1.2000000476837158
+        ],
+        "Delay": 0.0,
+        "Duration": 3.0,
+        "EmitOverTime": false,
+        "Gravity": 0.0,
+        "LifetimeRange": [
+          0.10000000149011612,
+          4.0
+        ],
+        "Loop": false,
+        "MaxCount": 100000,
+        "ParticlesPerSecond": 0,
+        "ShapeData": [
+          0.0,
+          0.009999999776482582,
+          0.0
+        ],
+        "ShapeID": 0,
+        "SizeRange": [
+          0.009999999776482582,
+          0.05999999865889549
+        ],
+        "SpeedRange": [
+          0.009999999776482582,
+          4.0
+        ],
+        "Sprite": "Assets\\Textures\\Star.png"
+      },
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ShaderProgram": "Assets\\Shaders\\ParticleSystem.gpu",
+      "TypeID": 742185141793049119
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "ComputeShader": "Assets\\Shaders\\Particles.comp",
+      "GUID": 15374748086003667818,
+      "Name": "Blossomfetti",
+      "ParticleProperties": {
+        "AlphaThreshold": 0.5,
+        "Autoplay": false,
+        "ColourRange": [
+          0.8251121044158936,
+          0.2825112044811249,
+          0.9730941653251648,
+          1.0,
+          1.100000023841858,
+          0.8251120448112488,
+          0.14798206090927124,
+          0.9820627570152283,
+          1.0,
+          1.100000023841858
+        ],
+        "Delay": 0.0,
+        "Duration": 7.5,
+        "EmitOverTime": false,
+        "Gravity": 0.0,
+        "LifetimeRange": [
+          0.10000000149011612,
+          7.5
+        ],
+        "Loop": false,
+        "MaxCount": 100000,
+        "ParticlesPerSecond": 0,
+        "ShapeData": [
+          1.0,
+          1.0,
+          0.0
+        ],
+        "ShapeID": 0,
+        "SizeRange": [
+          0.009999999776482582,
+          0.30000001192092896
+        ],
+        "SpeedRange": [
+          2.0,
+          3.0
+        ],
+        "Sprite": "Assets\\Textures\\RoundedStar.png"
+      },
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ShaderProgram": "Assets\\Shaders\\ParticleSystem.gpu",
+      "TypeID": 742185141793049119
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "ComputeShader": "Assets\\Shaders\\Particles.comp",
+      "GUID": 3295240128033848351,
+      "Name": "Smokepillar",
+      "ParticleProperties": {
+        "AlphaThreshold": 0.5,
+        "Autoplay": false,
+        "ColourRange": [
+          0.8116592168807983,
+          0.0,
+          0.9147982001304626,
+          1.0,
+          1.0,
+          0.8116591572761536,
+          0.0,
+          0.6591928005218506,
+          1.0,
+          1.0
+        ],
+        "Delay": 0.0,
+        "Duration": 7.5,
+        "EmitOverTime": false,
+        "Gravity": 0.0,
+        "LifetimeRange": [
+          5.0,
+          10.0
+        ],
+        "Loop": false,
+        "MaxCount": 10000,
+        "ParticlesPerSecond": 0,
+        "ShapeData": [
+          0.0,
+          10.0,
+          0.0872664600610733
+        ],
+        "ShapeID": 1,
+        "SizeRange": [
+          0.05000000074505806,
+          0.30000001192092896
+        ],
+        "SpeedRange": [
+          0.0,
+          0.30000001192092896
+        ],
+        "Sprite": "Assets\\Textures\\Smoke.png"
+      },
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        0.7071068286895752,
+        -0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ShaderProgram": "Assets\\Shaders\\ParticleSystem.gpu",
+      "TypeID": 742185141793049119
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "ComputeShader": "Assets\\Shaders\\Particles.comp",
+      "GUID": 13515040754471248293,
+      "Name": "Bubbleblock",
+      "ParticleProperties": {
+        "AlphaThreshold": 0.5,
+        "Autoplay": false,
+        "ColourRange": [
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0,
+          0.5067264437675476,
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Delay": 0.0,
+        "Duration": 7.5,
+        "EmitOverTime": false,
+        "Gravity": 0.3700000047683716,
+        "LifetimeRange": [
+          1.0,
+          7.5
+        ],
+        "Loop": false,
+        "MaxCount": 2000,
+        "ParticlesPerSecond": 0,
+        "ShapeData": [
+          3.0,
+          3.0,
+          3.0
+        ],
+        "ShapeID": 2,
+        "SizeRange": [
+          0.25,
+          0.25
+        ],
+        "SpeedRange": [
+          0.10000000149011612,
+          0.10000000149011612
+        ],
+        "Sprite": "Assets\\Textures\\Bubble.png"
+      },
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ShaderProgram": "Assets\\Shaders\\ParticleSystem.gpu",
+      "TypeID": 742185141793049119
+    }
+  ]
+}

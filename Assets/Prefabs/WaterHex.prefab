@@ -4,7 +4,7 @@
   "GUID": 14981772011017100942,
   "HexType": 2,
   "Material": "Assets\\Materials\\Water.mat",
-  "Mesh": "ProceduralHexagon",
+  "Mesh": "Hexagon",
   "Name": "WaterHex",
   "Pivot": [
     0.0,

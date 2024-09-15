@@ -1,4 +1,29 @@
 {
+  "Audio": {
+    "Ambience": [],
+    "AmbienceVolume": 1.0,
+    "Music": "None",
+    "MusicVolume": 1.0,
+    "SoundEffects": {
+      "FormHabitat": "None",
+      "PlaceFlower": "None",
+      "PlaceLand": "None",
+      "PlaceTree": "None",
+      "PlaceWater": "None",
+      "RadialClose": "None",
+      "RadialCycle Page": "None",
+      "RadialCycleDensity": "None",
+      "RadialOpen": "None",
+      "ScrapbookClose": "None",
+      "ScrapbookNewHabitatPage": "None",
+      "ScrapbookNotification": "None",
+      "ScrapbookOpen": "None",
+      "ScrapbookTurnPage": "None"
+    },
+    "SoundEffectsVolume": 1.0,
+    "SpiritSounds": null,
+    "SpiritSoundsVolume": 1.0
+  },
   "Defaults": {
     "DefaultTile": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
     "EmptyTile": "Assets\\Tiles\\Empty\\Empty.prefab"
@@ -7,7 +32,7 @@
     {
       "Name": "Everlasting Daisy",
       "Prefabs": [
-        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy.prefab",
+        "None",
         "None",
         "None"
       ]
@@ -15,7 +40,7 @@
     {
       "Name": "Happy Wanderer",
       "Prefabs": [
-        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer.prefab",
+        "None",
         "None",
         "None"
       ]
@@ -23,64 +48,18 @@
     {
       "Name": "Prickly Tea Tree",
       "Prefabs": [
-        "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\PricklyTeaTree.prefab",
+        "None",
         "None",
         "None"
       ]
     }
   ],
-  "Habitats": [
-    {
-      "Name": "Armoured Mist Frog",
-      "PrefabFilepath": "Assets\\Tiles\\Habitats\\ArmouredMistFrog\\ArmouredMistFrogHabitat.prefab",
-      "RequiredTiles": [
-        "Fern",
-        "Eucalyptus",
-        "Lily Pad"
-      ]
-    },
-    {
-      "Name": "Pink Slug",
-      "PrefabFilepath": "Assets\\Tiles\\Habitats\\Pink Slug\\PinkSlugHabitat.prefab",
-      "RequiredTiles": [
-        "Eucalyptus",
-        "Prickly Tea Tree",
-        "Water"
-      ]
-    },
-    {
-      "Name": "Platypus",
-      "PrefabFilepath": "Assets\\Tiles\\Habitats\\Platypus\\PlatypusHabitat.prefab",
-      "RequiredTiles": [
-        "Acacia Blackwood",
-        "Mushrooms",
-        "Water with Reeds"
-      ]
-    },
-    {
-      "Name": "Tasmanian Tiger",
-      "PrefabFilepath": "Assets\\Tiles\\Habitats\\TasmanianTiger\\TasmanianTigerHabitat.prefab",
-      "RequiredTiles": [
-        "Eucalyptus",
-        "Water",
-        "Red Gravel"
-      ]
-    },
-    {
-      "Name": "Green Carpenter Bee",
-      "PrefabFilepath": "Assets\\Tiles\\Habitats\\Green Carpenter Bee\\GreenCarpenterBeeHabitat.prefab",
-      "RequiredTiles": [
-        "Fern",
-        "Grass",
-        "Everlasting Daisy"
-      ]
-    }
-  ],
+  "Habitats": [],
   "Lands": [
     {
       "Name": "Grass",
       "Prefabs": [
-        "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
+        "None",
         "None",
         "None"
       ]
@@ -88,7 +67,7 @@
     {
       "Name": "Red Gravel",
       "Prefabs": [
-        "Assets\\Tiles\\Lands\\RedGravel\\RedGravel.prefab",
+        "None",
         "None",
         "None"
       ]
@@ -96,47 +75,66 @@
     {
       "Name": "Mushrooms",
       "Prefabs": [
-        "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.prefab",
+        "None",
         "None",
         "None"
       ]
     }
   ],
+  "Progression": {
+    "HabitatLifeBonus": 3,
+    "LifeMilestones": [
+      {
+        "LifeRequirement": 100,
+        "Names": [],
+        "RadiusIncrease": 1,
+        "Type": 0
+      }
+    ],
+    "StartingRadius": 3,
+    "StartingVariants": [
+      "Eucalyptus",
+      "Fern",
+      "Water",
+      "Grass"
+    ],
+    "TileLifeBonus": 1
+  },
   "RadialSprites": {
     "Flower": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Unlocked_BG.png",
-      "Locked": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Locked_BG.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Hovered_BG.png"
+      "Hovered": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Unlocked.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Locked.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Hovered.png"
     },
     "Land": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Unlocked_BG.png",
-      "Locked": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Locked_BG.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Hovered_BG.png"
+      "Hovered": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Unlocked.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Locked.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Hovered.png"
     },
     "Trees": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Unlocked_BG.png",
-      "Locked": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Locked_BG.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Hovered_BG.png"
+      "Hovered": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Unlocked.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Locked.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Hovered.png"
     },
     "Water": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked_BG.png",
-      "Locked": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Locked_BG.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Hovered_BG.png"
+      "Hovered": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked.png",
+      "Locked": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Locked.png",
+      "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Hovered.png"
     }
   },
   "Trees": [
     {
-      "Name": "Fern",
+      "Name": "Eucalyptus",
       "Prefabs": [
-        "Assets\\Prefabs\\FernHex.prefab",
+        "None",
         "None",
         "None"
       ]
     },
     {
-      "Name": "Eucalyptus",
+      "Name": "Fern",
       "Prefabs": [
-        "Assets\\Prefabs\\EucalyptusHex.prefab",
+        "None",
         "None",
         "None"
       ]
@@ -154,7 +152,7 @@
     {
       "Name": "Water",
       "Prefabs": [
-        "Assets\\Tiles\\Water\\Water\\Water.prefab",
+        "None",
         "None",
         "None"
       ]
@@ -162,7 +160,7 @@
     {
       "Name": "Water with Reeds",
       "Prefabs": [
-        "Assets\\Tiles\\Water\\Reeds\\Reeds.prefab",
+        "None",
         "None",
         "None"
       ]
@@ -170,7 +168,7 @@
     {
       "Name": "Lily Pad",
       "Prefabs": [
-        "Assets\\Tiles\\Water\\LilyPad\\LilyPad.prefab",
+        "None",
         "None",
         "None"
       ]

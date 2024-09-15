@@ -1,1 +1,92 @@
-{"Active":true,"Children":[{"Active":true,"Children":[],"GUID":4157583575366582564,"Material":"Assets\\Materials\\EucalyptusWood.mat","Mesh":"Assets\\Meshes\\EucalyptusTrunks.mesh","Name":"EucalyptusTrunks","Pivot":[0.0,0.0,0.0],"Position":[0.0,0.0,0.0],"Rotation":[1.0,0.0,0.0,0.0],"Scale":[0.009999999776482582,0.009999999776482582,0.009999999776482582],"TypeID":181025226017607},{"Active":true,"Children":[],"GUID":7726369856359201722,"Material":"Assets\\Materials\\EucalyptusLeaves.mat","Mesh":"Assets\\Meshes\\EucalyptusLeaves.mesh","Name":"EucalyptusLeaves","Pivot":[0.0,0.0,0.0],"Position":[0.0,0.0,0.0],"Rotation":[1.0,0.0,0.0,0.0],"Scale":[0.009999999776482582,0.009999999776482582,0.009999999776482582],"TypeID":181025226017607}],"GUID":10916301281909168731,"HexType":1,"HexVariant":"Eucalyptus","Material":"Assets\\Materials\\Grass.mat","Mesh":"Hexagon","Name":"EucalyptusHex","Pivot":[0.0,0.0,0.0],"Position":[0.0,0.0,0.0],"Rotation":[1.0,0.0,0.0,0.0],"Scale":[1.0,1.0,1.0],"TypeID":73778508}
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 4157583575366582564,
+      "Material": "Assets\\Materials\\EucalyptusWood.mat",
+      "Mesh": "Assets\\Meshes\\EucalyptusTrunks.mesh",
+      "Name": "EucalyptusTrunks",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 7726369856359201722,
+      "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
+      "Mesh": "Assets\\Meshes\\EucalyptusLeaves.mesh",
+      "Name": "EucalyptusLeaves",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        0.009999999776482582,
+        0.009999999776482582,
+        0.009999999776482582
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 10916301281909168731,
+  "HexType": 1,
+  "Material": "Assets\\Materials\\Grass.mat",
+  "Mesh": "Hexagon",
+  "Name": "EucalyptusHex",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 73778508
+}
