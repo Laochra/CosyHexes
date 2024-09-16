@@ -4,9 +4,9 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11005159488262255167,
-      "Material": "Assets\\Materials\\LilyPad.mat",
-      "Mesh": "Hexagon",
+      "GUID": 7620426472031095499,
+      "Material": "Assets\\Tiles\\Waters\\LilyPad\\LilyPad.mat",
+      "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_BaseHex_Ground1.mesh",
       "Name": "SM_BaseHex_Ground1",
       "Pivot": [
         0.0,
@@ -36,160 +36,11 @@
       "Children": [
         {
           "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 7134106800756636691,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pPlane9",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 17792141010042248637,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pPlane10",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 2898619687306366486,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pCylinder38",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 10843186227692100788,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pPlane11",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 7692770483710580569,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pSphere1",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 212032741777886544,
-          "Name": "Empty",
+          "Children": [],
+          "GUID": 11568897849267535954,
+          "Material": "Assets\\Tiles\\Waters\\LilyPad\\EucalyptusLeaves.mat",
+          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_Lilypads.mesh",
+          "Name": "SM_Water_Lilypads",
           "Pivot": [
             0.0,
             0.0,
@@ -211,462 +62,45 @@
             1.0,
             1.0
           ],
-          "TypeID": 70103550478110
-        },
-        {
-          "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 17315355239070450575,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pPlane9",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 2627000273682232271,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pPlane10",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 10067427470949357689,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pCylinder38",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 18405842676216450098,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pPlane11",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 5415042047211358948,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pSphere1",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 819222290419363361,
-          "Name": "Empty",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 70103550478110
-        },
-        {
-          "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 6664752741149837865,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pPlane9",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 1511355561682026375,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pPlane10",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 2240634159641297846,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pCylinder38",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 3345603279729656505,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pPlane11",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 11055406636268343729,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pSphere1",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 1161902752807898808,
-          "Name": "Empty",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 70103550478110
-        },
-        {
-          "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 4172781909038625666,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pCylinder35",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 15393849980226722033,
-              "Material": "Engine\\DefaultAssets\\Default.mat",
-              "Mesh": "None",
-              "Name": "pCylinder36",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 11177425074770579737,
-          "Name": "Empty",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 70103550478110
+          "TypeID": 181025226017607
         },
         {
           "Active": true,
           "Children": [],
-          "GUID": 16817718627682150523,
-          "Material": "Engine\\DefaultAssets\\Default.mat",
-          "Mesh": "None",
-          "Name": "pCylinder37",
+          "GUID": 8721450537041668927,
+          "Material": "Assets\\Tiles\\Waters\\LilyPad\\White_Mushroom.mat",
+          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_CatTails.mesh",
+          "Name": "SM_Water_CatTails",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 16984336426510232961,
+          "Material": "Assets\\Tiles\\Waters\\LilyPad\\Everlasting_Grass.mat",
+          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_Reeds.mesh",
+          "Name": "SM_Water_Reeds",
           "Pivot": [
             0.0,
             0.0,
@@ -691,16 +125,16 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 7952701491611775527,
+      "GUID": 3344993263795512307,
       "Name": "Empty",
       "Pivot": [
         0.0,
-        0.0,
+        -0.5,
         0.0
       ],
       "Position": [
         0.0,
-        0.0,
+        -0.22823679447174072,
         0.0
       ],
       "Rotation": [
@@ -717,12 +151,12 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 11543542724030927232,
+  "GUID": 5266190691223346971,
   "HexType": 3,
   "HexVariant": "Lily Pad",
-  "Material": "Engine\\DefaultAssets\\Default.mat",
-  "Mesh": "None",
-  "Name": "LilyPads",
+  "Material": "Assets\\Tiles\\Waters\\LilyPad\\LilyPad.mat",
+  "Mesh": "Hexagon",
+  "Name": "LilyPad",
   "Pivot": [
     0.0,
     0.0,
