@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 15135062400066455755,
-      "Material": "Default",
+      "GUID": 4825194712073275124,
+      "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_BaseHex_Ground.mesh",
       "Name": "SM_BaseHex_Ground",
       "Pivot": [
@@ -37,8 +37,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 1057607794643464870,
-          "Material": "Default",
+          "GUID": 6723973188036784676,
+          "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Prickly Tea Tree.mat",
           "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree1.mesh",
           "Name": "TeaTree1",
           "Pivot": [
@@ -67,8 +67,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 17140895462723557282,
-          "Material": "Default",
+          "GUID": 16710406469382141578,
+          "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Prickly Tea Tree.mat",
           "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree5.mesh",
           "Name": "TeaTree5",
           "Pivot": [
@@ -95,7 +95,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 12333988808729334993,
+      "GUID": 15304653948890342241,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -121,9 +121,11 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 18360198614073205133,
-  "Material": "Default",
-  "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree_Light.mesh",
+  "GUID": 6135036180445622911,
+  "HexType": 2,
+  "HexVariant": "Prickly Tea Tree",
+  "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass.mat",
+  "Mesh": "Hexagon",
   "Name": "TeaTree_Light",
   "Pivot": [
     0.0,
@@ -146,5 +148,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 73778508
 }

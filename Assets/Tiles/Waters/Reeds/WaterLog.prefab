@@ -4,10 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2817961689077180084,
-      "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_BaseHex_Ground.mesh",
-      "Name": "SM_BaseHex_Ground",
+      "GUID": 1499733116553583958,
+      "Material": "Assets\\Tiles\\Waters\\Reeds\\Reeds.mat",
+      "Mesh": "Assets\\Tiles\\Waters\\Reeds\\SM_BaseHex_Ground1.mesh",
+      "Name": "SM_BaseHex_Ground1",
       "Pivot": [
         0.0,
         0.0,
@@ -37,10 +37,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 333803396491762590,
-          "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Prickly Tea Tree.mat",
-          "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree1.mesh",
-          "Name": "TeaTree1",
+          "GUID": 4793227359456210519,
+          "Material": "Assets\\Tiles\\Waters\\Reeds\\AcaciaBlackwoodWood.mat",
+          "Mesh": "Assets\\Tiles\\Waters\\Reeds\\pCylinder40.mesh",
+          "Name": "pCylinder40",
           "Pivot": [
             0.0,
             0.0,
@@ -48,7 +48,7 @@
           ],
           "Position": [
             0.0,
-            0.0,
+            0.25,
             0.0
           ],
           "Rotation": [
@@ -67,10 +67,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 18048092732644548875,
-          "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Prickly Tea Tree.mat",
-          "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree2.mesh",
-          "Name": "TeaTree2",
+          "GUID": 17495151364261058629,
+          "Material": "Assets\\Tiles\\Waters\\Reeds\\AcaciaBlackwoodWood.mat",
+          "Mesh": "Assets\\Tiles\\Waters\\Reeds\\pCylinder39.mesh",
+          "Name": "pCylinder39",
           "Pivot": [
             0.0,
             0.0,
@@ -78,7 +78,7 @@
           ],
           "Position": [
             0.0,
-            0.0,
+            0.25,
             0.0
           ],
           "Rotation": [
@@ -95,7 +95,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 1584968012326068049,
+      "GUID": 7938291753138313174,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -121,12 +121,12 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 3305789180428456716,
-  "HexType": 1,
-  "HexVariant": "TeaTree_Medium",
-  "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass.mat",
+  "GUID": 11256043524688278419,
+  "HexType": 3,
+  "HexVariant": "WaterLog",
+  "Material": "Assets\\Tiles\\Waters\\Reeds\\Reeds.mat",
   "Mesh": "Hexagon",
-  "Name": "TeaTree_Medium",
+  "Name": "WaterLog",
   "Pivot": [
     0.0,
     0.0,

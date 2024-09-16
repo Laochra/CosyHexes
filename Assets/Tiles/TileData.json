@@ -48,9 +48,9 @@
     {
       "Name": "Prickly Tea Tree",
       "Prefabs": [
-        "None",
-        "None",
-        "None"
+        "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree_Light.prefab",
+        "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree_Medium.prefab",
+        "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree_Dense.prefab"
       ]
     }
   ],
@@ -59,7 +59,7 @@
     {
       "Name": "Grass",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
         "None",
         "None"
       ]
@@ -67,7 +67,7 @@
     {
       "Name": "Red Gravel",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Lands\\RedGravel\\RedGravel.prefab",
         "None",
         "None"
       ]
@@ -89,7 +89,7 @@
         "Names": [
           "Eucalyptus",
           "Happy Wanderer",
-          "Water with Reeds",
+          "WaterLog",
           "Red Gravel"
         ],
         "RadiusIncrease": 1,
@@ -150,7 +150,7 @@
     {
       "Name": "Eucalyptus",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus_Dense.prefab",
         "None",
         "None"
       ]
@@ -158,9 +158,9 @@
     {
       "Name": "Acacia Blackwood",
       "Prefabs": [
-        "Assets\\Tiles\\Trees\\Acacia Blackwood\\AcaciaBlackwood.prefab",
-        "None",
-        "None"
+        "Assets\\Tiles\\Trees\\Acacia Blackwood\\Acacia_Light.prefab",
+        "Assets\\Tiles\\Trees\\Acacia Blackwood\\Acacia_Medium.prefab",
+        "Assets\\Tiles\\Trees\\Acacia Blackwood\\Acacia_Dense.prefab"
       ]
     }
   ],
@@ -174,9 +174,9 @@
       ]
     },
     {
-      "Name": "Water with Reeds",
+      "Name": "WaterLog",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Waters\\Reeds\\WaterLog.prefab",
         "None",
         "None"
       ]
@@ -184,7 +184,7 @@
     {
       "Name": "Lily Pad",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Waters\\LilyPad\\LilyPad.prefab",
         "None",
         "None"
       ]

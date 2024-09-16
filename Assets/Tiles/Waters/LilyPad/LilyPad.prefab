@@ -4,9 +4,9 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11846155299077275422,
-      "Material": "Default",
-      "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_BaseHex_Ground1.mesh",
+      "GUID": 11005159488262255167,
+      "Material": "Assets\\Materials\\LilyPad.mat",
+      "Mesh": "Hexagon",
       "Name": "SM_BaseHex_Ground1",
       "Pivot": [
         0.0,
@@ -40,9 +40,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 2228028610738185375,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane9.mesh",
+              "GUID": 7134106800756636691,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pPlane9",
               "Pivot": [
                 0.0,
@@ -70,9 +70,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 6417940872010205363,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane10.mesh",
+              "GUID": 17792141010042248637,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pPlane10",
               "Pivot": [
                 0.0,
@@ -100,9 +100,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 6755964337174490980,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder38.mesh",
+              "GUID": 2898619687306366486,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pCylinder38",
               "Pivot": [
                 0.0,
@@ -130,9 +130,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 1016445253562724692,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane11.mesh",
+              "GUID": 10843186227692100788,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pPlane11",
               "Pivot": [
                 0.0,
@@ -160,9 +160,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 5090370439440502572,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pSphere1.mesh",
+              "GUID": 7692770483710580569,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pSphere1",
               "Pivot": [
                 0.0,
@@ -188,7 +188,7 @@
               "TypeID": 181025226017607
             }
           ],
-          "GUID": 10657798856617590556,
+          "GUID": 212032741777886544,
           "Name": "Empty",
           "Pivot": [
             0.0,
@@ -219,9 +219,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 2761074022331013796,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane9.mesh",
+              "GUID": 17315355239070450575,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pPlane9",
               "Pivot": [
                 0.0,
@@ -249,9 +249,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 13310021450466840962,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane10.mesh",
+              "GUID": 2627000273682232271,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pPlane10",
               "Pivot": [
                 0.0,
@@ -279,9 +279,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 12588814724823472749,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder38.mesh",
+              "GUID": 10067427470949357689,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pCylinder38",
               "Pivot": [
                 0.0,
@@ -309,9 +309,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 8243230804236529485,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane11.mesh",
+              "GUID": 18405842676216450098,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pPlane11",
               "Pivot": [
                 0.0,
@@ -339,9 +339,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 5900234304090194626,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pSphere1.mesh",
+              "GUID": 5415042047211358948,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pSphere1",
               "Pivot": [
                 0.0,
@@ -367,7 +367,7 @@
               "TypeID": 181025226017607
             }
           ],
-          "GUID": 11627856375899251645,
+          "GUID": 819222290419363361,
           "Name": "Empty",
           "Pivot": [
             0.0,
@@ -398,9 +398,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 12862503289512294677,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane9.mesh",
+              "GUID": 6664752741149837865,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pPlane9",
               "Pivot": [
                 0.0,
@@ -428,9 +428,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 279990783638125095,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane10.mesh",
+              "GUID": 1511355561682026375,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pPlane10",
               "Pivot": [
                 0.0,
@@ -458,9 +458,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 17772482084451809688,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder38.mesh",
+              "GUID": 2240634159641297846,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pCylinder38",
               "Pivot": [
                 0.0,
@@ -488,9 +488,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 16372205253527326242,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane11.mesh",
+              "GUID": 3345603279729656505,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pPlane11",
               "Pivot": [
                 0.0,
@@ -518,9 +518,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 237043345702687618,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pSphere1.mesh",
+              "GUID": 11055406636268343729,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pSphere1",
               "Pivot": [
                 0.0,
@@ -546,7 +546,7 @@
               "TypeID": 181025226017607
             }
           ],
-          "GUID": 6544093894704924722,
+          "GUID": 1161902752807898808,
           "Name": "Empty",
           "Pivot": [
             0.0,
@@ -577,9 +577,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 5528239218019807821,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder35.mesh",
+              "GUID": 4172781909038625666,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pCylinder35",
               "Pivot": [
                 0.0,
@@ -607,9 +607,9 @@
             {
               "Active": true,
               "Children": [],
-              "GUID": 14777693359573341426,
-              "Material": "Default",
-              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder36.mesh",
+              "GUID": 15393849980226722033,
+              "Material": "Engine\\DefaultAssets\\Default.mat",
+              "Mesh": "None",
               "Name": "pCylinder36",
               "Pivot": [
                 0.0,
@@ -635,7 +635,7 @@
               "TypeID": 181025226017607
             }
           ],
-          "GUID": 6852940831053107542,
+          "GUID": 11177425074770579737,
           "Name": "Empty",
           "Pivot": [
             0.0,
@@ -663,9 +663,9 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 5278596521148677636,
-          "Material": "Default",
-          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder37.mesh",
+          "GUID": 16817718627682150523,
+          "Material": "Engine\\DefaultAssets\\Default.mat",
+          "Mesh": "None",
           "Name": "pCylinder37",
           "Pivot": [
             0.0,
@@ -691,7 +691,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 7392403809521967250,
+      "GUID": 7952701491611775527,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -717,9 +717,11 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 16914350249991208564,
-  "Material": "Default",
-  "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\LilyPads.mesh",
+  "GUID": 11543542724030927232,
+  "HexType": 3,
+  "HexVariant": "Lily Pad",
+  "Material": "Engine\\DefaultAssets\\Default.mat",
+  "Mesh": "None",
   "Name": "LilyPads",
   "Pivot": [
     0.0,
@@ -742,5 +744,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 73778508
 }

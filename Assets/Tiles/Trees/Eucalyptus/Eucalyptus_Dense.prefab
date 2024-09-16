@@ -4,9 +4,9 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2817961689077180084,
-      "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_BaseHex_Ground.mesh",
+      "GUID": 13063336063107498761,
+      "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\Grass.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\SM_BaseHex_Ground.mesh",
       "Name": "SM_BaseHex_Ground",
       "Pivot": [
         0.0,
@@ -37,10 +37,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 333803396491762590,
-          "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Prickly Tea Tree.mat",
-          "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree1.mesh",
-          "Name": "TeaTree1",
+          "GUID": 14000006753144283096,
+          "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\EucalyptusWood.mat",
+          "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\SM_Eucalyptus_Dense_Trunk.mesh",
+          "Name": "SM_Eucalyptus_Dense_Trunk",
           "Pivot": [
             0.0,
             0.0,
@@ -67,10 +67,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 18048092732644548875,
-          "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Prickly Tea Tree.mat",
-          "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree2.mesh",
-          "Name": "TeaTree2",
+          "GUID": 12668040629285156270,
+          "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\EucalyptusLeaves.mat",
+          "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\SM_Eucalyptus_Dense_Leaves.mesh",
+          "Name": "SM_Eucalyptus_Dense_Leaves",
           "Pivot": [
             0.0,
             0.0,
@@ -95,7 +95,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 1584968012326068049,
+      "GUID": 16557391383918241277,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -121,12 +121,12 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 3305789180428456716,
+  "GUID": 11910091698337575181,
   "HexType": 1,
-  "HexVariant": "TeaTree_Medium",
-  "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass.mat",
+  "HexVariant": "Eucalyptus",
+  "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\Grass.mat",
   "Mesh": "Hexagon",
-  "Name": "TeaTree_Medium",
+  "Name": "Ecualyptus_Dense",
   "Pivot": [
     0.0,
     0.0,
