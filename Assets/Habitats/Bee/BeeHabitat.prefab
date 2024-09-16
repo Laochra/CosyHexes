@@ -1,0 +1,211 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 16427057194324711129,
+      "Material": "Engine\\DefaultAssets\\Default.mat",
+      "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Ground.mesh",
+      "Name": "SM_HabitatHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 12287682236501849869,
+      "Material": "Assets\\Materials\\Grass.mat",
+      "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Grass.mesh",
+      "Name": "SM_HabitatHex_Grass",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 18400158895011331522,
+      "Material": "Assets\\Materials\\Grass.mat",
+      "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_TallGrass.mesh",
+      "Name": "SM_HabitatHex_Bee_TallGrass",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 16713481331032391392,
+      "Material": "Assets\\Materials\\Mush.mat",
+      "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_Flower.mesh",
+      "Name": "SM_HabitatHex_Bee_Flower",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 2241097689909525115,
+      "Material": "Assets\\Materials\\FernLeaves.mat",
+      "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_Leaves.mesh",
+      "Name": "SM_HabitatHex_Bee_Leaves",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 2401651043045160013,
+      "Material": "Assets\\Materials\\FernWood.mat",
+      "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_Wood.mesh",
+      "Name": "SM_HabitatHex_Bee_Wood",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 5385714232910737942,
+  "Material": "Engine\\DefaultAssets\\Default.mat",
+  "Mesh": "None",
+  "Name": "Habitat_Bee",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    -4.995410919189453,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 181025226017607
+}
