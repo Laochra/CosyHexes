@@ -1,0 +1,179 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 7980690527801336969,
+      "Material": "Assets\\Materials\\FernWood.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_HabitatHex_Ground.mesh",
+      "Name": "SM_HabitatHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 14054366886978337263,
+      "Material": "Assets\\Materials\\Grass.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_HabitatHex_Grass.mesh",
+      "Name": "SM_HabitatHex_Grass",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 7595855176925768018,
+      "Material": "Assets\\Materials\\EucalyptusWood.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_HabitatHex_Tassie_Wood.mesh",
+      "Name": "SM_HabitatHex_Tassie_Wood",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 511936872379254023,
+      "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_HabitatHex_Tassie_Leaves.mesh",
+      "Name": "SM_HabitatHex_Tassie_Leaves",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 11321592265071620292,
+      "Material": "Engine\\DefaultAssets\\Default.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_HabitatHex_Tassie_Grass.mesh",
+      "Name": "SM_HabitatHex_Tassie_Grass",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 9499062914373156814,
+  "Name": "Habitat_Tassie",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 70103550478110
+}

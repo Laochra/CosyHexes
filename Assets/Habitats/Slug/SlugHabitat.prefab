@@ -1,0 +1,269 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 9782448825001536214,
+      "Material": "Assets\\Materials\\FernWood.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Ground.mesh",
+      "Name": "SM_HabitatHex_Slug_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 4377724508228736721,
+      "Material": "Assets\\Materials\\Grass.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Grass.mesh",
+      "Name": "SM_HabitatHex_Slug_Grass",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 13423932297046145877,
+      "Material": "Assets\\Materials\\Water.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Water.mesh",
+      "Name": "SM_HabitatHex_Slug_Water",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 825238733492752155,
+      "Material": "Assets\\Materials\\Grass.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_TallGrass.mesh",
+      "Name": "SM_HabitatHex_Slug_TallGrass",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 7962433725060008980,
+      "Material": "Assets\\Materials\\FernLeaves.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Leaves.mesh",
+      "Name": "SM_HabitatHex_Slug_Leaves",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 18262115973283737176,
+      "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Bush.mesh",
+      "Name": "SM_HabitatHex_Slug_Bush",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 10346952681720929924,
+      "Material": "Engine\\DefaultAssets\\Default.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_BushWood.mesh",
+      "Name": "SM_HabitatHex_Slug_BushWood",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 8893148533220296027,
+      "Material": "Assets\\Materials\\FernWood.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Wood.mesh",
+      "Name": "SM_HabitatHex_Slug_Wood",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 12218859445912784695,
+  "Name": "Habitat_Slug",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    -2.3125946521759033,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 70103550478110
+}
