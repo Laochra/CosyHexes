@@ -10,7 +10,7 @@
       "PlaceLand": "Assets\\Tiles\\Lands\\PlaceLand.wav",
       "PlaceTree": "Assets\\Tiles\\Trees\\PlaceTree.wav",
       "PlaceWater": "Assets\\Tiles\\Waters\\PlaceWater.wav",
-      "RadialClose": "None",
+      "RadialClose": "Assets\\UI\\RadialMenu\\RadialMenu_Close.wav",
       "RadialCycle Page": "Assets\\UI\\RadialMenu\\RadialMenu_CyclePage.wav",
       "RadialCycleDensity": "None",
       "RadialOpen": "Assets\\UI\\RadialMenu\\RadialMenu_Open.wav",
@@ -18,7 +18,7 @@
       "ScrapbookNewHabitatPage": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav",
       "ScrapbookNotification": "Assets\\UI\\Scrapbook\\Scrapbook_Notification.wav",
       "ScrapbookOpen": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav",
-      "ScrapbookTurnPage": "None"
+      "ScrapbookTurnPage": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav"
     },
     "SoundEffectsVolume": 1.0,
     "SpiritSounds": null,
