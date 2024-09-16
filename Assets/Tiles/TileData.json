@@ -32,17 +32,17 @@
     {
       "Name": "Everlasting Daisy",
       "Prefabs": [
-        "None",
-        "None",
-        "None"
+        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy_Light.prefab",
+        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverLastingDaisy_Medium.prefab",
+        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy_Dense.prefab"
       ]
     },
     {
       "Name": "Happy Wanderer",
       "Prefabs": [
-        "None",
-        "None",
-        "None"
+        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Light.prefab",
+        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Medium.prefab",
+        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Dense.prefab"
       ]
     },
     {
@@ -75,7 +75,7 @@
     {
       "Name": "Mushrooms",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.prefab",
         "None",
         "None"
       ]
@@ -85,16 +85,21 @@
     "HabitatLifeBonus": 3,
     "LifeMilestones": [
       {
-        "LifeRequirement": 100,
-        "Names": [],
+        "LifeRequirement": 3,
+        "Names": [
+          "Eucalyptus",
+          "Happy Wanderer",
+          "Water with Reeds",
+          "Red Gravel"
+        ],
         "RadiusIncrease": 1,
         "Type": 0
       }
     ],
     "StartingRadius": 3,
     "StartingVariants": [
-      "Eucalyptus",
       "Fern",
+      "Everlasting Daisy",
       "Water",
       "Grass"
     ],
@@ -102,27 +107,35 @@
   },
   "RadialSprites": {
     "Flower": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Unlocked.png",
+      "Hovered": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Hovered.png",
       "Locked": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Hovered.png"
+      "Regular": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Unlocked.png"
     },
     "Land": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Unlocked.png",
+      "Hovered": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Hovered.png",
       "Locked": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Hovered.png"
+      "Regular": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Unlocked.png"
     },
     "Trees": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Unlocked.png",
+      "Hovered": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Hovered.png",
       "Locked": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Hovered.png"
+      "Regular": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Unlocked.png"
     },
     "Water": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked.png",
+      "Hovered": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Hovered.png",
       "Locked": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Hovered.png"
+      "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked.png"
     }
   },
   "Trees": [
+    {
+      "Name": "Fern",
+      "Prefabs": [
+        "Assets\\Tiles\\Trees\\Fern\\Fern_Light.prefab",
+        "Assets\\Tiles\\Trees\\Fern\\Fern_Medium.prefab",
+        "Assets\\Tiles\\Trees\\Fern\\Fern_Dense.prefab"
+      ]
+    },
     {
       "Name": "Eucalyptus",
       "Prefabs": [
@@ -132,17 +145,9 @@
       ]
     },
     {
-      "Name": "Fern",
-      "Prefabs": [
-        "None",
-        "None",
-        "None"
-      ]
-    },
-    {
       "Name": "Acacia Blackwood",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Trees\\Acacia Blackwood\\AcaciaBlackwood.prefab",
         "None",
         "None"
       ]
@@ -152,7 +157,7 @@
     {
       "Name": "Water",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Waters\\Water\\Water.prefab",
         "None",
         "None"
       ]

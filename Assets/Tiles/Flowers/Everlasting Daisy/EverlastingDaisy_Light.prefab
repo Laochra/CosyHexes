@@ -1,0 +1,182 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 15098649437796673107,
+      "Material": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Grass.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 9197616610410609983,
+          "Material": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Everlasting_Grass.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_EverlastingLight_Grass.mesh",
+          "Name": "SM_EverlastingLight_Grass",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 7835662169138957462,
+          "Material": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Everlasting_Grass.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_EverlastingLight_Stems.mesh",
+          "Name": "SM_EverlastingLight_Stems",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 1615144851889603530,
+          "Material": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Everlasting_Flower.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_EverlastingLight_Flowers.mesh",
+          "Name": "SM_EverlastingLight_Flowers",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        }
+      ],
+      "GUID": 10926298820562540058,
+      "Name": "Empty",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 70103550478110
+    }
+  ],
+  "GUID": 12416386725507129468,
+  "HexType": 2,
+  "HexVariant": "Everlasting Daisy",
+  "Material": "Default",
+  "Mesh": "None",
+  "Name": "Everlasting_Light",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 73778508
+}
