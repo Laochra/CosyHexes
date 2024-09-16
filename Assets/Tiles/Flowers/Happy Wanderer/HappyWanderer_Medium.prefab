@@ -1,0 +1,182 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 8169206177515147145,
+      "Material": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Grass.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 7728783451239849493,
+          "Material": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Flower.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Medium_FLowers.mesh",
+          "Name": "SM_HappyWanderer_Medium_FLowers",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 10237927183034166504,
+          "Material": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Leaves.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Medium_Leaves.mesh",
+          "Name": "SM_HappyWanderer_Medium_Leaves",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 4956872109963067615,
+          "Material": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Everlasting_Grass.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Medium_Stems.mesh",
+          "Name": "SM_HappyWanderer_Medium_Stems",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        }
+      ],
+      "GUID": 5611942178509142992,
+      "Name": "Empty",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 70103550478110
+    }
+  ],
+  "GUID": 6677909424213235983,
+  "HexType": 1,
+  "HexVariant": "HappyWanderer_Medium",
+  "Material": "Default",
+  "Mesh": "None",
+  "Name": "HappyWanderer_Medium",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 73778508
+}

@@ -1,0 +1,212 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 8811655399606004155,
+      "Material": "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 9381673906593301417,
+          "Material": "Assets\\Tiles\\Lands\\Mushroom\\White_Mushroom.mat",
+          "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_WhiteMushrooms.mesh",
+          "Name": "SM_GroundForest_WhiteMushrooms",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 7442625128204277125,
+          "Material": "Assets\\Tiles\\Lands\\Mushroom\\Brown_Mushroom.mat",
+          "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_BrownMushrooms.mesh",
+          "Name": "SM_GroundForest_BrownMushrooms",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 16252442027359602873,
+          "Material": "Assets\\Tiles\\Lands\\Mushroom\\Log.mat",
+          "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_Log.mesh",
+          "Name": "SM_GroundForest_Log",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 1672826626546019900,
+          "Material": "Assets\\Tiles\\Lands\\Mushroom\\Black_Mushroom.mat",
+          "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_BlackMushrooms.mesh",
+          "Name": "SM_GroundForest_BlackMushrooms",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        }
+      ],
+      "GUID": 8182948073066292486,
+      "Name": "Empty",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 70103550478110
+    }
+  ],
+  "GUID": 4174249524788590026,
+  "HexType": 1,
+  "HexVariant": "Mushroom",
+  "Material": "Default",
+  "Mesh": "None",
+  "Name": "Mushroom",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 73778508
+}

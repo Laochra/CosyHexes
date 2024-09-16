@@ -1,0 +1,746 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 11846155299077275422,
+      "Material": "Default",
+      "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_BaseHex_Ground1.mesh",
+      "Name": "SM_BaseHex_Ground1",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [
+        {
+          "Active": true,
+          "Children": [
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 2228028610738185375,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane9.mesh",
+              "Name": "pPlane9",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 6417940872010205363,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane10.mesh",
+              "Name": "pPlane10",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 6755964337174490980,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder38.mesh",
+              "Name": "pCylinder38",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 1016445253562724692,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane11.mesh",
+              "Name": "pPlane11",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 5090370439440502572,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pSphere1.mesh",
+              "Name": "pSphere1",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            }
+          ],
+          "GUID": 10657798856617590556,
+          "Name": "Empty",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 70103550478110
+        },
+        {
+          "Active": true,
+          "Children": [
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 2761074022331013796,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane9.mesh",
+              "Name": "pPlane9",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 13310021450466840962,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane10.mesh",
+              "Name": "pPlane10",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 12588814724823472749,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder38.mesh",
+              "Name": "pCylinder38",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 8243230804236529485,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane11.mesh",
+              "Name": "pPlane11",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 5900234304090194626,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pSphere1.mesh",
+              "Name": "pSphere1",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            }
+          ],
+          "GUID": 11627856375899251645,
+          "Name": "Empty",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 70103550478110
+        },
+        {
+          "Active": true,
+          "Children": [
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 12862503289512294677,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane9.mesh",
+              "Name": "pPlane9",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 279990783638125095,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane10.mesh",
+              "Name": "pPlane10",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 17772482084451809688,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder38.mesh",
+              "Name": "pCylinder38",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 16372205253527326242,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pPlane11.mesh",
+              "Name": "pPlane11",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 237043345702687618,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pSphere1.mesh",
+              "Name": "pSphere1",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            }
+          ],
+          "GUID": 6544093894704924722,
+          "Name": "Empty",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 70103550478110
+        },
+        {
+          "Active": true,
+          "Children": [
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 5528239218019807821,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder35.mesh",
+              "Name": "pCylinder35",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            },
+            {
+              "Active": true,
+              "Children": [],
+              "GUID": 14777693359573341426,
+              "Material": "Default",
+              "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder36.mesh",
+              "Name": "pCylinder36",
+              "Pivot": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "Scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "TypeID": 181025226017607
+            }
+          ],
+          "GUID": 6852940831053107542,
+          "Name": "Empty",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 70103550478110
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 5278596521148677636,
+          "Material": "Default",
+          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\pCylinder37.mesh",
+          "Name": "pCylinder37",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        }
+      ],
+      "GUID": 7392403809521967250,
+      "Name": "Empty",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 70103550478110
+    }
+  ],
+  "GUID": 16914350249991208564,
+  "Material": "Default",
+  "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\LilyPads.mesh",
+  "Name": "LilyPads",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 181025226017607
+}
