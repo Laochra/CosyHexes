@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8058107261290190424,
+      "GUID": 7921507697885456825,
       "Material": "Assets\\Tiles\\Trees\\Fern\\Grass.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_BaseHex_Ground.mesh",
       "Name": "SM_BaseHex_Ground",
@@ -37,7 +37,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 12766094865538594127,
+          "GUID": 710248091814376839,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernWood.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface1.mesh",
           "Name": "polySurface1",
@@ -67,7 +67,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 155873774877222492,
+          "GUID": 7237422576974698803,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface2.mesh",
           "Name": "polySurface2",
@@ -97,7 +97,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 9742617986398458254,
+          "GUID": 18136765783120671929,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface4.mesh",
           "Name": "polySurface4",
@@ -127,7 +127,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 13581659053053908730,
+          "GUID": 2017712924032709797,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernWood.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface3.mesh",
           "Name": "polySurface3",
@@ -155,7 +155,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 6269661296302880295,
+      "GUID": 18367817612734727919,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -181,7 +181,7 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 1512875597015088954,
+  "GUID": 12340667143619297432,
   "HexType": 1,
   "HexVariant": "Fern_Medium",
   "Material": "Default",

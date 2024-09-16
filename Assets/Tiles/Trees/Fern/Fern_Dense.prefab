@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8918705638893997678,
+      "GUID": 14636419862875782984,
       "Material": "Assets\\Tiles\\Trees\\Fern\\Grass.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_BaseHex_Ground.mesh",
       "Name": "SM_BaseHex_Ground",
@@ -37,7 +37,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 7575121300811007914,
+          "GUID": 8141160491869197701,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_TreeFern_03.mesh",
           "Name": "SM_TreeFern_03",
@@ -67,7 +67,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 11830060013635994585,
+          "GUID": 11465696492698503467,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernWood.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface1.mesh",
           "Name": "polySurface1",
@@ -97,7 +97,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 12650569661375789676,
+          "GUID": 15438789759971270761,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface2.mesh",
           "Name": "polySurface2",
@@ -127,7 +127,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 2715203500823639883,
+          "GUID": 7693802074748156213,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface4.mesh",
           "Name": "polySurface4",
@@ -157,7 +157,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 11850059987124465143,
+          "GUID": 15167504879506196519,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernWood.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface3.mesh",
           "Name": "polySurface3",
@@ -185,7 +185,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 15335454178571062249,
+      "GUID": 14215274632885297798,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -211,7 +211,7 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 8172398111786785908,
+  "GUID": 4368071342401200342,
   "HexType": 1,
   "HexVariant": "Fern_Dense",
   "Material": "Default",

@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14992461586787578080,
+      "GUID": 4235198785721812910,
       "Material": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Grass.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_BaseHex_Ground.mesh",
       "Name": "SM_BaseHex_Ground",
@@ -37,7 +37,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 899549735938561348,
+          "GUID": 5667439476758704298,
           "Material": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Everlasting_Grass.mat",
           "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_EverlastingMedium_Grass.mesh",
           "Name": "SM_EverlastingMedium_Grass",
@@ -67,7 +67,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 2634109713560939014,
+          "GUID": 4788621575920284106,
           "Material": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Everlasting_Grass.mat",
           "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_EverlastingMedium_Stems.mesh",
           "Name": "SM_EverlastingMedium_Stems",
@@ -97,7 +97,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 4841747772470476998,
+          "GUID": 1745315090150348249,
           "Material": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Everlasting_Flower.mat",
           "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_EverlastingMedium_Flowers.mesh",
           "Name": "SM_EverlastingMedium_Flowers",
@@ -125,7 +125,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 10277988115887604235,
+      "GUID": 8227026481228099899,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -151,12 +151,12 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 4105360711564554047,
+  "GUID": 3094547604015805536,
   "HexType": 1,
-  "HexVariant": "EverLastingDaisy_Medium",
-  "Material": "Engine\\DefaultAssets\\Default.mat",
+  "HexVariant": "Everlasting_Medium",
+  "Material": "Default",
   "Mesh": "None",
-  "Name": "EverLastingDaisy_Medium",
+  "Name": "Everlasting_Medium",
   "Pivot": [
     0.0,
     0.0,

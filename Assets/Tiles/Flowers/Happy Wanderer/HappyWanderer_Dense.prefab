@@ -4,9 +4,9 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16116178639475575291,
-      "Material": "Assets\\Tiles\\Trees\\Fern\\Grass.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_BaseHex_Ground.mesh",
+      "GUID": 15772541211784878531,
+      "Material": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Grass.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_BaseHex_Ground.mesh",
       "Name": "SM_BaseHex_Ground",
       "Pivot": [
         0.0,
@@ -37,10 +37,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 4161964178465560247,
-          "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
-          "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_TreeFern_03.mesh",
-          "Name": "SM_TreeFern_03",
+          "GUID": 5797759333912874095,
+          "Material": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Flower.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Dense_Flowers.mesh",
+          "Name": "SM_HappyWanderer_Dense_Flowers",
           "Pivot": [
             0.0,
             0.0,
@@ -67,10 +67,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 17820198808323704424,
-          "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
-          "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface4.mesh",
-          "Name": "polySurface4",
+          "GUID": 5923709690847964881,
+          "Material": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Everlasting_Grass.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Dense_Stems.mesh",
+          "Name": "SM_HappyWanderer_Dense_Stems",
           "Pivot": [
             0.0,
             0.0,
@@ -97,10 +97,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 17927013633473453522,
-          "Material": "Assets\\Tiles\\Trees\\Fern\\FernWood.mat",
-          "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface3.mesh",
-          "Name": "polySurface3",
+          "GUID": 12740322840279165213,
+          "Material": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Leaves.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Dense_Leaves.mesh",
+          "Name": "SM_HappyWanderer_Dense_Leaves",
           "Pivot": [
             0.0,
             0.0,
@@ -125,7 +125,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 14154619696527011636,
+      "GUID": 2586961840574936272,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -151,12 +151,12 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 3160253746111865862,
+  "GUID": 9731612144985556295,
   "HexType": 1,
-  "HexVariant": "Fern_Light",
+  "HexVariant": "HappyWanderer_Dense",
   "Material": "Default",
   "Mesh": "None",
-  "Name": "Fern_Light",
+  "Name": "HappyWanderer_Dense",
   "Pivot": [
     0.0,
     0.0,

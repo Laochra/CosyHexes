@@ -41,8 +41,8 @@
       "Name": "Happy Wanderer",
       "Prefabs": [
         "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Light.prefab",
-        "None",
-        "None"
+        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Medium.prefab",
+        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Dense.prefab"
       ]
     },
     {
@@ -75,7 +75,7 @@
     {
       "Name": "Mushrooms",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.prefab",
         "None",
         "None"
       ]
