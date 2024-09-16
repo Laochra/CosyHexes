@@ -1,0 +1,93 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 10681393728383229846,
+      "Material": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Grass.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 11600587975288175141,
+      "Material": "Assets\\Tiles\\Trees\\Acacia Blackwood\\AcaciaBlackwoodLeaves.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\transform2.mesh",
+      "Name": "transform2",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 2635623609904815214,
+  "HexType": 1,
+  "HexVariant": "Acacia_Light",
+  "Material": "Default",
+  "Mesh": "None",
+  "Name": "Acacia_Light",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 73778508
+}
