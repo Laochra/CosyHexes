@@ -1,29 +1,4 @@
 {
-  "Audio": {
-    "Ambience": [],
-    "AmbienceVolume": 1.0,
-    "Music": "None",
-    "MusicVolume": 1.0,
-    "SoundEffects": {
-      "FormHabitat": "None",
-      "PlaceFlower": "None",
-      "PlaceLand": "None",
-      "PlaceTree": "None",
-      "PlaceWater": "None",
-      "RadialClose": "None",
-      "RadialCycle Page": "None",
-      "RadialCycleDensity": "None",
-      "RadialOpen": "None",
-      "ScrapbookClose": "None",
-      "ScrapbookNewHabitatPage": "None",
-      "ScrapbookNotification": "None",
-      "ScrapbookOpen": "None",
-      "ScrapbookTurnPage": "None"
-    },
-    "SoundEffectsVolume": 1.0,
-    "SpiritSounds": null,
-    "SpiritSoundsVolume": 1.0
-  },
   "Defaults": {
     "DefaultTile": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
     "EmptyTile": "Assets\\Tiles\\Empty\\Empty.prefab"
@@ -93,8 +68,8 @@
     ],
     "StartingRadius": 3,
     "StartingVariants": [
-      "Eucalyptus",
       "Fern",
+      "Everlasting Daisy",
       "Water",
       "Grass"
     ],
@@ -102,29 +77,29 @@
   },
   "RadialSprites": {
     "Flower": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Unlocked.png",
+      "Hovered": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Hovered.png",
       "Locked": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Hovered.png"
+      "Regular": "Assets\\UI\\RadialMenu\\Flower\\RW_Flower_Unlocked.png"
     },
     "Land": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Unlocked.png",
+      "Hovered": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Hovered.png",
       "Locked": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Hovered.png"
+      "Regular": "Assets\\UI\\RadialMenu\\Land\\RW_Land_Unlocked.png"
     },
     "Trees": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Unlocked.png",
+      "Hovered": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Hovered.png",
       "Locked": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Hovered.png"
+      "Regular": "Assets\\UI\\RadialMenu\\Tree\\RW_Tree_Unlocked.png"
     },
     "Water": {
-      "Hovered": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked.png",
+      "Hovered": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Hovered.png",
       "Locked": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Locked.png",
-      "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Hovered.png"
+      "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked.png"
     }
   },
   "Trees": [
     {
-      "Name": "Eucalyptus",
+      "Name": "Fern",
       "Prefabs": [
         "None",
         "None",
@@ -132,7 +107,7 @@
       ]
     },
     {
-      "Name": "Fern",
+      "Name": "Eucalyptus",
       "Prefabs": [
         "None",
         "None",
