@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2568636764995741650,
+      "GUID": 8918705638893997678,
       "Material": "Assets\\Tiles\\Trees\\Fern\\Grass.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_BaseHex_Ground.mesh",
       "Name": "SM_BaseHex_Ground",
@@ -37,7 +37,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 4785582908191539872,
+          "GUID": 7575121300811007914,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_TreeFern_03.mesh",
           "Name": "SM_TreeFern_03",
@@ -67,7 +67,67 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 8101948288532236670,
+          "GUID": 11830060013635994585,
+          "Material": "Assets\\Tiles\\Trees\\Fern\\FernWood.mat",
+          "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface1.mesh",
+          "Name": "polySurface1",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 12650569661375789676,
+          "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
+          "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface2.mesh",
+          "Name": "polySurface2",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 2715203500823639883,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface4.mesh",
           "Name": "polySurface4",
@@ -97,7 +157,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 9342667639665278069,
+          "GUID": 11850059987124465143,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernWood.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface3.mesh",
           "Name": "polySurface3",
@@ -125,7 +185,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 5563362581517101634,
+      "GUID": 15335454178571062249,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -151,12 +211,12 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 4667985432977198041,
+  "GUID": 8172398111786785908,
   "HexType": 1,
-  "HexVariant": "Fern_Light",
+  "HexVariant": "Fern_Dense",
   "Material": "Default",
   "Mesh": "None",
-  "Name": "Fern_Light",
+  "Name": "Fern_Dense",
   "Pivot": [
     0.0,
     0.0,
