@@ -1,0 +1,150 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 15135062400066455755,
+      "Material": "Default",
+      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 1057607794643464870,
+          "Material": "Default",
+          "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree1.mesh",
+          "Name": "TeaTree1",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 17140895462723557282,
+          "Material": "Default",
+          "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree5.mesh",
+          "Name": "TeaTree5",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        }
+      ],
+      "GUID": 12333988808729334993,
+      "Name": "Empty",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 70103550478110
+    }
+  ],
+  "GUID": 18360198614073205133,
+  "Material": "Default",
+  "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree_Light.mesh",
+  "Name": "TeaTree_Light",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 181025226017607
+}
