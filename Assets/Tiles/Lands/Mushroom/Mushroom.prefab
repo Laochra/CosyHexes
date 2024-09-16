@@ -182,8 +182,8 @@
     }
   ],
   "GUID": 4174249524788590026,
-  "HexType": 1,
-  "HexVariant": "Mushroom",
+  "HexType": 4,
+  "HexVariant": "Mushrooms",
   "Material": "Default",
   "Mesh": "None",
   "Name": "Mushroom",

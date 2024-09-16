@@ -94,6 +94,17 @@
         ],
         "RadiusIncrease": 1,
         "Type": 0
+      },
+      {
+        "LifeRequirement": 10,
+        "Names": [
+          "Acacia Blackwood",
+          "Prickly Tea Tree",
+          "Lily Pad",
+          "Mushrooms"
+        ],
+        "RadiusIncrease": 1,
+        "Type": 0
       }
     ],
     "StartingRadius": 3,
