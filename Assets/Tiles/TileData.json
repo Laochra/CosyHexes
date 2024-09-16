@@ -32,15 +32,15 @@
     {
       "Name": "Everlasting Daisy",
       "Prefabs": [
-        "None",
-        "None",
-        "None"
+        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy_Light.prefab",
+        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverLastingDaisy_Medium.prefab",
+        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy_Dense.prefab"
       ]
     },
     {
       "Name": "Happy Wanderer",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Light.prefab",
         "None",
         "None"
       ]
@@ -85,8 +85,13 @@
     "HabitatLifeBonus": 3,
     "LifeMilestones": [
       {
-        "LifeRequirement": 100,
-        "Names": [],
+        "LifeRequirement": 3,
+        "Names": [
+          "Eucalyptus",
+          "Happy Wanderer",
+          "Water with Reeds",
+          "Red Gravel"
+        ],
         "RadiusIncrease": 1,
         "Type": 0
       }
@@ -152,7 +157,7 @@
     {
       "Name": "Water",
       "Prefabs": [
-        "None",
+        "Assets\\Tiles\\Waters\\Water\\Water.prefab",
         "None",
         "None"
       ]
