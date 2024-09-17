@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8811655399606004155,
+      "GUID": 6209475248747769747,
       "Material": "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.mat",
       "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_BaseHex_Ground.mesh",
       "Name": "SM_BaseHex_Ground",
@@ -37,7 +37,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 9381673906593301417,
+          "GUID": 3679474612663529593,
           "Material": "Assets\\Tiles\\Lands\\Mushroom\\White_Mushroom.mat",
           "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_WhiteMushrooms.mesh",
           "Name": "SM_GroundForest_WhiteMushrooms",
@@ -67,7 +67,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 7442625128204277125,
+          "GUID": 11593008641934998336,
           "Material": "Assets\\Tiles\\Lands\\Mushroom\\Brown_Mushroom.mat",
           "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_BrownMushrooms.mesh",
           "Name": "SM_GroundForest_BrownMushrooms",
@@ -97,7 +97,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 16252442027359602873,
+          "GUID": 1552048905745890606,
           "Material": "Assets\\Tiles\\Lands\\Mushroom\\Log.mat",
           "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_Log.mesh",
           "Name": "SM_GroundForest_Log",
@@ -127,7 +127,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 1672826626546019900,
+          "GUID": 6951480672929343808,
           "Material": "Assets\\Tiles\\Lands\\Mushroom\\Black_Mushroom.mat",
           "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_BlackMushrooms.mesh",
           "Name": "SM_GroundForest_BlackMushrooms",
@@ -155,7 +155,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 8182948073066292486,
+      "GUID": 18140498671716325877,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -181,11 +181,11 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 4174249524788590026,
-  "HexType": 1,
-  "HexVariant": "Mushroom",
-  "Material": "Default",
-  "Mesh": "None",
+  "GUID": 614175263492416703,
+  "HexType": 4,
+  "HexVariant": "Mushrooms",
+  "Material": "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.mat",
+  "Mesh": "Hexagon",
   "Name": "Mushroom",
   "Pivot": [
     0.0,

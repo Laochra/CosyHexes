@@ -4,10 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 7620426472031095499,
-      "Material": "Assets\\Tiles\\Waters\\LilyPad\\LilyPad.mat",
-      "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_BaseHex_Ground1.mesh",
-      "Name": "SM_BaseHex_Ground1",
+      "GUID": 13063336063107498761,
+      "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\Grass.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
       "Pivot": [
         0.0,
         0.0,
@@ -37,10 +37,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 11568897849267535954,
-          "Material": "Assets\\Tiles\\Waters\\LilyPad\\EucalyptusLeaves.mat",
-          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_Lilypads.mesh",
-          "Name": "SM_Water_Lilypads",
+          "GUID": 14000006753144283096,
+          "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\EucalyptusWood.mat",
+          "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\SM_Eucalyptus_Dense_Trunk.mesh",
+          "Name": "SM_Eucalyptus_Dense_Trunk",
           "Pivot": [
             0.0,
             0.0,
@@ -67,40 +67,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 8721450537041668927,
-          "Material": "Assets\\Tiles\\Waters\\LilyPad\\White_Mushroom.mat",
-          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_CatTails.mesh",
-          "Name": "SM_Water_CatTails",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        },
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 16984336426510232961,
-          "Material": "Assets\\Tiles\\Waters\\LilyPad\\Everlasting_Grass.mat",
-          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_Reeds.mesh",
-          "Name": "SM_Water_Reeds",
+          "GUID": 12668040629285156270,
+          "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\EucalyptusLeaves.mat",
+          "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\SM_Eucalyptus_Dense_Leaves.mesh",
+          "Name": "SM_Eucalyptus_Dense_Leaves",
           "Pivot": [
             0.0,
             0.0,
@@ -125,16 +95,16 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 3344993263795512307,
+      "GUID": 16557391383918241277,
       "Name": "Empty",
       "Pivot": [
         0.0,
-        -0.5,
+        0.0,
         0.0
       ],
       "Position": [
         0.0,
-        -0.22823679447174072,
+        0.0,
         0.0
       ],
       "Rotation": [
@@ -151,12 +121,12 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 5266190691223346971,
-  "HexType": 3,
-  "HexVariant": "Lily Pad",
-  "Material": "Assets\\Tiles\\Waters\\LilyPad\\LilyPad.mat",
+  "GUID": 11910091698337575181,
+  "HexType": 1,
+  "HexVariant": "Eucalyptus",
+  "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\Grass.mat",
   "Mesh": "Hexagon",
-  "Name": "LilyPad",
+  "Name": "Ecualyptus_Dense",
   "Pivot": [
     0.0,
     0.0,

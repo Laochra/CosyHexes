@@ -4,10 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 7620426472031095499,
-      "Material": "Assets\\Tiles\\Waters\\LilyPad\\LilyPad.mat",
-      "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_BaseHex_Ground1.mesh",
-      "Name": "SM_BaseHex_Ground1",
+      "GUID": 8882489262782260920,
+      "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
       "Pivot": [
         0.0,
         0.0,
@@ -37,10 +37,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 11568897849267535954,
-          "Material": "Assets\\Tiles\\Waters\\LilyPad\\EucalyptusLeaves.mat",
-          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_Lilypads.mesh",
-          "Name": "SM_Water_Lilypads",
+          "GUID": 488454416013868134,
+          "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Prickly Tea Tree.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree3.mesh",
+          "Name": "TeaTree3",
           "Pivot": [
             0.0,
             0.0,
@@ -67,10 +67,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 8721450537041668927,
-          "Material": "Assets\\Tiles\\Waters\\LilyPad\\White_Mushroom.mat",
-          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_CatTails.mesh",
-          "Name": "SM_Water_CatTails",
+          "GUID": 7170751923774949037,
+          "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Prickly Tea Tree.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree4.mesh",
+          "Name": "TeaTree4",
           "Pivot": [
             0.0,
             0.0,
@@ -97,10 +97,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 16984336426510232961,
-          "Material": "Assets\\Tiles\\Waters\\LilyPad\\Everlasting_Grass.mat",
-          "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_Reeds.mesh",
-          "Name": "SM_Water_Reeds",
+          "GUID": 16718433145385122971,
+          "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Prickly Tea Tree.mat",
+          "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree5.mesh",
+          "Name": "TeaTree5",
           "Pivot": [
             0.0,
             0.0,
@@ -125,16 +125,16 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 3344993263795512307,
+      "GUID": 11011875689033048415,
       "Name": "Empty",
       "Pivot": [
         0.0,
-        -0.5,
+        0.0,
         0.0
       ],
       "Position": [
         0.0,
-        -0.22823679447174072,
+        0.0,
         0.0
       ],
       "Rotation": [
@@ -151,12 +151,12 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 5266190691223346971,
-  "HexType": 3,
-  "HexVariant": "Lily Pad",
-  "Material": "Assets\\Tiles\\Waters\\LilyPad\\LilyPad.mat",
+  "GUID": 11390125308206776338,
+  "HexType": 1,
+  "HexVariant": "TeaTree_Dense",
+  "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass.mat",
   "Mesh": "Hexagon",
-  "Name": "LilyPad",
+  "Name": "TeaTree_Dense",
   "Pivot": [
     0.0,
     0.0,

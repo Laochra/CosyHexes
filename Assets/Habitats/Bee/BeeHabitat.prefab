@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16427057194324711129,
+      "GUID": 11070582460909294525,
       "Material": "Engine\\DefaultAssets\\Default.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Ground.mesh",
       "Name": "SM_HabitatHex_Ground",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12287682236501849869,
+      "GUID": 17327903875383470962,
       "Material": "Assets\\Materials\\Grass.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Grass.mesh",
       "Name": "SM_HabitatHex_Grass",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 18400158895011331522,
+      "GUID": 3224483548154583265,
       "Material": "Assets\\Materials\\Grass.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_TallGrass.mesh",
       "Name": "SM_HabitatHex_Bee_TallGrass",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16713481331032391392,
+      "GUID": 9133399709075474538,
       "Material": "Assets\\Materials\\Mush.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_Flower.mesh",
       "Name": "SM_HabitatHex_Bee_Flower",
@@ -124,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2241097689909525115,
+      "GUID": 17562855674976798221,
       "Material": "Assets\\Materials\\FernLeaves.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_Leaves.mesh",
       "Name": "SM_HabitatHex_Bee_Leaves",
@@ -154,7 +154,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2401651043045160013,
+      "GUID": 16189139975231806010,
       "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_Wood.mesh",
       "Name": "SM_HabitatHex_Bee_Wood",
@@ -182,10 +182,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 5385714232910737942,
+  "GUID": 6096369004904285534,
   "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
-  "Name": "Habitat_Bee",
+  "Name": "Green Carpenter Bee",
   "Pivot": [
     0.0,
     0.0,
@@ -207,5 +207,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 203182876
 }

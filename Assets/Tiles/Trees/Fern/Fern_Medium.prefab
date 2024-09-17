@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 7921507697885456825,
+      "GUID": 8936981143977382668,
       "Material": "Assets\\Tiles\\Trees\\Fern\\Grass.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_BaseHex_Ground.mesh",
       "Name": "SM_BaseHex_Ground",
@@ -37,7 +37,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 710248091814376839,
+          "GUID": 18379457452324510439,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernWood.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface1.mesh",
           "Name": "polySurface1",
@@ -67,7 +67,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 7237422576974698803,
+          "GUID": 15339461023104050649,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface2.mesh",
           "Name": "polySurface2",
@@ -97,7 +97,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 18136765783120671929,
+          "GUID": 11010581449942853627,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernLeaves.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface4.mesh",
           "Name": "polySurface4",
@@ -127,7 +127,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 2017712924032709797,
+          "GUID": 6004385963256237165,
           "Material": "Assets\\Tiles\\Trees\\Fern\\FernWood.mat",
           "Mesh": "Assets\\Tiles\\Trees\\Fern\\polySurface3.mesh",
           "Name": "polySurface3",
@@ -155,7 +155,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 18367817612734727919,
+      "GUID": 1927400550123514887,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -181,11 +181,11 @@
       "TypeID": 70103550478110
     }
   ],
-  "GUID": 12340667143619297432,
+  "GUID": 13869850697393771834,
   "HexType": 1,
   "HexVariant": "Fern_Medium",
-  "Material": "Default",
-  "Mesh": "None",
+  "Material": "Assets\\Tiles\\Trees\\Fern\\Grass.mat",
+  "Mesh": "Hexagon",
   "Name": "Fern_Medium",
   "Pivot": [
     0.0,
