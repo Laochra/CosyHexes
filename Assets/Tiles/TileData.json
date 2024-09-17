@@ -1,28 +1,38 @@
 {
   "Audio": {
-    "Ambience": [],
-    "AmbienceVolume": 1.0,
-    "Music": "None",
-    "MusicVolume": 1.0,
-    "SoundEffects": {
-      "FormHabitat": "Assets\\Habitats\\FormHabitat.wav",
-      "PlaceFlower": "Assets\\Tiles\\Flowers\\PlaceFlower.wav",
-      "PlaceLand": "Assets\\Tiles\\Lands\\PlaceLand.wav",
-      "PlaceTree": "Assets\\Tiles\\Trees\\PlaceTree.wav",
-      "PlaceWater": "Assets\\Tiles\\Waters\\PlaceWater.wav",
-      "RadialClose": "Assets\\UI\\RadialMenu\\RadialMenu_Close.wav",
-      "RadialCycle Page": "Assets\\UI\\RadialMenu\\RadialMenu_CyclePage.wav",
-      "RadialCycleDensity": "None",
-      "RadialOpen": "Assets\\UI\\RadialMenu\\RadialMenu_Open.wav",
-      "ScrapbookClose": "Assets\\UI\\Scrapbook\\Scrapbook_Close.wav",
-      "ScrapbookNewHabitatPage": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav",
-      "ScrapbookNotification": "Assets\\UI\\Scrapbook\\Scrapbook_Notification.wav",
-      "ScrapbookOpen": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav",
-      "ScrapbookTurnPage": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav"
-    },
-    "SoundEffectsVolume": 1.0,
-    "SpiritSounds": null,
-    "SpiritSoundsVolume": 1.0
+    "HabitatLifeBonus": 3,
+    "LifeMilestones": [
+      {
+        "LifeRequirement": 20,
+        "Names": [
+          "Eucalyptus",
+          "Happy Wanderer",
+          "WaterLog",
+          "Red Gravel"
+        ],
+        "RadiusIncrease": 1,
+        "Type": 0
+      },
+      {
+        "LifeRequirement": 40,
+        "Names": [
+          "Acacia Blackwood",
+          "Prickly Tea Tree",
+          "Lily Pad",
+          "Mushrooms"
+        ],
+        "RadiusIncrease": 1,
+        "Type": 0
+      }
+    ],
+    "StartingRadius": 3,
+    "StartingVariants": [
+      "Fern",
+      "Everlasting Daisy",
+      "Water",
+      "Grass"
+    ],
+    "TileLifeBonus": 1
   },
   "Defaults": {
     "DefaultTile": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
@@ -54,7 +64,53 @@
       ]
     }
   ],
-  "Habitats": [],
+  "Habitats": [
+    {
+      "Name": "Green Carpenter Bee",
+      "PrefabFilepath": "Assets\\Habitats\\Bee\\BeeHabitat.prefab",
+      "RequiredTiles": [
+        "Fern",
+        "Everlasting Daisy",
+        "Water"
+      ]
+    },
+    {
+      "Name": "Tasmanian Tiger",
+      "PrefabFilepath": "Assets\\Habitats\\Tassie\\HabitatTassie.prefab",
+      "RequiredTiles": [
+        "Eucalyptus",
+        "Happy Wanderer",
+        "Red Gravel"
+      ]
+    },
+    {
+      "Name": "Mist Frog",
+      "PrefabFilepath": "Assets\\Habitats\\Frog\\FrogHabitat.prefab",
+      "RequiredTiles": [
+        "Fern",
+        "Eucalyptus",
+        "WaterLog"
+      ]
+    },
+    {
+      "Name": "Pink Slug",
+      "PrefabFilepath": "Assets\\Habitats\\Slug\\SlugHabitat.prefab",
+      "RequiredTiles": [
+        "Eucalyptus",
+        "Prickly Tea Tree",
+        "Water"
+      ]
+    },
+    {
+      "Name": "Platypus",
+      "PrefabFilepath": "None",
+      "RequiredTiles": [
+        "Acacia Blackwood",
+        "Mushrooms",
+        "Water"
+      ]
+    }
+  ],
   "Lands": [
     {
       "Name": "Grass",
@@ -85,7 +141,7 @@
     "HabitatLifeBonus": 3,
     "LifeMilestones": [
       {
-        "LifeRequirement": 3,
+        "LifeRequirement": 20,
         "Names": [
           "Eucalyptus",
           "Happy Wanderer",
@@ -96,7 +152,7 @@
         "Type": 0
       },
       {
-        "LifeRequirement": 10,
+        "LifeRequirement": 40,
         "Names": [
           "Acacia Blackwood",
           "Prickly Tea Tree",
@@ -150,9 +206,9 @@
     {
       "Name": "Eucalyptus",
       "Prefabs": [
-        "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus_Dense.prefab",
-        "None",
-        "None"
+        "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus_Light.prefab",
+        "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus_Medium.prefab",
+        "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus_Dense.prefab"
       ]
     },
     {

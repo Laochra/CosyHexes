@@ -1,0 +1,152 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 2033065747403317159,
+      "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\Grass.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 7051007451929238954,
+          "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\EucalyptusWood.mat",
+          "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\SM_Eucalyptus_Light_Trunk.mesh",
+          "Name": "SM_Eucalyptus_Light_Trunk",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 10821233488134513114,
+          "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\EucalyptusLeaves.mat",
+          "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\SM_Eucalyptus_Light_Leaves.mesh",
+          "Name": "SM_Eucalyptus_Light_Leaves",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        }
+      ],
+      "GUID": 17504544208600843895,
+      "Name": "Empty",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 70103550478110
+    }
+  ],
+  "GUID": 15128214091973942465,
+  "HexType": 1,
+  "HexVariant": "Eucalyptus",
+  "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\Grass.mat",
+  "Mesh": "Hexagon",
+  "Name": "Eucalyptus_Light",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 73778508
+}

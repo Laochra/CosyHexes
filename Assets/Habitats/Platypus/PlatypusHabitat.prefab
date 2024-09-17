@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16027201859514572955,
+      "GUID": 12297583215289834531,
       "Material": "Assets\\Materials\\White.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_HabitatHex_Platypus_Mushroom.mesh",
       "Name": "SM_HabitatHex_Platypus_Mushroom",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10859592941034871894,
+      "GUID": 1896953973105601951,
       "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_HabitatHex_Platypus_Leaves.mesh",
       "Name": "SM_HabitatHex_Platypus_Leaves",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3995611179581728853,
+      "GUID": 3446638831515122727,
       "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_HabitatHex_Platypus_Wood.mesh",
       "Name": "SM_HabitatHex_Platypus_Wood",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 6272914477802919414,
+      "GUID": 4497676241073107156,
       "Material": "Assets\\Materials\\FernLeaves.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_HabitatHex_Platypus_ShelfFungus.mesh",
       "Name": "SM_HabitatHex_Platypus_ShelfFungus",
@@ -124,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16688118314887491737,
+      "GUID": 1857365700850982510,
       "Material": "Assets\\Materials\\Grass.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_HabitatHex_Platypus_Reed.mesh",
       "Name": "SM_HabitatHex_Platypus_Reed",
@@ -154,7 +154,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 1554487269178659606,
+      "GUID": 17857884828078312719,
       "Material": "Assets\\Materials\\Water.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_HabitatHex_Platypus_Water.mesh",
       "Name": "SM_HabitatHex_Platypus_Water",
@@ -184,7 +184,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 4235648861169637954,
+      "GUID": 14481309507201648286,
       "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_HabitatHex_Platypus_Ground.mesh",
       "Name": "SM_HabitatHex_Platypus_Ground",
@@ -214,7 +214,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 117158712672655747,
+      "GUID": 6908302927431704037,
       "Material": "Assets\\Materials\\Grass.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_HabitatHex_Platypus_Grass.mesh",
       "Name": "SM_HabitatHex_Platypus_Grass",
@@ -242,8 +242,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 8703018820158404396,
-  "Name": "Habitat_Platypus",
+  "GUID": 11046940668956096699,
+  "Material": "Default",
+  "Mesh": "None",
+  "Name": "Platypus",
   "Pivot": [
     0.0,
     0.0,
@@ -265,5 +267,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 70103550478110
+  "TypeID": 203182876
 }
