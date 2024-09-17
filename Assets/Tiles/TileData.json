@@ -1,38 +1,28 @@
 {
   "Audio": {
-    "HabitatLifeBonus": 3,
-    "LifeMilestones": [
-      {
-        "LifeRequirement": 20,
-        "Names": [
-          "Eucalyptus",
-          "Happy Wanderer",
-          "WaterLog",
-          "Red Gravel"
-        ],
-        "RadiusIncrease": 1,
-        "Type": 0
-      },
-      {
-        "LifeRequirement": 40,
-        "Names": [
-          "Acacia Blackwood",
-          "Prickly Tea Tree",
-          "Lily Pad",
-          "Mushrooms"
-        ],
-        "RadiusIncrease": 1,
-        "Type": 0
-      }
-    ],
-    "StartingRadius": 3,
-    "StartingVariants": [
-      "Fern",
-      "Everlasting Daisy",
-      "Water",
-      "Grass"
-    ],
-    "TileLifeBonus": 1
+    "Ambience": [],
+    "AmbienceVolume": 1.0,
+    "Music": "None",
+    "MusicVolume": 1.0,
+    "SoundEffects": {
+      "FormHabitat": "Assets\\Habitats\\FormHabitat.wav",
+      "PlaceFlower": "Assets\\Tiles\\Flowers\\PlaceFlower.wav",
+      "PlaceLand": "Assets\\Tiles\\Lands\\PlaceLand.wav",
+      "PlaceTree": "Assets\\Tiles\\Trees\\PlaceTree.wav",
+      "PlaceWater": "Assets\\Tiles\\Waters\\PlaceWater.wav",
+      "RadialClose": "Assets\\UI\\RadialMenu\\RadialMenu_Close.wav",
+      "RadialCycle Page": "Assets\\UI\\RadialMenu\\RadialMenu_CyclePage.wav",
+      "RadialCycleDensity": "Assets\\UI\\RadialMenu\\RadialMenu_CycleDensityLow.wav",
+      "RadialOpen": "Assets\\UI\\RadialMenu\\RadialMenu_Open.wav",
+      "ScrapbookClose": "Assets\\UI\\Scrapbook\\Scrapbook_Close.wav",
+      "ScrapbookNewHabitatPage": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav",
+      "ScrapbookNotification": "Assets\\UI\\Scrapbook\\Scrapbook_Notification.wav",
+      "ScrapbookOpen": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav",
+      "ScrapbookTurnPage": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav"
+    },
+    "SoundEffectsVolume": 1.0,
+    "SpiritSounds": null,
+    "SpiritSoundsVolume": 1.0
   },
   "Defaults": {
     "DefaultTile": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
