@@ -1465,7 +1465,7 @@
   "GUID": 10125074100454346011,
   "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
-  "Name": "Mist Frog",
+  "Name": "Frog",
   "Pivot": [
     50.0,
     0.0,
@@ -1487,5 +1487,5 @@
     0.009999999776482582,
     0.009999999776482582
   ],
-  "TypeID": 203182876
+  "TypeID": 181025226017607
 }

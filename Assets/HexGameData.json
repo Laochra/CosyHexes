@@ -12,78 +12,48 @@
       "PlaceWater": "Assets\\Tiles\\Waters\\PlaceWater.wav",
       "RadialClose": "Assets\\UI\\RadialMenu\\RadialMenu_Close.wav",
       "RadialCycle Page": "Assets\\UI\\RadialMenu\\RadialMenu_CyclePage.wav",
-      "RadialCycleDensity": "Assets\\UI\\RadialMenu\\RadialMenu_CycleDensityLow.wav",
+      "RadialCycleDensity": "None",
       "RadialOpen": "Assets\\UI\\RadialMenu\\RadialMenu_Open.wav",
       "ScrapbookClose": "Assets\\UI\\Scrapbook\\Scrapbook_Close.wav",
       "ScrapbookNewHabitatPage": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav",
       "ScrapbookNotification": "Assets\\UI\\Scrapbook\\Scrapbook_Notification.wav",
       "ScrapbookOpen": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav",
-      "ScrapbookTurnPage": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav"
+      "ScrapbookTurnPage": "None"
     },
     "SoundEffectsVolume": 1.0,
     "SpiritSounds": null,
     "SpiritSoundsVolume": 1.0
   },
-  "Defaults": {
-    "DefaultTile": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
-    "EmptyTile": "Assets\\Tiles\\Empty\\Empty.prefab"
-  },
-  "Flowers": [
-    {
-      "Name": "Everlasting Daisy",
-      "Prefabs": [
-        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy_Light.prefab",
-        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverLastingDaisy_Medium.prefab",
-        "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy_Dense.prefab"
-      ]
-    },
-    {
-      "Name": "Happy Wanderer",
-      "Prefabs": [
-        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Light.prefab",
-        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Medium.prefab",
-        "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Dense.prefab"
-      ]
-    },
-    {
-      "Name": "Prickly Tea Tree",
-      "Prefabs": [
-        "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree_Light.prefab",
-        "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree_Medium.prefab",
-        "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree_Dense.prefab"
-      ]
-    }
-  ],
   "Habitats": [
     {
-      "Name": "Green Carpenter Bee",
+      "Name": "Bee",
       "PrefabFilepath": "Assets\\Habitats\\Bee\\BeeHabitat.prefab",
       "RequiredTiles": [
         "Fern",
         "Everlasting Daisy",
-        "Water"
+        "Everlasting Daisy"
       ]
     },
     {
-      "Name": "Tasmanian Tiger",
+      "Name": "Tassie Tiger",
       "PrefabFilepath": "Assets\\Habitats\\Tassie\\HabitatTassie.prefab",
       "RequiredTiles": [
         "Eucalyptus",
-        "Happy Wanderer",
+        "Eucalyptus",
         "Red Gravel"
       ]
     },
     {
-      "Name": "Mist Frog",
+      "Name": "Frog",
       "PrefabFilepath": "Assets\\Habitats\\Frog\\FrogHabitat.prefab",
       "RequiredTiles": [
         "Fern",
         "Eucalyptus",
-        "WaterLog"
+        "Lilypad"
       ]
     },
     {
-      "Name": "Pink Slug",
+      "Name": "Slug",
       "PrefabFilepath": "Assets\\Habitats\\Slug\\SlugHabitat.prefab",
       "RequiredTiles": [
         "Eucalyptus",
@@ -93,37 +63,11 @@
     },
     {
       "Name": "Platypus",
-      "PrefabFilepath": "None",
+      "PrefabFilepath": "Assets\\Habitats\\Platypus\\PlatypusHabitat.prefab",
       "RequiredTiles": [
         "Acacia Blackwood",
-        "Mushrooms",
-        "Water"
-      ]
-    }
-  ],
-  "Lands": [
-    {
-      "Name": "Grass",
-      "Prefabs": [
-        "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
-        "None",
-        "None"
-      ]
-    },
-    {
-      "Name": "Red Gravel",
-      "Prefabs": [
-        "Assets\\Tiles\\Lands\\RedGravel\\RedGravel.prefab",
-        "None",
-        "None"
-      ]
-    },
-    {
-      "Name": "Mushrooms",
-      "Prefabs": [
-        "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.prefab",
-        "None",
-        "None"
+        "Mushroom",
+        "Reeds"
       ]
     }
   ],
@@ -135,27 +79,45 @@
         "Names": [
           "Eucalyptus",
           "Happy Wanderer",
-          "WaterLog",
+          "Reeds",
           "Red Gravel"
         ],
+        "RadiusIncrease": 2,
+        "Type": 0
+      },
+      {
+        "LifeRequirement": 50,
+        "Names": [],
         "RadiusIncrease": 1,
         "Type": 0
       },
       {
-        "LifeRequirement": 60,
+        "LifeRequirement": 80,
         "Names": [
           "Acacia Blackwood",
           "Prickly Tea Tree",
-          "Lily Pad",
-          "Mushrooms"
+          "Lilypad",
+          "Mushroom"
         ],
         "RadiusIncrease": 2,
         "Type": 0
       },
       {
-        "LifeRequirement": 90,
+        "LifeRequirement": 100,
         "Names": [],
-        "RadiusIncrease": 2,
+        "RadiusIncrease": 1,
+        "Type": 0
+      },
+      {
+        "LifeRequirement": 120,
+        "Names": [],
+        "RadiusIncrease": 1,
+        "Type": 0
+      },
+      {
+        "LifeRequirement": 140,
+        "Names": [],
+        "RadiusIncrease": 1,
         "Type": 0
       }
     ],
@@ -190,56 +152,67 @@
       "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked.png"
     }
   },
-  "Trees": [
-    {
-      "Name": "Fern",
-      "Prefabs": [
-        "Assets\\Tiles\\Trees\\Fern\\Fern_Light.prefab",
-        "Assets\\Tiles\\Trees\\Fern\\Fern_Medium.prefab",
-        "Assets\\Tiles\\Trees\\Fern\\Fern_Dense.prefab"
-      ]
+  "Tiles": {
+    "Flowers": [
+      {
+        "Name": "Everlasting Daisy",
+        "Prefab": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy_Dense.prefab"
+      },
+      {
+        "Name": "Happy Wanderer",
+        "Prefab": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Dense.prefab"
+      },
+      {
+        "Name": "Prickly Tea Tree",
+        "Prefab": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree_Dense.prefab"
+      }
+    ],
+    "Lands": [
+      {
+        "Name": "Grass",
+        "Prefab": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab"
+      },
+      {
+        "Name": "Red Gravel",
+        "Prefab": "Assets\\Tiles\\Lands\\RedGravel\\RedGravel.prefab"
+      },
+      {
+        "Name": "Mushroom",
+        "Prefab": "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.prefab"
+      }
+    ],
+    "Required": {
+      "Default": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
+      "MotherTree": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
+      "Perimeter": "Assets\\Tiles\\Perimeter\\Perimeter.prefab"
     },
-    {
-      "Name": "Eucalyptus",
-      "Prefabs": [
-        "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus_Light.prefab",
-        "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus_Medium.prefab",
-        "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus_Dense.prefab"
-      ]
-    },
-    {
-      "Name": "Acacia Blackwood",
-      "Prefabs": [
-        "Assets\\Tiles\\Trees\\Acacia Blackwood\\Acacia_Light.prefab",
-        "Assets\\Tiles\\Trees\\Acacia Blackwood\\Acacia_Medium.prefab",
-        "Assets\\Tiles\\Trees\\Acacia Blackwood\\Acacia_Dense.prefab"
-      ]
-    }
-  ],
-  "Waters": [
-    {
-      "Name": "Water",
-      "Prefabs": [
-        "Assets\\Tiles\\Waters\\Water\\Water.prefab",
-        "None",
-        "None"
-      ]
-    },
-    {
-      "Name": "WaterLog",
-      "Prefabs": [
-        "Assets\\Tiles\\Waters\\Reeds\\WaterLog.prefab",
-        "None",
-        "None"
-      ]
-    },
-    {
-      "Name": "Lily Pad",
-      "Prefabs": [
-        "Assets\\Tiles\\Waters\\LilyPad\\LilyPad.prefab",
-        "None",
-        "None"
-      ]
-    }
-  ]
+    "Trees": [
+      {
+        "Name": "Fern",
+        "Prefab": "Assets\\Tiles\\Trees\\Fern\\Fern_Dense.prefab"
+      },
+      {
+        "Name": "Eucalyptus",
+        "Prefab": "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus_Medium.prefab"
+      },
+      {
+        "Name": "Acacia Blackwood",
+        "Prefab": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Acacia_Light.prefab"
+      }
+    ],
+    "Waters": [
+      {
+        "Name": "Water",
+        "Prefab": "Assets\\Tiles\\Waters\\Water\\Water.prefab"
+      },
+      {
+        "Name": "Reeds",
+        "Prefab": "Assets\\Tiles\\Waters\\Reeds\\WaterLog.prefab"
+      },
+      {
+        "Name": "Lilypad",
+        "Prefab": "Assets\\Tiles\\Waters\\Lilypad\\LilyPad.prefab"
+      }
+    ]
+  }
 }

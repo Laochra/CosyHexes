@@ -63,7 +63,7 @@
     }
   ],
   "GUID": 7576276534197441594,
-  "HexType": 1,
+  "HexType": 0,
   "HexVariant": "Acacia_Medium",
   "Material": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Grass.mat",
   "Mesh": "Hexagon",
@@ -89,5 +89,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }

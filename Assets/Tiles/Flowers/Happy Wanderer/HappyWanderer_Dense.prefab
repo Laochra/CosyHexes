@@ -153,7 +153,7 @@
   ],
   "GUID": 9731612144985556295,
   "HexType": 1,
-  "HexVariant": "HappyWanderer_Dense",
+  "HexVariant": "Happy Wanderer",
   "Material": "Default",
   "Mesh": "None",
   "Name": "HappyWanderer_Dense",
@@ -178,5 +178,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }

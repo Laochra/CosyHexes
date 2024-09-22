@@ -212,8 +212,8 @@
     }
   ],
   "GUID": 4368071342401200342,
-  "HexType": 1,
-  "HexVariant": "Fern_Dense",
+  "HexType": 0,
+  "HexVariant": "Fern",
   "Material": "Default",
   "Mesh": "None",
   "Name": "Fern_Dense",
@@ -238,5 +238,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }

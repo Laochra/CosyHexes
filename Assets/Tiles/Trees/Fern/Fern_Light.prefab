@@ -152,7 +152,7 @@
     }
   ],
   "GUID": 23398466214339276,
-  "HexType": 1,
+  "HexType": 0,
   "HexVariant": "Fern",
   "Material": "Assets\\Tiles\\Trees\\Fern\\Grass.mat",
   "Mesh": "Hexagon",
@@ -178,5 +178,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }

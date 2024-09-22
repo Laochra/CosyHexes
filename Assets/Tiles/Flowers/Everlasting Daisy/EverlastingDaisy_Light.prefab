@@ -152,7 +152,7 @@
     }
   ],
   "GUID": 14414722564324665872,
-  "HexType": 2,
+  "HexType": 1,
   "HexVariant": "Everlasting Daisy",
   "Material": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Grass.mat",
   "Mesh": "Hexagon",
@@ -178,5 +178,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }

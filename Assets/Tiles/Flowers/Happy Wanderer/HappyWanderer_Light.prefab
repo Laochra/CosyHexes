@@ -152,7 +152,7 @@
     }
   ],
   "GUID": 17946329971953858482,
-  "HexType": 2,
+  "HexType": 1,
   "HexVariant": "Happy Wanderer",
   "Material": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Grass.mat",
   "Mesh": "Hexagon",
@@ -178,5 +178,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }

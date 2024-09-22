@@ -2,7 +2,7 @@
   "Active": true,
   "Children": [],
   "GUID": 10436679237703188305,
-  "HexType": 3,
+  "HexType": 2,
   "HexVariant": "Water",
   "Material": "Assets\\Tiles\\Waters\\Water\\Water.mat",
   "Mesh": "Assets\\Tiles\\Waters\\Water\\SM_BaseHex_Ground1.mesh",
@@ -28,5 +28,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }

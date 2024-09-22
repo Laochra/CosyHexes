@@ -185,7 +185,7 @@
   "GUID": 6096369004904285534,
   "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
-  "Name": "Green Carpenter Bee",
+  "Name": "Bee",
   "Pivot": [
     0.0,
     0.0,
@@ -207,5 +207,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 203182876
+  "TypeID": 181025226017607
 }

@@ -245,7 +245,7 @@
   "GUID": 18020774350152927429,
   "Material": "Default",
   "Mesh": "None",
-  "Name": "Pink Slug",
+  "Name": "Slug",
   "Pivot": [
     0.0,
     0.0,
@@ -267,5 +267,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 203182876
+  "TypeID": 181025226017607
 }

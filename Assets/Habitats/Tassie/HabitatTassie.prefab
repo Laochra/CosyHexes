@@ -155,7 +155,7 @@
   "GUID": 16566108399055209560,
   "Material": "Default",
   "Mesh": "None",
-  "Name": "Tasmanian Tiger",
+  "Name": "Tassie Tiger",
   "Pivot": [
     0.0,
     0.0,
@@ -177,5 +177,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 203182876
+  "TypeID": 181025226017607
 }

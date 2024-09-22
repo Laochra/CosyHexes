@@ -2,7 +2,7 @@
   "Active": true,
   "Children": [],
   "GUID": 9405298503304483056,
-  "HexType": 4,
+  "HexType": 3,
   "HexVariant": "Grass",
   "Material": "Assets\\Tiles\\Lands\\Grass\\Grass.mat",
   "Mesh": "Hexagon",
@@ -28,5 +28,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }

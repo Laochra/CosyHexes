@@ -153,7 +153,7 @@
   ],
   "GUID": 11390125308206776338,
   "HexType": 1,
-  "HexVariant": "TeaTree_Dense",
+  "HexVariant": "Prickly Tea Tree",
   "Material": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass.mat",
   "Mesh": "Hexagon",
   "Name": "TeaTree_Dense",
@@ -178,5 +178,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }

@@ -122,7 +122,7 @@
     }
   ],
   "GUID": 11910091698337575181,
-  "HexType": 1,
+  "HexType": 0,
   "HexVariant": "Eucalyptus",
   "Material": "Assets\\Tiles\\Trees\\Eucalyptus\\Grass.mat",
   "Mesh": "Hexagon",
@@ -148,5 +148,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }
