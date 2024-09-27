@@ -11,8 +11,8 @@
       "PlaceTree": "Assets\\Tiles\\Trees\\PlaceTree.wav",
       "PlaceWater": "Assets\\Tiles\\Waters\\PlaceWater.wav",
       "RadialClose": "Assets\\UI\\RadialMenu\\RadialMenu_Close.wav",
-      "RadialCycle Page": "Assets\\UI\\RadialMenu\\RadialMenu_CyclePage.wav",
       "RadialCycleDensity": "None",
+      "RadialCyclePage": "Assets\\UI\\RadialMenu\\RadialMenu_CyclePage.wav",
       "RadialOpen": "Assets\\UI\\RadialMenu\\RadialMenu_Open.wav",
       "ScrapbookClose": "Assets\\UI\\Scrapbook\\Scrapbook_Close.wav",
       "ScrapbookNewHabitatPage": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav",
@@ -151,6 +151,122 @@
       "Locked": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Locked.png",
       "Regular": "Assets\\UI\\RadialMenu\\Water\\RW_Water_Unlocked.png"
     }
+  },
+  "ScrapbookSprites": {
+    "Base": "ScrapbookSprite",
+    "BaseSprite": "Assets\\Textures\\shroom.png",
+    "Habitats": [
+      {
+        "Habitat": "None",
+        "HabitatTextures": [
+          "None",
+          "None"
+        ],
+        "TileTextures": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "Tiles": [
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Habitat": "None",
+        "HabitatTextures": [
+          "None",
+          "None"
+        ],
+        "TileTextures": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "Tiles": [
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Habitat": "None",
+        "HabitatTextures": [
+          "None",
+          "None"
+        ],
+        "TileTextures": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "Tiles": [
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Habitat": "None",
+        "HabitatTextures": [
+          "None",
+          "None"
+        ],
+        "TileTextures": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "Tiles": [
+          "None",
+          "None",
+          "None"
+        ]
+      },
+      {
+        "Habitat": "None",
+        "HabitatTextures": [
+          "None",
+          "None"
+        ],
+        "TileTextures": [
+          "None",
+          "None",
+          "None",
+          "None",
+          "None",
+          "None"
+        ],
+        "Tiles": [
+          "None",
+          "None",
+          "None"
+        ]
+      }
+    ],
+    "UISprites": [
+      {
+        "Enabled": true,
+        "Name": "ScrapbookSprite",
+        "PositionX": 0.0,
+        "PositionY": 0.03400000184774399,
+        "Scale": 1.0,
+        "Texture": "Assets\\Textures\\shroom.png"
+      }
+    ]
   },
   "Tiles": {
     "Flowers": [
