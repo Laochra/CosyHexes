@@ -154,21 +154,41 @@
   },
   "ScrapbookSprites": {
     "Base": "ScrapbookSprite",
-    "BaseSprite": "Assets\\Textures\\shroom.png",
+    "BaseSprite": "Assets\\UI\\Scrapbook\\ScrapBookBackground.png",
     "Habitats": [
       {
         "Habitat": "None",
         "HabitatTextures": [
-          "None",
-          "None"
+          "Assets\\UI\\Scrapbook\\Bee Habitat\\BeeHabitatUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Bee Habitat\\BeeHabitatCollected.png"
         ],
         "TileTextures": [
-          "None",
-          "None",
-          "None",
-          "None",
+          "Assets\\UI\\Scrapbook\\Bee Habitat\\FernUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Bee Habitat\\FernCollected.png",
+          "Assets\\UI\\Scrapbook\\Bee Habitat\\DaisyUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Bee Habitat\\DaisyCollected.png",
+          "Assets\\UI\\Scrapbook\\Bee Habitat\\DaisyUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Bee Habitat\\DaisyCollected.png"
+        ],
+        "Tiles": [
+          "ScrapbookSprite",
           "None",
           "None"
+        ]
+      },
+      {
+        "Habitat": "None",
+        "HabitatTextures": [
+          "Assets\\UI\\Scrapbook\\Tassie Habitat\\TassieHabitatUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Tassie Habitat\\TassieHabitatCollected.png"
+        ],
+        "TileTextures": [
+          "Assets\\UI\\Scrapbook\\Tassie Habitat\\EucaUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Tassie Habitat\\EucalyptusCollected.png",
+          "Assets\\UI\\Scrapbook\\Tassie Habitat\\EucaUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Tassie Habitat\\EucalyptusCollected.png",
+          "Assets\\UI\\Scrapbook\\Tassie Habitat\\GravelUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Tassie Habitat\\GravelCollected.png"
         ],
         "Tiles": [
           "None",
@@ -179,16 +199,16 @@
       {
         "Habitat": "None",
         "HabitatTextures": [
-          "None",
-          "None"
+          "Assets\\UI\\Scrapbook\\Frog Habitat\\FrogHabitatUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Frog Habitat\\FrogHabitatCollected.png"
         ],
         "TileTextures": [
-          "None",
-          "None",
-          "None",
-          "None",
-          "None",
-          "None"
+          "Assets\\UI\\Scrapbook\\Frog Habitat\\FernUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Frog Habitat\\FernCollected.png",
+          "Assets\\UI\\Scrapbook\\Frog Habitat\\EucaUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Frog Habitat\\EucalyptusCollected.png",
+          "Assets\\UI\\Scrapbook\\Frog Habitat\\LilyPadUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Frog Habitat\\LilyPadCollected.png"
         ],
         "Tiles": [
           "None",
@@ -199,16 +219,16 @@
       {
         "Habitat": "None",
         "HabitatTextures": [
-          "None",
-          "None"
+          "Assets\\UI\\Scrapbook\\Slug Habitat\\SlugHabitatUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Slug Habitat\\SlugHabitatCollected.png"
         ],
         "TileTextures": [
-          "None",
-          "None",
-          "None",
-          "None",
-          "None",
-          "None"
+          "Assets\\UI\\Scrapbook\\Slug Habitat\\EucaUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Slug Habitat\\EucaCollected.png",
+          "Assets\\UI\\Scrapbook\\Slug Habitat\\TeaTreeUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Slug Habitat\\PricklyTeaTreeCollected.png",
+          "Assets\\UI\\Scrapbook\\Slug Habitat\\WaterUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Slug Habitat\\WaterCollected.png"
         ],
         "Tiles": [
           "None",
@@ -219,36 +239,16 @@
       {
         "Habitat": "None",
         "HabitatTextures": [
-          "None",
-          "None"
+          "Assets\\UI\\Scrapbook\\Platypus Habitat\\PlatyHabitatUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Platypus Habitat\\PlatyHabitatCollected.png"
         ],
         "TileTextures": [
-          "None",
-          "None",
-          "None",
-          "None",
-          "None",
-          "None"
-        ],
-        "Tiles": [
-          "None",
-          "None",
-          "None"
-        ]
-      },
-      {
-        "Habitat": "None",
-        "HabitatTextures": [
-          "None",
-          "None"
-        ],
-        "TileTextures": [
-          "None",
-          "None",
-          "None",
-          "None",
-          "None",
-          "None"
+          "Assets\\UI\\Scrapbook\\Platypus Habitat\\AcaciaUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Platypus Habitat\\AcaciaCollected.png",
+          "Assets\\UI\\Scrapbook\\Platypus Habitat\\MushroomUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Platypus Habitat\\MushroomCollected.png",
+          "Assets\\UI\\Scrapbook\\Platypus Habitat\\LogUndiscovered.png",
+          "Assets\\UI\\Scrapbook\\Platypus Habitat\\LogCollected.png"
         ],
         "Tiles": [
           "None",
