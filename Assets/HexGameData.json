@@ -153,11 +153,11 @@
     }
   },
   "ScrapbookSprites": {
-    "Base": "ScrapbookSprite",
+    "Base": "ScrapbookBG",
     "BaseSprite": "Assets\\UI\\Scrapbook\\ScrapBookBackground.png",
     "Habitats": [
       {
-        "Habitat": "None",
+        "Habitat": "BeeHabitat",
         "HabitatTextures": [
           "Assets\\UI\\Scrapbook\\Bee Habitat\\BeeHabitatUndiscovered.png",
           "Assets\\UI\\Scrapbook\\Bee Habitat\\BeeHabitatCollected.png"
@@ -171,13 +171,13 @@
           "Assets\\UI\\Scrapbook\\Bee Habitat\\DaisyCollected.png"
         ],
         "Tiles": [
-          "ScrapbookSprite",
-          "None",
-          "None"
+          "BeeFern",
+          "BeeDaisyOne",
+          "BeeDaisyTwo"
         ]
       },
       {
-        "Habitat": "None",
+        "Habitat": "TassieHabitat",
         "HabitatTextures": [
           "Assets\\UI\\Scrapbook\\Tassie Habitat\\TassieHabitatUndiscovered.png",
           "Assets\\UI\\Scrapbook\\Tassie Habitat\\TassieHabitatCollected.png"
@@ -191,13 +191,13 @@
           "Assets\\UI\\Scrapbook\\Tassie Habitat\\GravelCollected.png"
         ],
         "Tiles": [
-          "None",
-          "None",
-          "None"
+          "TassieEucaOne",
+          "TassieEucaTwo",
+          "TassieGravel"
         ]
       },
       {
-        "Habitat": "None",
+        "Habitat": "FrogHabitat",
         "HabitatTextures": [
           "Assets\\UI\\Scrapbook\\Frog Habitat\\FrogHabitatUndiscovered.png",
           "Assets\\UI\\Scrapbook\\Frog Habitat\\FrogHabitatCollected.png"
@@ -211,13 +211,13 @@
           "Assets\\UI\\Scrapbook\\Frog Habitat\\LilyPadCollected.png"
         ],
         "Tiles": [
-          "None",
-          "None",
-          "None"
+          "FrogFern",
+          "FrogEuca",
+          "FrogLilyPad"
         ]
       },
       {
-        "Habitat": "None",
+        "Habitat": "SlugHabitat",
         "HabitatTextures": [
           "Assets\\UI\\Scrapbook\\Slug Habitat\\SlugHabitatUndiscovered.png",
           "Assets\\UI\\Scrapbook\\Slug Habitat\\SlugHabitatCollected.png"
@@ -231,13 +231,13 @@
           "Assets\\UI\\Scrapbook\\Slug Habitat\\WaterCollected.png"
         ],
         "Tiles": [
-          "None",
-          "None",
-          "None"
+          "SlugEuca",
+          "SlugTeaTree",
+          "SlugWater"
         ]
       },
       {
-        "Habitat": "None",
+        "Habitat": "PlatypusHabitat",
         "HabitatTextures": [
           "Assets\\UI\\Scrapbook\\Platypus Habitat\\PlatyHabitatUndiscovered.png",
           "Assets\\UI\\Scrapbook\\Platypus Habitat\\PlatyHabitatCollected.png"
@@ -251,20 +251,243 @@
           "Assets\\UI\\Scrapbook\\Platypus Habitat\\LogCollected.png"
         ],
         "Tiles": [
-          "None",
-          "None",
-          "None"
+          "PlatypusAcacia",
+          "PlatypusMushroom",
+          "PlatypusLog"
         ]
       }
     ],
     "UISprites": [
       {
         "Enabled": true,
-        "Name": "ScrapbookSprite",
+        "Layer": 0,
+        "Name": "ScrapbookBG",
         "PositionX": 0.0,
         "PositionY": 0.03400000184774399,
-        "Scale": 1.0,
-        "Texture": "Assets\\Textures\\shroom.png"
+        "Scale": 0.9100000262260437,
+        "Texture": "Assets\\UI\\Scrapbook\\ScrapBookBackground.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "BeeHabitat",
+        "PositionX": -0.4569999873638153,
+        "PositionY": 0.48100000619888306,
+        "Scale": 0.19599999487400055,
+        "Texture": "Assets\\UI\\Scrapbook\\Bee Habitat\\BeeHabitatCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "BeeFern",
+        "PositionX": -0.5820000171661377,
+        "PositionY": 0.6740000247955322,
+        "Scale": 0.10999999940395355,
+        "Texture": "Assets\\UI\\Scrapbook\\Bee Habitat\\FernCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "BeeDaisyOne",
+        "PositionX": -0.550000011920929,
+        "PositionY": 0.2409999966621399,
+        "Scale": 0.09300000220537186,
+        "Texture": "Assets\\UI\\Scrapbook\\Bee Habitat\\DaisyCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "BeeDaisyTwo",
+        "PositionX": -0.25600001215934753,
+        "PositionY": 0.4490000009536743,
+        "Scale": 0.0860000029206276,
+        "Texture": "Assets\\UI\\Scrapbook\\Bee Habitat\\DaisyCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "TassieHabitat",
+        "PositionX": 0.4790000021457672,
+        "PositionY": 0.5960000157356262,
+        "Scale": 0.210999995470047,
+        "Texture": "Assets\\UI\\Scrapbook\\Tassie Habitat\\TassieHabitatCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "TassieEucaOne",
+        "PositionX": 0.27900001406669617,
+        "PositionY": 0.6370000243186951,
+        "Scale": 0.1340000033378601,
+        "Texture": "Assets\\UI\\Scrapbook\\Tassie Habitat\\EucalyptusCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "TassieEucaTwo",
+        "PositionX": 0.578000009059906,
+        "PositionY": 0.33399999141693115,
+        "Scale": 0.11800000071525574,
+        "Texture": "Assets\\UI\\Scrapbook\\Tassie Habitat\\EucalyptusCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "TassieGravel",
+        "PositionX": 0.3569999933242798,
+        "PositionY": 0.3140000104904175,
+        "Scale": 0.08699999749660492,
+        "Texture": "Assets\\UI\\Scrapbook\\Tassie Habitat\\GravelCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "FrogHabitat",
+        "PositionX": -0.39899998903274536,
+        "PositionY": -0.3370000123977661,
+        "Scale": 0.2540000081062317,
+        "Texture": "Assets\\UI\\Scrapbook\\Frog Habitat\\FrogHabitatCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "FrogFern",
+        "PositionX": -0.6110000014305115,
+        "PositionY": -0.414000004529953,
+        "Scale": 0.0949999988079071,
+        "Texture": "Assets\\UI\\Scrapbook\\Frog Habitat\\FernCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "FrogEuca",
+        "PositionX": -0.18199999630451202,
+        "PositionY": -0.37700000405311584,
+        "Scale": 0.12800000607967377,
+        "Texture": "Assets\\UI\\Scrapbook\\Frog Habitat\\EucalyptusCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "FrogLilyPad",
+        "PositionX": -0.3240000009536743,
+        "PositionY": -0.6309999823570251,
+        "Scale": 0.09300000220537186,
+        "Texture": "Assets\\UI\\Scrapbook\\Frog Habitat\\LilyPadCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "SlugHabitat",
+        "PositionX": 0.38100001215934753,
+        "PositionY": -0.37599998712539673,
+        "Scale": 0.24500000476837158,
+        "Texture": "Assets\\UI\\Scrapbook\\Slug Habitat\\SlugHabitatCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "SlugEuca",
+        "PositionX": 0.17800000309944153,
+        "PositionY": -0.42399999499320984,
+        "Scale": 0.13300000131130219,
+        "Texture": "Assets\\UI\\Scrapbook\\Slug Habitat\\EucaCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "SlugTeaTree",
+        "PositionX": 0.5839999914169312,
+        "PositionY": -0.42399999499320984,
+        "Scale": 0.09000000357627869,
+        "Texture": "Assets\\UI\\Scrapbook\\Slug Habitat\\PricklyTeaTreeCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "SlugWater",
+        "PositionX": 0.33000001311302185,
+        "PositionY": -0.6610000133514404,
+        "Scale": 0.09399999678134918,
+        "Texture": "Assets\\UI\\Scrapbook\\Slug Habitat\\WaterCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "PlatypusHabitat",
+        "PositionX": 0.02500000037252903,
+        "PositionY": 0.10899999737739563,
+        "Scale": 0.24699999392032623,
+        "Texture": "Assets\\UI\\Scrapbook\\Platypus Habitat\\PlatyHabitatCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "PlatypusAcacia",
+        "PositionX": -0.017000000923871994,
+        "PositionY": 0.34299999475479126,
+        "Scale": 0.125,
+        "Texture": "Assets\\UI\\Scrapbook\\Platypus Habitat\\AcaciaCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "PlatypusMushroom",
+        "PositionX": -0.17399999499320984,
+        "PositionY": -0.05299999937415123,
+        "Scale": 0.07500000298023224,
+        "Texture": "Assets\\UI\\Scrapbook\\Platypus Habitat\\MushroomCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "PlatypusLog",
+        "PositionX": 0.12099999934434891,
+        "PositionY": -0.13699999451637268,
+        "Scale": 0.08100000023841858,
+        "Texture": "Assets\\UI\\Scrapbook\\Platypus Habitat\\LogCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
       }
     ]
   },
