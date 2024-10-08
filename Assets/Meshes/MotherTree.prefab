@@ -4,9 +4,9 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 9990035691461376447,
-      "Material": "Assets\\Tiles\\MotherTree\\AcaciaBlackwoodWood.mat",
-      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Wood.mesh",
+      "GUID": 2536588006773955264,
+      "Material": "Default",
+      "Mesh": "Assets\\Meshes\\SM_Mother_Wood.mesh",
       "Name": "SM_Mother_Wood",
       "Pivot": [
         0.0,
@@ -34,9 +34,9 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 6396538858873976744,
-      "Material": "Assets\\Tiles\\MotherTree\\AcaciaBlackwoodLeaves.mat",
-      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Leaves.mesh",
+      "GUID": 2164838807985568257,
+      "Material": "Default",
+      "Mesh": "Assets\\Meshes\\SM_Mother_Leaves.mesh",
       "Name": "SM_Mother_Leaves",
       "Pivot": [
         0.0,
@@ -62,16 +62,12 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 1298270902839938068,
-  "HexType": 1,
-  "HexVariant": "Mothertree",
-  "Material": "Default",
-  "Mesh": "None",
-  "Name": "Mothertree",
+  "GUID": 664084544524112127,
+  "Name": "Empty",
   "Pivot": [
     0.0,
     0.0,
-    -150.0
+    0.0
   ],
   "Position": [
     0.0,
@@ -85,9 +81,9 @@
     0.0
   ],
   "Scale": [
-    0.009999999776482582,
-    0.009999999776482582,
-    0.009999999776482582
+    1.0,
+    1.0,
+    1.0
   ],
-  "TypeID": 73778508
+  "TypeID": 70103550478110
 }

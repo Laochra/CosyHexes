@@ -281,6 +281,17 @@
         "TextureWrap": false
       },
       {
+        "Enabled": true,
+        "Layer": 1,
+        "Name": "ScrapBookIcon",
+        "PositionX": 1.7239999771118164,
+        "PositionY": 0.8550000190734863,
+        "Scale": 0.13500000536441803,
+        "Texture": "Assets\\UI\\Scrapbook\\Icon.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
         "Enabled": false,
         "Layer": 0,
         "Name": "BeeHabitat",
