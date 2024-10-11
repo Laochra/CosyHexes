@@ -63,7 +63,7 @@
     }
   ],
   "GUID": 1298270902839938068,
-  "HexType": 1,
+  "HexType": -3,
   "HexVariant": "Mothertree",
   "Material": "Default",
   "Mesh": "None",
@@ -89,5 +89,5 @@
     0.009999999776482582,
     0.009999999776482582
   ],
-  "TypeID": 73778508
+  "TypeID": 181025226017607
 }
