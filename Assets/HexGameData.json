@@ -86,16 +86,10 @@
         "Names": [
           "Eucalyptus",
           "Happy Wanderer",
-          "Reeds",
+          "Lilypad",
           "Red Gravel"
         ],
         "RadiusIncrease": 2,
-        "Type": 0
-      },
-      {
-        "LifeRequirement": 50,
-        "Names": [],
-        "RadiusIncrease": 1,
         "Type": 0
       },
       {
@@ -103,7 +97,7 @@
         "Names": [
           "Acacia Blackwood",
           "Prickly Tea Tree",
-          "Lilypad",
+          "Log",
           "Mushroom"
         ],
         "RadiusIncrease": 2,
@@ -574,12 +568,12 @@
         "Prefab": "Assets\\Tiles\\Waters\\Water\\Water.prefab"
       },
       {
-        "Name": "Reeds",
-        "Prefab": "Assets\\Tiles\\Waters\\Reeds\\WaterLog.prefab"
-      },
-      {
         "Name": "Lilypad",
         "Prefab": "Assets\\Tiles\\Waters\\Lilypad\\LilyPad.prefab"
+      },
+      {
+        "Name": "Log",
+        "Prefab": "Assets\\Tiles\\Waters\\Reeds\\WaterLog.prefab"
       }
     ]
   }
