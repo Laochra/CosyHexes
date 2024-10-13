@@ -1,0 +1,119 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 2845352056871078574,
+      "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
+      "Mesh": "Assets\\Meshes\\SM_Mother_Wood.mesh",
+      "Name": "SM_Mother_Wood",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        150.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 5026869257523881765,
+      "Material": "Assets\\Materials\\AcaciaBlackwoodLeaves.mat",
+      "Mesh": "Assets\\Meshes\\SM_Mother_Leaves.mesh",
+      "Name": "SM_Mother_Leaves",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        150.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 1455411181892215639,
+      "Material": "Assets\\Materials\\Grass.mat",
+      "Mesh": "Hexagon",
+      "Name": "MeshRenderer",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 16651178457898489752,
+  "Name": "Mother Tree",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    0.009999999776482582,
+    0.009999999776482582,
+    0.009999999776482582
+  ],
+  "TypeID": 70103550478110
+}
