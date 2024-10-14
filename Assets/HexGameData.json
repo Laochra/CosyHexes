@@ -21,13 +21,7 @@
       "ScrapbookTurnPage": "None"
     },
     "SoundEffectsVolume": 1.0,
-    "SpiritSounds": {
-      "Bee": "None",
-      "Frog": "None",
-      "Platypus": "None",
-      "Slug": "None",
-      "Tassie Tiger": "None"
-    },
+    "SpiritSounds": null,
     "SpiritSoundsVolume": 1.0
   },
   "Camera": {
