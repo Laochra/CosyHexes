@@ -545,7 +545,7 @@
     ],
     "Required": {
       "Default": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
-      "MotherTree": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
+      "MotherTree": "Assets\\Tiles\\MotherTree\\Mother Tree.prefab",
       "Perimeter": "Assets\\Tiles\\Perimeter\\Perimeter.prefab"
     },
     "Trees": [
