@@ -4,7 +4,7 @@
   "GUID": 10436679237703188305,
   "HexType": 2,
   "HexVariant": "Water",
-  "Material": "Assets\\Tiles\\Waters\\Water\\Water.mat",
+  "Material": "Assets\\Materials\\Water.mat",
   "Mesh": "Assets\\Tiles\\Waters\\Water\\SM_BaseHex_Ground1.mesh",
   "Name": "SM_BaseHex_Ground1",
   "Pivot": [

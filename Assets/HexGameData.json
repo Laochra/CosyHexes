@@ -564,15 +564,15 @@
     "Flowers": [
       {
         "Name": "Everlasting Daisy",
-        "Prefab": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy_Dense.prefab"
+        "Prefab": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy.prefab"
       },
       {
         "Name": "Happy Wanderer",
-        "Prefab": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer_Dense.prefab"
+        "Prefab": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer.prefab"
       },
       {
         "Name": "Prickly Tea Tree",
-        "Prefab": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree_Dense.prefab"
+        "Prefab": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree.prefab"
       }
     ],
     "Lands": [
@@ -597,15 +597,15 @@
     "Trees": [
       {
         "Name": "Fern",
-        "Prefab": "Assets\\Tiles\\Trees\\Fern\\Fern_Dense.prefab"
+        "Prefab": "Assets\\Tiles\\Trees\\Fern\\Fern.prefab"
       },
       {
         "Name": "Eucalyptus",
-        "Prefab": "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus_Medium.prefab"
+        "Prefab": "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus.prefab"
       },
       {
         "Name": "Acacia Blackwood",
-        "Prefab": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Acacia_Light.prefab"
+        "Prefab": "Assets\\Tiles\\Trees\\Acacia Blackwood\\AcaciaBlackwood.prefab"
       }
     ],
     "Waters": [
@@ -619,7 +619,7 @@
       },
       {
         "Name": "Log",
-        "Prefab": "Assets\\Tiles\\Waters\\Reeds\\WaterLog.prefab"
+        "Prefab": "Assets\\Tiles\\Waters\\Log\\WaterLog.prefab"
       }
     ]
   }

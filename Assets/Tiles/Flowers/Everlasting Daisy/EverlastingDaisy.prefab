@@ -4,100 +4,100 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3004643685829227978,
-      "Material": "Assets\\Materials\\LilyPad.mat",
-      "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_BaseHex_Ground1.mesh",
-      "Name": "SM_BaseHex_Ground1",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 18241605411066576858,
-      "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-      "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_Lilypads.mesh",
-      "Name": "SM_Water_Lilypads",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 17024210937742744687,
-      "Material": "Assets\\Materials\\FernWood.mat",
-      "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_CatTails.mesh",
-      "Name": "SM_Water_CatTails",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 5574911133528839572,
+      "GUID": 9774125154427450276,
       "Material": "Assets\\Materials\\Grass.mat",
-      "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\SM_Water_Reeds.mesh",
-      "Name": "SM_Water_Reeds",
+      "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 11692925406164194853,
+      "Material": "Assets\\Materials\\GrassTuft.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_EverlastingsDense_Grass.mesh",
+      "Name": "SM_EverlastingsDense_Grass",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 11999536407800024664,
+      "Material": "Assets\\Materials\\EverlastingDaisy.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_EverlastingsDense_Flowers.mesh",
+      "Name": "SM_EverlastingsDense_Flowers",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 212686126168501212,
+      "Material": "Assets\\Materials\\GrassTuft.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\SM_EverlastingsDense_Stems.mesh",
+      "Name": "SM_EverlastingsDense_Stems",
       "Pivot": [
         0.0,
         0.0,
@@ -122,12 +122,12 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 1904856609462277348,
-  "HexType": 2,
-  "HexVariant": "Lilypad",
+  "GUID": 17296134310611501015,
+  "HexType": 1,
+  "HexVariant": "Everlasting Daisy",
   "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
-  "Name": "LilyPad",
+  "Name": "EverlastingDaisy",
   "Pivot": [
     0.0,
     0.0,

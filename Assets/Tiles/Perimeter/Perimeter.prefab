@@ -4,7 +4,7 @@
   "GUID": 11888109926272918744,
   "HexType": 0,
   "HexVariant": "None",
-  "Material": "Assets\\Tiles\\Perimeter\\Perimeter.mat",
+  "Material": "Assets\\Materials\\White.mat",
   "Mesh": "Hexagon",
   "Name": "Empty",
   "Pivot": [
