@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11070582460909294525,
-      "Material": "Engine\\DefaultAssets\\Default.mat",
+      "GUID": 14682272039006988500,
+      "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Ground.mesh",
       "Name": "SM_HabitatHex_Ground",
       "Pivot": [
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 17327903875383470962,
+      "GUID": 5643369878812220732,
       "Material": "Assets\\Materials\\Grass.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Grass.mesh",
       "Name": "SM_HabitatHex_Grass",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3224483548154583265,
+      "GUID": 11098827018438015887,
       "Material": "Assets\\Materials\\Grass.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_TallGrass.mesh",
       "Name": "SM_HabitatHex_Bee_TallGrass",
@@ -94,8 +94,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 9133399709075474538,
-      "Material": "Assets\\Materials\\Mush.mat",
+      "GUID": 5539841007987536813,
+      "Material": "Assets\\Materials\\EverlastingDaisy.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_Flower.mesh",
       "Name": "SM_HabitatHex_Bee_Flower",
       "Pivot": [
@@ -124,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 17562855674976798221,
+      "GUID": 15516019018389809734,
       "Material": "Assets\\Materials\\FernLeaves.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_Leaves.mesh",
       "Name": "SM_HabitatHex_Bee_Leaves",
@@ -154,7 +154,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16189139975231806010,
+      "GUID": 17023881984583050569,
       "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HabitatHex_Bee_Wood.mesh",
       "Name": "SM_HabitatHex_Bee_Wood",
@@ -182,7 +182,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 6096369004904285534,
+  "GUID": 10975501217428895288,
   "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
   "Name": "Bee",

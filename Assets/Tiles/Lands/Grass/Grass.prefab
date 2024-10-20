@@ -1,11 +1,11 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 9405298503304483056,
+  "GUID": 11464813545839243509,
   "HexType": 3,
   "HexVariant": "Grass",
-  "Material": "Assets\\Tiles\\Lands\\Grass\\Grass.mat",
-  "Mesh": "Hexagon",
+  "Material": "Assets\\Materials\\Grass.mat",
+  "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_BaseHex_Ground.mesh",
   "Name": "GrassHex",
   "Pivot": [
     0.0,

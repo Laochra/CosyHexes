@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 6209475248747769747,
-      "Material": "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.mat",
+      "GUID": 17552095809955933544,
+      "Material": "Assets\\Materials\\MushroomGround.mat",
       "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_BaseHex_Ground.mesh",
       "Name": "SM_BaseHex_Ground",
       "Pivot": [
@@ -33,130 +33,11 @@
     },
     {
       "Active": true,
-      "Children": [
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 3679474612663529593,
-          "Material": "Assets\\Tiles\\Lands\\Mushroom\\White_Mushroom.mat",
-          "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_WhiteMushrooms.mesh",
-          "Name": "SM_GroundForest_WhiteMushrooms",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        },
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 11593008641934998336,
-          "Material": "Assets\\Tiles\\Lands\\Mushroom\\Brown_Mushroom.mat",
-          "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_BrownMushrooms.mesh",
-          "Name": "SM_GroundForest_BrownMushrooms",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        },
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 1552048905745890606,
-          "Material": "Assets\\Tiles\\Lands\\Mushroom\\Log.mat",
-          "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_Log.mesh",
-          "Name": "SM_GroundForest_Log",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        },
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 6951480672929343808,
-          "Material": "Assets\\Tiles\\Lands\\Mushroom\\Black_Mushroom.mat",
-          "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_BlackMushrooms.mesh",
-          "Name": "SM_GroundForest_BlackMushrooms",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        }
-      ],
-      "GUID": 18140498671716325877,
-      "Name": "Empty",
+      "Children": [],
+      "GUID": 9507385839027724195,
+      "Material": "Assets\\Materials\\PaleMushroom.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_WhiteMushrooms.mesh",
+      "Name": "SM_GroundForest_WhiteMushrooms",
       "Pivot": [
         0.0,
         0.0,
@@ -178,14 +59,104 @@
         1.0,
         1.0
       ],
-      "TypeID": 70103550478110
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 16509006191377226413,
+      "Material": "Assets\\Materials\\BrownMushroom.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_BrownMushrooms.mesh",
+      "Name": "SM_GroundForest_BrownMushrooms",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 14197941267778908206,
+      "Material": "Assets\\Materials\\MushroomLog.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_Log.mesh",
+      "Name": "SM_GroundForest_Log",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 17659528710520104154,
+      "Material": "Assets\\Materials\\DarkMushroom.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_GroundForest_BlackMushrooms.mesh",
+      "Name": "SM_GroundForest_BlackMushrooms",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
     }
   ],
-  "GUID": 614175263492416703,
+  "GUID": 13731130326073470108,
   "HexType": 3,
   "HexVariant": "Mushroom",
-  "Material": "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.mat",
-  "Mesh": "Hexagon",
+  "Material": "Engine\\DefaultAssets\\Default.mat",
+  "Mesh": "None",
   "Name": "Mushroom",
   "Pivot": [
     0.0,

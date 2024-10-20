@@ -6,7 +6,7 @@
       "Children": [],
       "GUID": 11416636121267557249,
       "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
-      "Mesh": "Assets\\Meshes\\SM_Mother_Wood.mesh",
+      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Wood.mesh",
       "Name": "SM_Mother_Wood",
       "Pivot": [
         0.0,
@@ -36,7 +36,7 @@
       "Children": [],
       "GUID": 14143989674520876971,
       "Material": "Assets\\Materials\\AcaciaBlackwoodLeaves.mat",
-      "Mesh": "Assets\\Meshes\\SM_Mother_Leaves.mesh",
+      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Leaves.mesh",
       "Name": "SM_Mother_Leaves",
       "Pivot": [
         0.0,

@@ -1,0 +1,153 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 3242032933656331882,
+      "Material": "Assets\\Materials\\Grass.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 17481116111830708485,
+      "Material": "Assets\\Materials\\HappyWanderer.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Dense_Flowers.mesh",
+      "Name": "SM_HappyWanderer_Dense_Flowers",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 15176790268045871000,
+      "Material": "Assets\\Materials\\GrassTuft.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Dense_Stems.mesh",
+      "Name": "SM_HappyWanderer_Dense_Stems",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 776687915653841804,
+      "Material": "Assets\\Materials\\GrassTuft.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Dense_Leaves.mesh",
+      "Name": "SM_HappyWanderer_Dense_Leaves",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 6833038818566750271,
+  "HexType": 1,
+  "HexVariant": "Happy Wanderer",
+  "Material": "Engine\\DefaultAssets\\Default.mat",
+  "Mesh": "None",
+  "Name": "HappyWanderer",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 181025226017607
+}

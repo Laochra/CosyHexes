@@ -1,0 +1,123 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 11557941824000672689,
+      "Material": "Assets\\Materials\\Water.mat",
+      "Mesh": "Assets\\Tiles\\Waters\\Log\\SM_BaseHex_Ground1.mesh",
+      "Name": "SM_BaseHex_Ground1",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 7949775840905199851,
+      "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
+      "Mesh": "Assets\\Tiles\\Waters\\Log\\pCylinder39.mesh",
+      "Name": "Log1",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 15107337310215869204,
+      "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
+      "Mesh": "Assets\\Tiles\\Waters\\Log\\pCylinder40.mesh",
+      "Name": "Log2",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 16347598684774233080,
+  "HexType": 2,
+  "HexVariant": "Log",
+  "Material": "Engine\\DefaultAssets\\Default.mat",
+  "Mesh": "None",
+  "Name": "WaterLog",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 181025226017607
+}
