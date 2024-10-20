@@ -560,6 +560,15 @@
       }
     ]
   },
+  "StickerEvent": {
+    "CloseDelay": 0.75,
+    "EndDelay": 0.0,
+    "ExpandBorderDelay": 0.0,
+    "MoveAmount": 0.3499999940395355,
+    "MoveSpeed": 1.5,
+    "StartDelay": 0.5,
+    "StickerPlaceDelay": 0.5
+  },
   "Tiles": {
     "Flowers": [
       {
