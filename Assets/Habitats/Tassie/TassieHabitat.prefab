@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 13696395414322585766,
+      "GUID": 14354616970822143519,
       "Material": "Assets\\Habitats\\Tassie\\Wood\\Mat_Euca\\EucaWood.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_Euca_Wood.mesh",
       "Name": "SM_Euca_Wood",
@@ -34,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 18320451165026771970,
-      "Material": "Assets\\Habitats\\Tassie\\Foliage\\Mat_Leaves\\Leaves.mat",
+      "GUID": 14409635240248554246,
+      "Material": "Assets\\Habitats\\Tassie\\Foliage\\Mat_LeavesTile\\LeavesTile.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_Euca_Leaves_Body.mesh",
       "Name": "SM_Euca_Leaves_Body",
       "Pivot": [
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 5302884964335575140,
+      "GUID": 8957148633989126008,
       "Material": "Assets\\Habitats\\Tassie\\Foliage\\Mat_Grass\\Grass.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_Grass.mesh",
       "Name": "SM_Grass",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 17190909836116430020,
+      "GUID": 3740159527319591667,
       "Material": "Assets\\Habitats\\Tassie\\Hex\\Mat_HexTop\\HexTop.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_HexTop.mesh",
       "Name": "SM_HexTop",
@@ -124,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 5435572201652830915,
+      "GUID": 13560788311963262,
       "Material": "Assets\\Habitats\\Tassie\\Hex\\Mat_HexGround\\Ground.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_HexBottom.mesh",
       "Name": "SM_HexBottom",
@@ -154,8 +154,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3234371518233949563,
-      "Material": "Assets\\Habitats\\Tassie\\Foliage\\Mat_LeavesTile\\LeavesTile.mat",
+      "GUID": 9604014847682352062,
+      "Material": "Assets\\Habitats\\Tassie\\Foliage\\Mat_Leaves\\Leaves.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_Euca_Leaves_Plane.mesh",
       "Name": "SM_Euca_Leaves_Plane",
       "Pivot": [
@@ -182,7 +182,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 12597763069702052076,
+  "GUID": 7474378160493758968,
   "Name": "Tassie Tiger",
   "Pivot": [
     0.0,
