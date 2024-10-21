@@ -557,6 +557,19 @@
         "Texture": "Assets\\UI\\Scrapbook\\Platypus Habitat\\LogCollected.png",
         "TextureFilter": 0,
         "TextureWrap": false
+      },
+      {
+        "AnchorX": 0.0,
+        "AnchorY": 0.0,
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "Version History ",
+        "OffsetX": 1.6039999723434448,
+        "OffsetY": -0.9079999923706055,
+        "Scale": 0.03999999910593033,
+        "Texture": "Assets\\UI\\Version History Labels\\BETA  0.2.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
       }
     ]
   },
