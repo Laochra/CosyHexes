@@ -32,6 +32,11 @@
   "TessEvaluation": "None",
   "Uniforms": [
     {
+      "Exposed": true,
+      "Name": "AlphaCutoff",
+      "Type": "Float"
+    },
+    {
       "Exposed": false,
       "Name": "CameraPosition",
       "Type": "Float3"

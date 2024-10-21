@@ -8,6 +8,8 @@ in vec2 FragTexCoords;
 uniform sampler2D ColourMap;
 uniform vec3 ColourTint;
 
+uniform float AlphaCutoff;
+
 // Output
 layout (location = 0) out vec4 FragColour;
 layout (location = 1) out vec4 PositionColour;
@@ -16,7 +18,11 @@ layout (location = 2) out vec4 IDColour;
 
 void main() // Fragment
 {
-	vec3 colour = texture(ColourMap, FragTexCoords).rgb * ColourTint;
+	vec4 colourRGBA = texture(ColourMap, FragTexCoords) * vec4(ColourTint, 1.0);
+	vec3 colour = colourRGBA.rgb;
+	float alpha = colourRGBA.a;
+	
+	if (alpha <= AlphaCutoff) discard;
 	
 	FragColour = vec4(colour, 1);
 	
