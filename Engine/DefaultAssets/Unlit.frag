@@ -1,6 +1,7 @@
 #version 460
 
 in vec3 FragPos;
+in vec3 ObjectSpaceFragPos;
 
 in vec2 FragTexCoords;
 
@@ -9,7 +10,8 @@ uniform vec3 ColourTint;
 
 // Output
 layout (location = 0) out vec4 FragColour;
-layout (location = 1) out vec4 BrightColour;
+layout (location = 1) out vec4 PositionColour;
+layout (location = 2) out vec4 IDColour;
 
 
 void main() // Fragment
@@ -18,7 +20,8 @@ void main() // Fragment
 	
 	FragColour = vec4(colour, 1);
 	
-	BrightColour = vec4(0.0);
+	PositionColour = vec4(ObjectSpaceFragPos, 1.0);
+	IDColour = vec4(0.0);
 	
 	// Display Surface Normals
 	//FragColour = vec4(N, 1);

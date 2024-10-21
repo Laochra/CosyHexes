@@ -7,6 +7,7 @@ layout( location = 3) in vec4 BiTangent;
 layout( location = 4) in vec2 TexCoords;
 
 out vec3 FragPos;
+out vec3 ObjectSpaceFragPos;
 
 out vec3 N;
 out mat3 TBN;
@@ -24,6 +25,7 @@ out vec4 FragPosLightSpace[24];
 void main() // Vertex
 {	
 	FragPos = (ModelMatrix * Position).xyz;
+	ObjectSpaceFragPos = Position.xyz;
 	
 	for (int i = 0; i < LightSpaceMatrixCount; i++)
 	{

@@ -1,7 +1,6 @@
 #version 460
 
 uniform sampler2D HDRTexture;
-uniform sampler2D BloomTexture;
 uniform sampler2D GizmosTexture;
 uniform sampler2D UITexture;
 uniform sampler2D CurrentColourBuffer;
@@ -23,10 +22,7 @@ void main() // Fragment
 	
 	vec4 gizmosColour = texture(GizmosTexture, FragTexCoords);
 	FragColour = mix(FragColour, gizmosColour, gizmosColour.w);
-	
-	vec4 bloomColour = texture(BloomTexture, FragTexCoords);
-	FragColour += vec4(bloomColour.xyz * bloomColour.w, bloomColour.w);
-	
+		
 	if (DisplayUI == 1)
 	{
 		vec4 uiColour = texture(UITexture, FragTexCoords);
