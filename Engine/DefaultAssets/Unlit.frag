@@ -1,7 +1,7 @@
 #version 460
 
 in vec3 FragPos;
-in vec3 ObjectPos;
+in vec3 ObjectSpaceFragPos;
 
 in vec2 FragTexCoords;
 
@@ -20,7 +20,7 @@ void main() // Fragment
 	
 	FragColour = vec4(colour, 1);
 	
-	PositionColour = vec4(ObjectPos, 1.0);
+	PositionColour = vec4(ObjectSpaceFragPos, 1.0);
 	IDColour = vec4(0.0);
 	
 	// Display Surface Normals

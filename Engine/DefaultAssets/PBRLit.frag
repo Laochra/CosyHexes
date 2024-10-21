@@ -3,7 +3,7 @@
 #define PI 3.14159265359
 
 in vec3 FragPos;
-in vec3 ObjectPos;
+in vec3 ObjectSpaceFragPos;
 
 in vec3 N;
 in mat3 TBN;
@@ -119,7 +119,7 @@ void main() // Fragment
 		FragColour.xyz /= 6;
 	}
 	
-	PositionColour = vec4(ObjectPos, 1.0);
+	PositionColour = vec4(ObjectSpaceFragPos, 1.0);
 	IDColour = vec4(0.0);
 	
 	// Display Surface Normals
