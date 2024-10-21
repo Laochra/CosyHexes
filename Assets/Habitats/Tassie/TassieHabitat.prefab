@@ -1,0 +1,209 @@
+{
+  "Active": true,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 13696395414322585766,
+      "Material": "Assets\\Habitats\\Tassie\\Wood\\Mat_Euca\\EucaWood.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_Euca_Wood.mesh",
+      "Name": "SM_Euca_Wood",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 18320451165026771970,
+      "Material": "Assets\\Habitats\\Tassie\\Foliage\\Mat_Leaves\\Leaves.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_Euca_Leaves_Body.mesh",
+      "Name": "SM_Euca_Leaves_Body",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 5302884964335575140,
+      "Material": "Assets\\Habitats\\Tassie\\Foliage\\Mat_Grass\\Grass.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_Grass.mesh",
+      "Name": "SM_Grass",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 17190909836116430020,
+      "Material": "Assets\\Habitats\\Tassie\\Hex\\Mat_HexTop\\HexTop.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_HexTop.mesh",
+      "Name": "SM_HexTop",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 5435572201652830915,
+      "Material": "Assets\\Habitats\\Tassie\\Hex\\Mat_HexGround\\Ground.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_HexBottom.mesh",
+      "Name": "SM_HexBottom",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 3234371518233949563,
+      "Material": "Assets\\Habitats\\Tassie\\Foliage\\Mat_LeavesTile\\LeavesTile.mat",
+      "Mesh": "Assets\\Habitats\\Tassie\\SM_Euca_Leaves_Plane.mesh",
+      "Name": "SM_Euca_Leaves_Plane",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 12597763069702052076,
+  "Name": "Tassie Tiger",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 70103550478110
+}
