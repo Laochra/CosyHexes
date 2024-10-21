@@ -261,6 +261,19 @@
     "UISprites": [
       {
         "AnchorX": 0.0,
+        "AnchorY": -1.0,
+        "Enabled": true,
+        "Layer": 10,
+        "Name": "Version History ",
+        "OffsetX": 0.0,
+        "OffsetY": 0.05000000074505806,
+        "Scale": 0.027499999850988388,
+        "Texture": "Assets\\UI\\Version History Labels\\BETA  0.2.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "AnchorX": 0.0,
         "AnchorY": 0.0,
         "Enabled": false,
         "Layer": 1,
@@ -555,19 +568,6 @@
         "OffsetY": -0.15399999916553497,
         "Scale": 0.08100000023841858,
         "Texture": "Assets\\UI\\Scrapbook\\Platypus Habitat\\LogCollected.png",
-        "TextureFilter": 0,
-        "TextureWrap": false
-      },
-      {
-        "AnchorX": 0.0,
-        "AnchorY": 0.0,
-        "Enabled": true,
-        "Layer": 0,
-        "Name": "Version History ",
-        "OffsetX": 1.6039999723434448,
-        "OffsetY": -0.9079999923706055,
-        "Scale": 0.03999999910593033,
-        "Texture": "Assets\\UI\\Version History Labels\\BETA  0.2.png",
         "TextureFilter": 0,
         "TextureWrap": false
       }
