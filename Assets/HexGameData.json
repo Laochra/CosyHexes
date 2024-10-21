@@ -43,7 +43,7 @@
     },
     {
       "Name": "Tassie Tiger",
-      "PrefabFilepath": "Assets\\Habitats\\Tassie\\HabitatTassie.prefab",
+      "PrefabFilepath": "Assets\\Habitats\\Tassie\\TassieHabitat.prefab",
       "RequiredTiles": [
         "Eucalyptus",
         "Eucalyptus",
@@ -79,10 +79,10 @@
     }
   ],
   "Progression": {
-    "HabitatLifeBonus": 3,
+    "HabitatLifeBonus": 40,
     "LifeMilestones": [
       {
-        "LifeRequirement": 30,
+        "LifeRequirement": 40,
         "Names": [
           "Eucalyptus",
           "Happy Wanderer",
@@ -93,7 +93,7 @@
         "Type": 0
       },
       {
-        "LifeRequirement": 80,
+        "LifeRequirement": 280,
         "Names": [
           "Acacia Blackwood",
           "Prickly Tea Tree",
@@ -275,7 +275,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 1,
         "Name": "ScrapBookBGNewTrails",
         "OffsetX": 0.0,
@@ -301,7 +301,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "BeeHabitat",
         "OffsetX": -0.7329999804496765,
@@ -314,7 +314,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "BeeFern",
         "OffsetX": -0.9369999766349792,
@@ -327,7 +327,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "BeeDaisyOne",
         "OffsetX": -0.8809999823570251,
@@ -340,7 +340,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "BeeDaisyTwo",
         "OffsetX": -0.3889999985694885,
@@ -353,7 +353,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "TassieHabitat",
         "OffsetX": 0.7730000019073486,
@@ -366,7 +366,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "TassieEucaOne",
         "OffsetX": 0.42399999499320984,
@@ -379,7 +379,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "TassieEucaTwo",
         "OffsetX": 0.9459999799728394,
@@ -392,7 +392,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "TassieGravel",
         "OffsetX": 0.49300000071525574,
@@ -405,7 +405,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "FrogHabitat",
         "OffsetX": -0.6399999856948853,
@@ -418,7 +418,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "FrogFern",
         "OffsetX": -0.9829999804496765,
@@ -431,7 +431,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "FrogEuca",
         "OffsetX": -0.27799999713897705,
@@ -444,7 +444,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "FrogLilyPad",
         "OffsetX": -0.546999990940094,
@@ -457,7 +457,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "SlugHabitat",
         "OffsetX": 0.6039999723434448,
@@ -470,7 +470,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "SlugEuca",
         "OffsetX": 0.22100000083446503,
@@ -483,7 +483,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "SlugTeaTree",
         "OffsetX": 0.9430000185966492,
@@ -496,7 +496,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "SlugWater",
         "OffsetX": 0.5019999742507935,
@@ -509,7 +509,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "PlatypusHabitat",
         "OffsetX": 0.08699999749660492,
@@ -522,7 +522,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "PlatypusAcacia",
         "OffsetX": -0.017000000923871994,
@@ -535,7 +535,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "PlatypusMushroom",
         "OffsetX": -0.3070000112056732,
@@ -548,13 +548,26 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": true,
+        "Enabled": false,
         "Layer": 0,
         "Name": "PlatypusLog",
         "OffsetX": 0.26499998569488525,
         "OffsetY": -0.15399999916553497,
         "Scale": 0.08100000023841858,
         "Texture": "Assets\\UI\\Scrapbook\\Platypus Habitat\\LogCollected.png",
+        "TextureFilter": 0,
+        "TextureWrap": false
+      },
+      {
+        "AnchorX": 0.0,
+        "AnchorY": 0.0,
+        "Enabled": true,
+        "Layer": 0,
+        "Name": "Version History ",
+        "OffsetX": 1.6039999723434448,
+        "OffsetY": -0.9079999923706055,
+        "Scale": 0.03999999910593033,
+        "Texture": "Assets\\UI\\Version History Labels\\BETA  0.2.png",
         "TextureFilter": 0,
         "TextureWrap": false
       }

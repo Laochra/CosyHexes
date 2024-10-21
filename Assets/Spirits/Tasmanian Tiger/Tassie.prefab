@@ -1,0 +1,30 @@
+{
+  "Active": true,
+  "Children": [],
+  "GUID": 15102014996707228633,
+  "Material": "Assets\\Spirits\\Tasmanian Tiger\\TassieTiger.mat",
+  "Mesh": "Assets\\Spirits\\Tasmanian Tiger\\Tassie.mesh",
+  "Name": "Tassie",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 181025226017607
+}
