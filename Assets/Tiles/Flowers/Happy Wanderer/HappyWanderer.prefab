@@ -4,10 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3242032933656331882,
-      "Material": "Assets\\Materials\\Grass.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_BaseHex_Ground.mesh",
-      "Name": "SM_BaseHex_Ground",
+      "GUID": 10342172212217491052,
+      "Material": "Assets\\Materials\\Foliage_Floral.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Flowers.mesh",
+      "Name": "Flowers",
       "Pivot": [
         0.0,
         0.0,
@@ -34,10 +34,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 17481116111830708485,
-      "Material": "Assets\\Materials\\HappyWanderer.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Dense_Flowers.mesh",
-      "Name": "SM_HappyWanderer_Dense_Flowers",
+      "GUID": 9322712694304045841,
+      "Material": "Assets\\Materials\\TassieHabitatGrass.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Grass.mesh",
+      "Name": "Grass",
       "Pivot": [
         0.0,
         0.0,
@@ -64,10 +64,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 15176790268045871000,
-      "Material": "Assets\\Materials\\GrassTuft.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Dense_Stems.mesh",
-      "Name": "SM_HappyWanderer_Dense_Stems",
+      "GUID": 695240686452543052,
+      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HexBottom.mesh",
+      "Name": "SM_HexBottom",
       "Pivot": [
         0.0,
         0.0,
@@ -94,10 +94,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 776687915653841804,
-      "Material": "Assets\\Materials\\GrassTuft.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HappyWanderer_Dense_Leaves.mesh",
-      "Name": "SM_HappyWanderer_Dense_Leaves",
+      "GUID": 11747022374788749994,
+      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HexTop.mesh",
+      "Name": "SM_HexTop",
       "Pivot": [
         0.0,
         0.0,
@@ -122,12 +122,12 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 6833038818566750271,
+  "GUID": 7812691674158989608,
   "HexType": 1,
   "HexVariant": "Happy Wanderer",
-  "Material": "Engine\\DefaultAssets\\Default.mat",
+  "Material": "Default",
   "Mesh": "None",
-  "Name": "HappyWanderer",
+  "Name": "Empty",
   "Pivot": [
     0.0,
     0.0,
