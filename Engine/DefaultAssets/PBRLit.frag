@@ -3,6 +3,7 @@
 #define PI 3.14159265359
 
 in vec3 FragPos;
+in vec3 ObjectSpaceFragPos;
 
 in vec3 N;
 in mat3 TBN;
@@ -46,11 +47,14 @@ uniform sampler2D RMAOMap; // Roughness, Metallic, Ambient Occlusion
 uniform vec3 EmissionColour;
 uniform float EmissionIntensity;
 
+uniform float AlphaCutoff;
+
 uniform int Selected;
 
 // Output
 layout (location = 0) out vec4 FragColour;
-layout (location = 1) out vec4 BrightColour;
+layout (location = 1) out vec4 PositionColour;
+layout (location = 2) out vec4 IDColour;
 
 float NormalDistribution(vec3 N, vec3 H, float a); // Trowbridge-Reitz GGX Normal Distribution Approximation
 float GeometryGGX(float NdotV, float k); // Schick-GGX Geometry Approximation
@@ -65,13 +69,17 @@ float Remap01(float value, float vMin, float vMax);
 void main() // Fragment
 {	
 	// Material Inputs
-	vec3 colour = texture(ColourMap, FragTexCoords).rgb * ColourTint;
+	vec4 colourRGBA = texture(ColourMap, FragTexCoords) * vec4(ColourTint, 1.0);
+	vec3 colour = colourRGBA.rgb;
+	float alpha = colourRGBA.a;
 	vec3 normal = texture(NormalMap, FragTexCoords).rgb; normal = normalize(TBN * (normal * 2.0 - 1.0));
 	vec4 rmao = texture(RMAOMap, FragTexCoords);
 	float roughness = rmao.r;
 	float metallic = rmao.g;
 	float ao = rmao.b;
 	vec3 emission = rmao.a * EmissionColour * EmissionIntensity;
+	
+	if (alpha <= AlphaCutoff) discard;
 	
 	vec3 viewDirection = normalize(CameraPosition - FragPos);
 	
@@ -117,10 +125,8 @@ void main() // Fragment
 		FragColour.xyz /= 6;
 	}
 	
-	const vec3 brightnessConstant = vec3(0.2126, 0.7152, 0.0722);
-	float brightness = dot(FragColour.rgb, brightnessConstant);
-	
-	BrightColour = vec4(brightness > 1.0 ? vec4(FragColour.xyz, min(brightness - 1.0, 1.0)) : vec4(0.0));
+	PositionColour = vec4(ObjectSpaceFragPos, 1.0);
+	IDColour = vec4(0.0);
 	
 	// Display Surface Normals
 	//FragColour = vec4(N, 1);

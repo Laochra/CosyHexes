@@ -33,6 +33,11 @@
   "Uniforms": [
     {
       "Exposed": true,
+      "Name": "AlphaCutoff",
+      "Type": "Float"
+    },
+	{
+      "Exposed": true,
       "Name": "ColourTint",
       "Type": "Float3"
     },
