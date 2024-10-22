@@ -288,7 +288,7 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": false,
+        "Enabled": true,
         "Layer": 1,
         "Name": "ScrapBookBGNewTrails",
         "OffsetX": 0.0,
@@ -366,12 +366,12 @@
       {
         "AnchorX": 0.0,
         "AnchorY": 0.0,
-        "Enabled": false,
+        "Enabled": true,
         "Layer": 0,
         "Name": "TassieHabitat",
         "OffsetX": 0.7730000019073486,
-        "OffsetY": 0.5960000157356262,
-        "Scale": 0.210999995470047,
+        "OffsetY": 0.6209999918937683,
+        "Scale": 0.1899999976158142,
         "Texture": "Assets\\UI\\Scrapbook\\Tassie Habitat\\TassieHabitatCollected.png",
         "TextureFilter": 0,
         "TextureWrap": false

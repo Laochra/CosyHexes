@@ -4,7 +4,37 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11416636121267557249,
+      "GUID": 16099482573015007626,
+      "Material": "Assets\\Materials\\Grass.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\SM_BaseHex_Ground.mesh",
+      "Name": "SM_BaseHex_Ground",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 5916680182478217697,
       "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Wood.mesh",
       "Name": "SM_Mother_Wood",
@@ -34,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14143989674520876971,
+      "GUID": 517246325405058214,
       "Material": "Assets\\Materials\\AcaciaBlackwoodLeaves.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Leaves.mesh",
       "Name": "SM_Mother_Leaves",
@@ -60,42 +90,12 @@
         1.0
       ],
       "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 15698438506075239818,
-      "Material": "Assets\\Materials\\Grass.mat",
-      "Mesh": "Hexagon",
-      "Name": "MeshRenderer",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        100.0,
-        100.0,
-        100.0
-      ],
-      "TypeID": 181025226017607
     }
   ],
-  "GUID": 3854189648021471335,
+  "GUID": 2835472487557882013,
   "HexType": -3,
-  "HexVariant": "Mothertree",
-  "Material": "Default",
+  "HexVariant": "MotherTree",
+  "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
   "Name": "Mother Tree",
   "Pivot": [
