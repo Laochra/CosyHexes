@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 1346163097296625672,
+      "GUID": 181035024229623197,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\Foliage.mesh",
       "Name": "Foliage",
@@ -19,8 +19,8 @@
         0.0
       ],
       "Rotation": [
-        1.0,
-        0.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16171999336524025531,
+      "GUID": 168101912126036315,
       "Material": "Assets\\Materials\\Water.mat",
       "Mesh": "Assets\\Tiles\\Waters\\LilyPad\\Water.mesh",
       "Name": "Water",
@@ -49,8 +49,8 @@
         0.0
       ],
       "Rotation": [
-        1.0,
-        0.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -62,12 +62,12 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 15296068871657095268,
+  "GUID": 13556053199100482311,
   "HexType": 2,
   "HexVariant": "Lilypad",
   "Material": "Default",
   "Mesh": "None",
-  "Name": "Lilypads",
+  "Name": "Lilypad",
   "Pivot": [
     0.0,
     0.0,
