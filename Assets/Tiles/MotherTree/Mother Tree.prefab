@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11416636121267557249,
+      "GUID": 17710476711855486444,
       "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Wood.mesh",
       "Name": "SM_Mother_Wood",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14143989674520876971,
+      "GUID": 14438287575626223896,
       "Material": "Assets\\Materials\\AcaciaBlackwoodLeaves.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Leaves.mesh",
       "Name": "SM_Mother_Leaves",
@@ -63,11 +63,72 @@
     },
     {
       "Active": true,
-      "Children": [],
-      "GUID": 15698438506075239818,
-      "Material": "Assets\\Materials\\Grass.mat",
-      "Mesh": "Hexagon",
-      "Name": "MeshRenderer",
+      "Children": [
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 15565885887839832443,
+          "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+          "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexBottom.mesh",
+          "Name": "SM_HexBottom",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 1314900650173092511,
+          "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+          "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexTop.mesh",
+          "Name": "SM_HexTop",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        }
+      ],
+      "GUID": 18112305389710985612,
+      "Material": "Engine\\DefaultAssets\\Default.mat",
+      "Mesh": "None",
+      "Name": "Grass",
       "Pivot": [
         0.0,
         0.0,
@@ -92,10 +153,8 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 3854189648021471335,
-  "HexType": -3,
-  "HexVariant": "Mothertree",
-  "Material": "Default",
+  "GUID": 9157093376695987792,
+  "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
   "Name": "Mother Tree",
   "Pivot": [
