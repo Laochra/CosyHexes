@@ -10,6 +10,8 @@ uniform vec3 ColourTint;
 
 uniform float AlphaCutoff;
 
+uniform vec4 ID;
+
 // Output
 layout (location = 0) out vec4 FragColour;
 layout (location = 1) out vec4 PositionColour;
@@ -27,7 +29,7 @@ void main() // Fragment
 	FragColour = vec4(colour, 1);
 	
 	PositionColour = vec4(ObjectSpaceFragPos, 1.0);
-	IDColour = vec4(0.0);
+	IDColour = ID;
 	
 	// Display Surface Normals
 	//FragColour = vec4(N, 1);

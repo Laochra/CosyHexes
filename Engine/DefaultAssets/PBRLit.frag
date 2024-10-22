@@ -49,6 +49,8 @@ uniform float EmissionIntensity;
 
 uniform float AlphaCutoff;
 
+uniform vec4 ID;
+
 uniform int Selected;
 
 // Output
@@ -126,7 +128,7 @@ void main() // Fragment
 	}
 	
 	PositionColour = vec4(ObjectSpaceFragPos, 1.0);
-	IDColour = vec4(0.0);
+	IDColour = ID;
 	
 	// Display Surface Normals
 	//FragColour = vec4(N, 1);
