@@ -1,12 +1,12 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 10436679237703188305,
+  "GUID": 6881785678204366827,
   "HexType": 2,
   "HexVariant": "Water",
   "Material": "Assets\\Materials\\Water.mat",
-  "Mesh": "Assets\\Tiles\\Waters\\Water\\SM_BaseHex_Ground1.mesh",
-  "Name": "SM_BaseHex_Ground1",
+  "Mesh": "Assets\\Tiles\\Waters\\Water\\Water.mesh",
+  "Name": "Water",
   "Pivot": [
     0.0,
     0.0,
