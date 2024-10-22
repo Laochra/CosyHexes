@@ -3,23 +3,32 @@
   "ShaderProgram": "PBRLit",
   "Uniforms": [
     {
-      "Data": "None",
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "AlphaCutoff"
+    },
+    {
+      "Data": "Assets\\Habitats\\Bee\\Tex_Tree_Fern_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
       "Data": [
-        172,
-        171,
-        43,
+        0,
+        0,
+        128,
         63,
-        165,
-        164,
-        164,
-        62,
-        131,
-        130,
-        130,
-        62
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63
       ],
       "Name": "ColourTint"
     },

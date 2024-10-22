@@ -3,23 +3,32 @@
   "ShaderProgram": "PBRLit",
   "Uniforms": [
     {
-      "Data": "None",
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "AlphaCutoff"
+    },
+    {
+      "Data": "Assets\\Habitats\\Bee\\Tex_Leaves_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
       "Data": [
-        142,
-        141,
-        13,
+        0,
+        0,
+        128,
         63,
-        212,
-        211,
-        83,
+        0,
+        0,
+        128,
         63,
-        215,
-        214,
-        214,
-        62
+        0,
+        0,
+        128,
+        63
       ],
       "Name": "ColourTint"
     },
@@ -50,7 +59,7 @@
       "Name": "EmissionIntensity"
     },
     {
-      "Data": "None",
+      "Data": "Assets\\Habitats\\Bee\\Tex_Leaves_Normal.tga",
       "Name": "NormalMap"
     },
     {

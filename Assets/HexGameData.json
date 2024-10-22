@@ -26,7 +26,7 @@
   },
   "Camera": {
     "MaxZoom": 12.0,
-    "MinZoom": 4.0,
+    "MinZoom": 3.0,
     "OffsetY": 0.6800000071525574,
     "OffsetZ": 0.7332121133804321,
     "StartZoom": 8.0
