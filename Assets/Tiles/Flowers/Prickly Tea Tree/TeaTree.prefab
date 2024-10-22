@@ -4,10 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 4698745603552341923,
-      "Material": "Assets\\Materials\\Grass.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_BaseHex_Ground.mesh",
-      "Name": "SM_BaseHex_Ground",
+      "GUID": 7636771810133067586,
+      "Material": "Assets\\Materials\\Foliage_Floral.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Foliage.mesh",
+      "Name": "Foliage",
       "Pivot": [
         0.0,
         0.0,
@@ -34,10 +34,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12502832917910849186,
-      "Material": "Assets\\Materials\\Prickly Tea Tree.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree3.mesh",
-      "Name": "TeaTree3",
+      "GUID": 1367275390622500239,
+      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_HexBottom.mesh",
+      "Name": "SM_HexBottom",
       "Pivot": [
         0.0,
         0.0,
@@ -64,40 +64,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 4551993289577162179,
-      "Material": "Assets\\Materials\\Prickly Tea Tree.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree4.mesh",
-      "Name": "TeaTree4",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 17576664966992738825,
-      "Material": "Assets\\Materials\\Prickly Tea Tree.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree5.mesh",
-      "Name": "TeaTree5",
+      "GUID": 13820960373569081756,
+      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_HexTop.mesh",
+      "Name": "SM_HexTop",
       "Pivot": [
         0.0,
         0.0,
@@ -122,12 +92,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 1060917328708065019,
-  "HexType": 1,
-  "HexVariant": "Prickly Tea Tree",
-  "Material": "Engine\\DefaultAssets\\Default.mat",
+  "GUID": 9487084575810260077,
+  "Material": "Default",
   "Mesh": "None",
-  "Name": "PricklyTeaTree",
+  "Name": "TeaTree",
   "Pivot": [
     0.0,
     0.0,
