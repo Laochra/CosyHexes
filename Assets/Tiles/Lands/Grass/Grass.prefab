@@ -1,12 +1,73 @@
 {
   "Active": true,
-  "Children": [],
-  "GUID": 11464813545839243509,
+  "Children": [
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 12689413733489586846,
+      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexBottom.mesh",
+      "Name": "SM_HexBottom",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 456385331573377710,
+      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexTop.mesh",
+      "Name": "SM_HexTop",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    }
+  ],
+  "GUID": 17258649975771362324,
   "HexType": 3,
   "HexVariant": "Grass",
-  "Material": "Assets\\Materials\\Grass.mat",
-  "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_BaseHex_Ground.mesh",
-  "Name": "GrassHex",
+  "Material": "Default",
+  "Mesh": "None",
+  "Name": "Grass",
   "Pivot": [
     0.0,
     0.0,
