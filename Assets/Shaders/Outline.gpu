@@ -1,0 +1,36 @@
+{
+  "Attributes": [
+    {
+      "Exposed": false,
+      "Name": "Position",
+      "Type": "Float4"
+    },
+    {
+      "Exposed": false,
+      "Name": "TexCoords",
+      "Type": "Float2"
+    }
+  ],
+  "Fragment": "Assets\\Shaders\\Outline.frag",
+  "Geometry": "None",
+  "TessControl": "None",
+  "TessEvaluation": "None",
+  "Uniforms": [
+    {
+      "Exposed": false,
+      "Name": "ColourMap",
+      "Type": "Texture"
+    },
+    {
+      "Exposed": false,
+      "Name": "IDMap",
+      "Type": "Texture"
+    },
+    {
+      "Exposed": false,
+      "Name": "PositionMap",
+      "Type": "Texture"
+    }
+  ],
+  "Vertex": "Engine\\DefaultAssets\\FullScreenQuad.vert"
+}
