@@ -53,6 +53,8 @@ uniform vec4 ID;
 
 uniform int Selected;
 
+uniform vec4 HighlightColour;
+
 // Output
 layout (location = 0) out vec4 FragColour;
 layout (location = 1) out vec4 PositionColour;
@@ -122,10 +124,16 @@ void main() // Fragment
 	
 	if (Selected == 1)
 	{
-		FragColour.xyz *= 5;
-		FragColour.xyz += vec3(0.7, 0.3, 1) * min((1 / abs(dot(viewDirection, normal))), 10);
-		FragColour.xyz /= 6;
+		FragColour.rgb *= 5;
+		FragColour.rgb += vec3(0.7, 0.3, 1) * min((1 / abs(dot(viewDirection, normal))), 10);
+		FragColour.rgb /= 6;
 	}
+	
+	const float exponent = 3;
+	const float intensity = 0.5;
+	float highlightAmount = pow(1.0 - abs(dot(viewDirection, normal)), exponent) * intensity;
+	FragColour.rgb += FragColour.rgb * HighlightColour.rgb * HighlightColour.a * highlightAmount;
+	
 	
 	PositionColour = vec4(ObjectSpaceFragPos, 1.0);
 	IDColour = ID;
