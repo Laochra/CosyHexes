@@ -78,6 +78,14 @@
       ]
     }
   ],
+  "Misc Colours": {
+    "Highlight": [
+      25.0,
+      25.0,
+      25.0,
+      1.0
+    ]
+  },
   "Progression": {
     "HabitatLifeBonus": 40,
     "LifeMilestones": [
