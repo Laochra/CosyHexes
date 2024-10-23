@@ -573,6 +573,28 @@
       }
     ]
   },
+  "Spirits": [
+    {
+      "Name": "Bee",
+      "Prefab": "Assets\\Spirits\\Bee\\Bee.prefab"
+    },
+    {
+      "Name": "Tassie Tiger",
+      "Prefab": "Assets\\Spirits\\Tasmanian Tiger\\Tassie.prefab"
+    },
+    {
+      "Name": "Frog",
+      "Prefab": "Assets\\Spirits\\Frog\\Frog.prefab"
+    },
+    {
+      "Name": "Slug",
+      "Prefab": "Assets\\Spirits\\Slug\\Slug.prefab"
+    },
+    {
+      "Name": "Platypus",
+      "Prefab": "Assets\\Spirits\\Platypus\\Platypus.prefab"
+    }
+  ],
   "StickerEvent": {
     "CloseDelay": 0.75,
     "EndDelay": 0.0,
