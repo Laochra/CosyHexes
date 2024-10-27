@@ -1,0 +1,30 @@
+{
+  "Active": true,
+  "Children": [],
+  "GUID": 10152543737297031603,
+  "Material": "Assets\\Materials\\Background.mat",
+  "Mesh": "Hexagon",
+  "Name": "Background",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    -0.30000001192092896,
+    0.0
+  ],
+  "Rotation": [
+    0.9659258127212524,
+    0.0,
+    0.258819043636322,
+    0.0
+  ],
+  "Scale": [
+    100.0,
+    100.0,
+    100.0
+  ],
+  "TypeID": 181025226017607
+}

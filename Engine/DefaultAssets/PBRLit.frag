@@ -55,6 +55,12 @@ uniform int Selected;
 
 uniform vec4 HighlightColour;
 
+#define HEX_GRID_RADIUS 14
+uniform sampler2D FogMap;
+uniform vec3 FogColour;
+uniform float FogRadius;
+uniform float FogGradientRange;
+
 // Output
 layout (location = 0) out vec4 FragColour;
 layout (location = 1) out vec4 PositionColour;
@@ -69,6 +75,8 @@ vec3 ReflectanceEquation(vec3 colour, vec3 normal, float roughness, float metall
 float ShadowCalculation(int lightObjectIndex, vec3 lightDirection);
 
 float Remap01(float value, float vMin, float vMax);
+float Remap(float value, float min1, float max1, float min2, float max2);
+double RemapD(double value, double min1, double max1, double min2, double max2);
 
 void main() // Fragment
 {	
@@ -82,6 +90,12 @@ void main() // Fragment
 	float metallic = rmao.g;
 	float ao = rmao.b;
 	vec3 emission = rmao.a * EmissionColour * EmissionIntensity;
+	
+	float fogSideLength = textureSize(FogMap, 0).x;
+	float hexSize = fogSideLength / (HEX_GRID_RADIUS * 2 + 1);
+	vec2 fogCoord = (vec2(fogSideLength * 0.5) + FragPos.xz * vec2(hexSize)) / fogSideLength;
+	vec2 fogData = texture(FogMap, fogCoord, 0).rg;
+	double fogValue = fogData.r * 10.0 + fogData.g;
 	
 	if (alpha <= AlphaCutoff) discard;
 	
@@ -137,6 +151,13 @@ void main() // Fragment
 	
 	PositionColour = vec4(ObjectSpaceFragPos, 1.0);
 	IDColour = ID;
+	
+	
+	double inner = FogRadius - FogGradientRange;
+	double outer = FogRadius;
+	double fogFactor = RemapD(clamp(fogValue, inner, outer), inner, outer, 0, 1);
+	
+	FragColour.rgb = vec3(mix(FragColour.rgb, FogColour, fogFactor));
 	
 	// Display Surface Normals
 	//FragColour = vec4(N, 1);
@@ -278,4 +299,12 @@ float ShadowCalculation(int lightObjectIndex, vec3 lightDirection)
 float Remap01(float value, float vMin, float vMax)
 {
 	return (value - vMin) / (vMax - vMin);
+}
+float Remap(float value, float min1, float max1, float min2, float max2)
+{
+  return min2 + (value - min1) * (max2 - min2) / (max1 - min1);
+}
+double RemapD(double value, double min1, double max1, double min2, double max2)
+{
+  return min2 + (value - min1) * (max2 - min2) / (max1 - min1);
 }
