@@ -10,12 +10,12 @@ uniform vec3 ColourTint;
 
 uniform float AlphaCutoff;
 
-uniform ivec2 ID;
+uniform uvec2 ID;
 
 // Output
 layout (location = 0) out vec4 FragColour;
 layout (location = 1) out vec4 PositionColour;
-layout (location = 2) out ivec2 IDColour;
+layout (location = 2) out uvec2 IDColour;
 
 
 void main() // Fragment
