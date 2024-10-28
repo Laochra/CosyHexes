@@ -4,37 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11557941824000672689,
-      "Material": "Assets\\Materials\\Water.mat",
-      "Mesh": "Assets\\Tiles\\Waters\\Log\\SM_BaseHex_Ground1.mesh",
-      "Name": "SM_BaseHex_Ground1",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 7949775840905199851,
+      "GUID": 1988928098290224628,
       "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
       "Mesh": "Assets\\Tiles\\Waters\\Log\\pCylinder39.mesh",
       "Name": "Log1",
@@ -45,7 +15,37 @@
       ],
       "Position": [
         0.0,
+        0.09404460340738297,
+        0.0
+      ],
+      "Rotation": [
+        0.9717381000518799,
         0.0,
+        0.0,
+        0.23606157302856445
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 14079390012649945865,
+      "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
+      "Mesh": "Assets\\Tiles\\Waters\\Log\\pCylinder40.mesh",
+      "Name": "Log2",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.09363175183534622,
         0.0
       ],
       "Rotation": [
@@ -64,10 +64,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 15107337310215869204,
-      "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
-      "Mesh": "Assets\\Tiles\\Waters\\Log\\pCylinder40.mesh",
-      "Name": "Log2",
+      "GUID": 14659375972156772334,
+      "Material": "Assets\\Materials\\Water.mat",
+      "Mesh": "Assets\\Tiles\\NewWaterHex.mesh",
+      "Name": "NewWaterHex",
       "Pivot": [
         0.0,
         0.0,
@@ -92,7 +92,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 16347598684774233080,
+  "GUID": 17823482586351598455,
   "HexType": 2,
   "HexVariant": "Log",
   "Material": "Engine\\DefaultAssets\\Default.mat",

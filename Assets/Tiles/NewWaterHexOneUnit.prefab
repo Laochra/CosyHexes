@@ -1,0 +1,30 @@
+{
+  "Active": true,
+  "Children": [],
+  "GUID": 2905719191751413259,
+  "Material": "Assets\\Materials\\Water.mat",
+  "Mesh": "Assets\\Tiles\\NewWaterHex.mesh",
+  "Name": "NewWaterHex",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 181025226017607
+}
