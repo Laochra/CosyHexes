@@ -623,29 +623,35 @@
     "Flowers": [
       {
         "Name": "Everlasting Daisy",
-        "Prefab": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy.prefab"
+        "Prefab": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Flower\\Daisy.png"
       },
       {
         "Name": "Happy Wanderer",
-        "Prefab": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer.prefab"
+        "Prefab": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Flower\\Happy Wanderer.png"
       },
       {
         "Name": "Prickly Tea Tree",
-        "Prefab": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree.prefab"
+        "Prefab": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Flower\\Prickly Tea Tree.png"
       }
     ],
     "Lands": [
       {
         "Name": "Grass",
-        "Prefab": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab"
+        "Prefab": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Grass.png"
       },
       {
         "Name": "Red Gravel",
-        "Prefab": "Assets\\Tiles\\Lands\\RedGravel\\RedGravel.prefab"
+        "Prefab": "Assets\\Tiles\\Lands\\RedGravel\\RedGravel.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Gravel Collected.png"
       },
       {
         "Name": "Mushroom",
-        "Prefab": "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.prefab"
+        "Prefab": "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Mushroom.png"
       }
     ],
     "Required": {
@@ -656,29 +662,35 @@
     "Trees": [
       {
         "Name": "Fern",
-        "Prefab": "Assets\\Tiles\\Trees\\Fern\\Fern.prefab"
+        "Prefab": "Assets\\Tiles\\Trees\\Fern\\Fern.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Tree\\NewFern.png"
       },
       {
         "Name": "Eucalyptus",
-        "Prefab": "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus.prefab"
+        "Prefab": "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Tree\\NewEuca.png"
       },
       {
         "Name": "Acacia Blackwood",
-        "Prefab": "Assets\\Tiles\\Trees\\Acacia Blackwood\\AcaciaBlackwood.prefab"
+        "Prefab": "Assets\\Tiles\\Trees\\Acacia Blackwood\\AcaciaBlackwood.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Tree\\NewAcacia.png"
       }
     ],
     "Waters": [
       {
         "Name": "Water",
-        "Prefab": "Assets\\Tiles\\Waters\\Water\\Water.prefab"
+        "Prefab": "Assets\\Tiles\\Waters\\Water\\Water.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Water\\Water.png"
       },
       {
         "Name": "Lilypad",
-        "Prefab": "Assets\\Tiles\\Waters\\Lilypad\\LilyPad.prefab"
+        "Prefab": "Assets\\Tiles\\Waters\\Lilypad\\LilyPad.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Water\\LilyPad.png"
       },
       {
         "Name": "Log",
-        "Prefab": "Assets\\Tiles\\Waters\\Log\\WaterLog.prefab"
+        "Prefab": "Assets\\Tiles\\Waters\\Log\\WaterLog.prefab",
+        "Sprite": "Assets\\UI\\Tile Concepts\\Water\\Log.png"
       }
     ]
   }
