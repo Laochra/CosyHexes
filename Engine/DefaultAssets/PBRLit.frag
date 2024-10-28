@@ -49,7 +49,7 @@ uniform float EmissionIntensity;
 
 uniform float AlphaCutoff;
 
-uniform vec4 ID;
+uniform uvec2 ID;
 
 uniform int Selected;
 
@@ -64,7 +64,7 @@ uniform float FogGradientRange;
 // Output
 layout (location = 0) out vec4 FragColour;
 layout (location = 1) out vec4 PositionColour;
-layout (location = 2) out vec4 IDColour;
+layout (location = 2) out uvec2 IDColour;
 
 float NormalDistribution(vec3 N, vec3 H, float a); // Trowbridge-Reitz GGX Normal Distribution Approximation
 float GeometryGGX(float NdotV, float k); // Schick-GGX Geometry Approximation
