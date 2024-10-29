@@ -391,7 +391,7 @@
       "OffsetX": 0.0,
       "OffsetY": 0.05000000074505806,
       "Scale": 0.027499999850988388,
-      "Texture": "None",
+      "Texture": "Assets\\UI\\Version History Labels\\BETA  1.0.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -417,7 +417,7 @@
       "OffsetX": 0.0,
       "OffsetY": 0.03400000184774399,
       "Scale": 0.9100000262260437,
-      "Texture": "None",
+      "Texture": "Assets\\UI\\Scrapbook\\ScrapBookBackground.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -430,7 +430,7 @@
       "OffsetX": 0.0,
       "OffsetY": 0.03400000184774399,
       "Scale": 0.9100000262260437,
-      "Texture": "None",
+      "Texture": "Assets\\UI\\Scrapbook\\ScrapbookBackground(NewTrails).png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -443,7 +443,7 @@
       "OffsetX": -0.1289999932050705,
       "OffsetY": -0.1469999998807907,
       "Scale": 0.13500000536441803,
-      "Texture": "None",
+      "Texture": "Assets\\UI\\Scrapbook\\Icon.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
