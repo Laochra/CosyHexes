@@ -4,10 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3984509081022312764,
-      "Material": "Assets\\Materials\\FernWood.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Ground.mesh",
-      "Name": "SM_HabitatHex_Slug_Ground",
+      "GUID": 17773263491246216506,
+      "Material": "Default",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HexBottom_Habitat.mesh",
+      "Name": "SM_HexBottom_Habitat",
       "Pivot": [
         0.0,
         0.0,
@@ -34,10 +34,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11855022953865688114,
-      "Material": "Assets\\Materials\\Grass.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Grass.mesh",
-      "Name": "SM_HabitatHex_Slug_Grass",
+      "GUID": 1358069486587164367,
+      "Material": "Default",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_Grass_Habitat.mesh",
+      "Name": "SM_Grass_Habitat",
       "Pivot": [
         0.0,
         0.0,
@@ -64,10 +64,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 13165934286156848381,
-      "Material": "Assets\\Materials\\Water.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Water.mesh",
-      "Name": "SM_HabitatHex_Slug_Water",
+      "GUID": 17437610167080607305,
+      "Material": "Default",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_Hex_Water_Habitat.mesh",
+      "Name": "SM_Hex_Water_Habitat",
       "Pivot": [
         0.0,
         0.0,
@@ -94,10 +94,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3975844208757143800,
-      "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_TallGrass.mesh",
-      "Name": "SM_HabitatHex_Slug_TallGrass",
+      "GUID": 9773850584530638102,
+      "Material": "Default",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HexTop_Habitat.mesh",
+      "Name": "SM_HexTop_Habitat",
       "Pivot": [
         0.0,
         0.0,
@@ -124,10 +124,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 13878239662490656841,
-      "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Leaves.mesh",
-      "Name": "SM_HabitatHex_Slug_Leaves",
+      "GUID": 5611930463957738740,
+      "Material": "Default",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_Wood_Euca.mesh",
+      "Name": "SM_Wood_Euca",
       "Pivot": [
         0.0,
         0.0,
@@ -154,10 +154,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8576881793878876489,
-      "Material": "Assets\\Materials\\Prickly Tea Tree.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Bush.mesh",
-      "Name": "SM_HabitatHex_Slug_Bush",
+      "GUID": 13780621385547709990,
+      "Material": "Default",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_Leaves_Euca_Inner.mesh",
+      "Name": "SM_Leaves_Euca_Inner",
       "Pivot": [
         0.0,
         0.0,
@@ -184,10 +184,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 781832073767403250,
-      "Material": "Assets\\Materials\\FernWood.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_BushWood.mesh",
-      "Name": "SM_HabitatHex_Slug_BushWood",
+      "GUID": 4417568756757151897,
+      "Material": "Default",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_Grass_Tall.mesh",
+      "Name": "SM_Grass_Tall",
       "Pivot": [
         0.0,
         0.0,
@@ -214,10 +214,40 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 6537333178514080031,
-      "Material": "Assets\\Materials\\EucalyptusWood.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_HabitatHex_Slug_Wood.mesh",
-      "Name": "SM_HabitatHex_Slug_Wood",
+      "GUID": 17694408137346076118,
+      "Material": "Default",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_Prickly.mesh",
+      "Name": "SM_Prickly",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 3758743305150527981,
+      "Material": "Default",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_Leaves_Euca_Outer.mesh",
+      "Name": "SM_Leaves_Euca_Outer",
       "Pivot": [
         0.0,
         0.0,
@@ -242,9 +272,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 6869363306275104942,
-  "Material": "Engine\\DefaultAssets\\Default.mat",
-  "Mesh": "None",
+  "GUID": 8610221931519721400,
   "Name": "Slug",
   "Pivot": [
     0.0,
@@ -267,5 +295,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 70103550478110
 }
