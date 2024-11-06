@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 5582686984839887383,
-      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "GUID": 10829852438545054370,
+      "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Hex_bottom.mesh",
       "Name": "Hex_bottom",
       "Pivot": [
@@ -34,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 4026872715525269175,
-      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "GUID": 552179972460107713,
+      "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Hex_top.mesh",
       "Name": "Hex_top",
       "Pivot": [
@@ -64,8 +64,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10737344998001387993,
-      "Material": "Assets\\Materials\\TassieHabitatLeavesTile.mat",
+      "GUID": 312451150456950257,
+      "Material": "Assets\\Materials\\LeavesTile.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Leaves_tiling.mesh",
       "Name": "Leaves_tiling",
       "Pivot": [
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 5169933416245086284,
+      "GUID": 14898777904326680550,
       "Material": "Assets\\Materials\\Tiles_Wood.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Trunk.mesh",
       "Name": "Trunk",
@@ -124,8 +124,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8717763748676427179,
-      "Material": "Assets\\Materials\\TassieHabitatLeaves.mat",
+      "GUID": 504506070471999445,
+      "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\leaves_alpha.mesh",
       "Name": "leaves_alpha",
       "Pivot": [
@@ -152,7 +152,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 3766969057823411061,
+  "GUID": 9490970224483564625,
   "HexType": 0,
   "HexVariant": "Eucalyptus",
   "Name": "Empty",

@@ -1,0 +1,61 @@
+{
+  "Attributes": [],
+  "ShaderProgram": "PBRLit",
+  "Uniforms": [
+    {
+      "Data": "Assets\\Textures\\Mat_Grass_BaseColor.tga",
+      "Name": "ColourMap"
+    },
+    {
+      "Data": [
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63
+      ],
+      "Name": "ColourTint"
+    },
+    {
+      "Data": [
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63
+      ],
+      "Name": "EmissionColour"
+    },
+    {
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "EmissionIntensity"
+    },
+    {
+      "Data": "Assets\\Textures\\Mat_Grass_Normal.tga",
+      "Name": "NormalMap"
+    },
+    {
+      "Data": "None",
+      "Name": "RMAOMap"
+    }
+  ]
+}

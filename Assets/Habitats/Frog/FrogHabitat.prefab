@@ -7,10 +7,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 2953992249198825627,
-          "Material": "Assets\\Materials\\FernWood.mat",
-          "Mesh": "Assets\\Habitats\\Frog\\GrassLower.mesh",
-          "Name": "GrassLower",
+          "GUID": 7837262595203649034,
+          "Material": "Assets\\Materials\\Leaves.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_Fern.mesh",
+          "Name": "SM_Fern",
           "Pivot": [
             0.0,
             0.0,
@@ -37,10 +37,10 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 923677229988493961,
-          "Material": "Assets\\Materials\\Grass.mat",
-          "Mesh": "Assets\\Habitats\\Frog\\GrassUpper.mesh",
-          "Name": "GrassUpper",
+          "GUID": 15881827840711617574,
+          "Material": "Assets\\Materials\\HexGrass.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_Grass_Tall.mesh",
+          "Name": "SM_Grass_Tall",
           "Pivot": [
             0.0,
             0.0,
@@ -67,486 +67,130 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 757700293725101042,
-          "Material": "Assets\\Materials\\Water.mat",
-          "Mesh": "Assets\\Habitats\\Frog\\Water.mesh",
-          "Name": "Water",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        }
-      ],
-      "GUID": 17580165259721544812,
-      "Name": "Bases",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 70103550478110
-    },
-    {
-      "Active": true,
-      "Children": [
-        {
-          "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 9582068396635874173,
-              "Material": "Assets\\Materials\\EucalyptusWood.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree1Trunk.mesh",
-              "Name": "Tree1Trunk",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 8248330077246475291,
-              "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree1Foliage1.mesh",
-              "Name": "Tree1Foliage1",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 2573414538527546712,
-              "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree1Foliage2.mesh",
-              "Name": "Tree1Foliage2",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 4713785482928204701,
-          "Name": "Tree1",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 70103550478110
-        },
-        {
-          "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 4573899821060628713,
-              "Material": "Assets\\Materials\\EucalyptusWood.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree2Trunk.mesh",
-              "Name": "Tree2Trunk",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 7800869420191241230,
-              "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree2Foliage1.mesh",
-              "Name": "Tree2Foliage1",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 7889437979988411731,
-              "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree2Foliage2.mesh",
-              "Name": "Tree2Foliage2",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 17166177522116676566,
-          "Name": "Tree2",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 70103550478110
-        },
-        {
-          "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 8694661306446721599,
-              "Material": "Assets\\Materials\\EucalyptusWood.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree3Trunk.mesh",
-              "Name": "Tree3Trunk",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 12996222294018443420,
-              "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree3Foliage1.mesh",
-              "Name": "Tree3Foliage1",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 15781698172345185841,
-              "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree3Foliage2.mesh",
-              "Name": "Tree3Foliage2",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 16386812692016409026,
-              "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree3Foliage3.mesh",
-              "Name": "Tree3Foliage3",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 4775162665018767945,
-              "Material": "Assets\\Materials\\EucalyptusLeaves.mat",
-              "Mesh": "Assets\\Habitats\\Frog\\Tree3Foliage4.mesh",
-              "Name": "Tree3Foliage4",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 14599326464051700579,
-          "Name": "Tree3",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 70103550478110
-        },
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 12368923296832382113,
+          "GUID": 11217268818254494679,
           "Material": "Assets\\Materials\\EucalyptusWood.mat",
-          "Mesh": "Assets\\Habitats\\Frog\\FallenLog.mesh",
-          "Name": "FallenLog",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_Wood_Euca.mesh",
+          "Name": "SM_Wood_Euca",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 2867737711411793874,
+          "Material": "Assets\\Materials\\Water.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_Hex_Water_Habitat.mesh",
+          "Name": "SM_Hex_Water_Habitat",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 11688288537585833867,
+          "Material": "Assets\\Materials\\HexBottom.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_HexBottom_Habitat.mesh",
+          "Name": "SM_HexBottom_Habitat",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 5194090599327738295,
+          "Material": "Assets\\Materials\\HexTop.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_HexTop_Habitat.mesh",
+          "Name": "SM_HexTop_Habitat",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 15824436539897088655,
+          "Material": "Assets\\Materials\\HexGrass.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_Grass_Habitat.mesh",
+          "Name": "SM_Grass_Habitat",
           "Pivot": [
             0.0,
             0.0,
@@ -571,8 +215,8 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 12965197448109454788,
-      "Name": "Trees",
+      "GUID": 15666826681763179796,
+      "Name": "Empty",
       "Pivot": [
         0.0,
         0.0,
@@ -598,846 +242,11 @@
     },
     {
       "Active": true,
-      "Children": [
-        {
-          "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 10529347618947764311,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern1Leaf1",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 84666481840380587,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern1Leaf2",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 7756811905775535183,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern1Leaf3",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 2354718634945151621,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern1Leaf4",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 15274138944015032174,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern1Leaf5",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 15343081071218386113,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern1Leaf6",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 15726503335290898790,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern1Leaf7",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 6660122390354179735,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern1Leaf8",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 13907390747952576796,
-          "Name": "Fern1",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 70103550478110
-        },
-        {
-          "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 3092795068392976453,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern2Leaf1",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 12169924847081460842,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern2Leaf2",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 9951245394211328276,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern2Leaf3",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 8841301972829898343,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern2Leaf4",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 1757377695097331624,
-          "Name": "Fern2",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 70103550478110
-        },
-        {
-          "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 3196885603425959400,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern3Leaf1",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 12164998560629605339,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern3Leaf2",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 17258274825746214401,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern3Leaf3",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 18217316728822626513,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern3Leaf4",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 9569276142399639391,
-          "Name": "Fern3",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 70103550478110
-        },
-        {
-          "Active": true,
-          "Children": [
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 4123639242060306378,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern4Leaf1",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 1248364682779999440,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern4Leaf2",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 3132105591016063499,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern4Leaf3",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 4752528482387600997,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern4Leaf4",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 8247519676975068198,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern4Leaf5",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 9410835003614025649,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern4Leaf6",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 2908865462143478172,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern4Leaf7",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            },
-            {
-              "Active": true,
-              "Children": [],
-              "GUID": 14102312005731257932,
-              "Material": "Assets\\Materials\\FernLeaves.mat",
-              "Mesh": "Cube",
-              "Name": "Fern4Leaf8",
-              "Pivot": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Position": [
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Rotation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0
-              ],
-              "Scale": [
-                1.0,
-                1.0,
-                1.0
-              ],
-              "TypeID": 181025226017607
-            }
-          ],
-          "GUID": 18177076276458460689,
-          "Name": "Fern4",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 70103550478110
-        }
-      ],
-      "GUID": 8685998355947371341,
-      "Name": "Ferns",
+      "Children": [],
+      "GUID": 15995163368762292734,
+      "Material": "Assets\\Materials\\Leaves.mat",
+      "Mesh": "Assets\\Habitats\\Frog\\SM_Leaves149.mesh",
+      "Name": "SM_Leaves149",
       "Pivot": [
         0.0,
         0.0,
@@ -1459,17 +268,75 @@
         1.0,
         1.0
       ],
-      "TypeID": 70103550478110
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 12499678605668295291,
+      "Material": "Assets\\Materials\\LeavesTile.mat",
+      "Mesh": "Assets\\Habitats\\Frog\\pCube15.mesh",
+      "Name": "pCube15",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 10978597643593499530,
+      "Material": "Assets\\Materials\\Foliage_Floral.mat",
+      "Mesh": "Assets\\Habitats\\Frog\\polySurface15.mesh",
+      "Name": "polySurface15",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
     }
   ],
-  "GUID": 4075910739836409365,
-  "Material": "Engine\\DefaultAssets\\Default.mat",
-  "Mesh": "None",
+  "GUID": 13386907484778015085,
   "Name": "Frog",
   "Pivot": [
-    50.0,
     0.0,
-    29.0
+    0.0,
+    0.0
   ],
   "Position": [
     0.0,
@@ -1483,9 +350,9 @@
     0.0
   ],
   "Scale": [
-    0.009999999776482582,
-    0.009999999776482582,
-    0.009999999776482582
+    1.0,
+    1.0,
+    1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 70103550478110
 }

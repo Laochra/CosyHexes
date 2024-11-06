@@ -3,7 +3,7 @@
   "ShaderProgram": "PBRLit",
   "Uniforms": [
     {
-      "Data": "None",
+      "Data": "Assets\\Textures\\Tex_Tree_Euca_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
@@ -12,13 +12,13 @@
         0,
         128,
         63,
-        2,
-        195,
-        115,
+        0,
+        0,
+        128,
         63,
-        12,
-        221,
-        49,
+        0,
+        0,
+        128,
         63
       ],
       "Name": "ColourTint"

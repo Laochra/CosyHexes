@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11491237975308413669,
+      "GUID": 1770678310412562880,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Foliage.mesh",
       "Name": "Foliage",
@@ -34,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 4245007839369294909,
-      "Material": "Assets\\Materials\\MushroomGround.mat",
+      "GUID": 5307810755552270100,
+      "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Dirt.mesh",
       "Name": "Dirt",
       "Pivot": [
@@ -64,8 +64,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 15935532171496402105,
-      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "GUID": 3949008250539542381,
+      "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Grass.mesh",
       "Name": "Grass",
       "Pivot": [
@@ -92,7 +92,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 7253041932259622355,
+  "GUID": 3391294149048381604,
   "HexType": 1,
   "HexVariant": "Everlasting Daisy",
   "Material": "Engine\\DefaultAssets\\Default.mat",

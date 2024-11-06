@@ -1,8 +1,8 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 13095281100610771186,
-  "Material": "Assets\\Spirits\\Slug\\Slug.mat",
+  "GUID": 6224011404848898995,
+  "Material": "Assets\\Materials\\SpiritMaterials\\Slug.mat",
   "Mesh": "Assets\\Spirits\\Slug\\Slug.mesh",
   "Name": "Slug",
   "Pivot": [

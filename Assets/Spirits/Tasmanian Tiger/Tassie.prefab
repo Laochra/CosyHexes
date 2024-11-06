@@ -1,8 +1,8 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 15102014996707228633,
-  "Material": "Assets\\Spirits\\Tasmanian Tiger\\TassieTiger.mat",
+  "GUID": 17451827283319318079,
+  "Material": "Assets\\Materials\\SpiritMaterials\\Tassie.mat",
   "Mesh": "Assets\\Spirits\\Tasmanian Tiger\\Tassie.mesh",
   "Name": "Tassie Tiger",
   "Pivot": [
