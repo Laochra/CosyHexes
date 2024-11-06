@@ -141,13 +141,13 @@ void main() // Fragment
 	float toonRampOffset = 0.5; 
 	float toonRampSmoothness = 0.3;
 	vec4 toonRampTinting = vec4(1.0, 0.0, 0.0, 1.0);
-	float tintingAmbient = 1.0;
+	float tintingAmbient = 0.3;
 	
 	// 
 	
 	// lighting equation for toon ramp, override default pbr
 	// toon lighting output variables
-	float toonRamp = 0.0;
+	float toonRamp = 0.5;
 	vec3 toonRampOutput = vec3(0.0);
 	
 	// directional lighting
@@ -166,16 +166,20 @@ void main() // Fragment
 	float d = dot(N, lightDirection);
 	toonRamp += smoothstep(toonRampOffset, toonRampOffset + toonRampSmoothness, d);
 	//toonRampOutput = LightObjects[0].colour * (toonRamp * toonRampTinting.xyz) + tintingAmbient;
-	toonRampOutput = LightObjects[0].colour * (toonRamp) + tintingAmbient;
 	
-	toonRampOutput *= colour * ao;
+	
+	
 	
 	// NOTE: multiply with shadows here 
 	
 	float shadow = ShadowCalculation(0, lightDirection);
 	vec3 shadowOutput = vec3(0.0);
-	shadowOutput *= 1.0 - shadow;
-	toonRampOutput = mix(toonRampOutput, ((toonRampOutput * toonRampTinting.xyz) + tintingAmbient), shadowOutput);
+	//shadowOutput *= 1.0 - shadow;
+	//toonRampOutput = mix(toonRampOutput, ((toonRampOutput * toonRampTinting.xyz)), shadowOutput);
+	
+	toonRampOutput = LightObjects[0].colour * (toonRamp + toonRampTinting.xyz);
+	toonRampOutput *= 1.0 - shadow;
+	toonRampOutput *= colour * ao;
 	
 	
 	vec3 ambientResult = vec3(0.03) * colour * ao;
