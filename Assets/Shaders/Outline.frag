@@ -184,15 +184,16 @@ void main() // Frag
 	
 	
 	
-	for(int i = 0; i < 16; i++){
+	for(int i = 0; i < CIRCLE_TAPS; i++){
 		// check ID of pixel uvOffset amount away 
 		uvec2 otherID = IDLookup(uvs + uvOffset * PixelSize * maxOutlineRange);
 		if(otherID != thisID){
 			inCount += 1.0;
-			Colour += vec4(1.0, 0.0, 0.0, 1.0);
+			//Colour += vec4(1.0, 0.0, 0.0, 1.0);
 			averageOffset += uvOffset;
 		}
 		
+		// update the offset to the next point in the circle
 		vec2 originalOffset = uvOffset;
 		uvOffset.x = originalOffset.x * cosAngle - originalOffset.y * sinAngle;
 		uvOffset.y = originalOffset.x * sinAngle + originalOffset.y * cosAngle;
@@ -202,14 +203,16 @@ void main() // Frag
 	// if inCount is above 0 there may be a line at the current pixel
 	// do binary search to find the pixel
 	if (inCount > 0.0) {
-		vec2 maxOffset = normalize(averageOffset/inCount) * PixelSize * maxOutlineRange;
+		// ?
+		vec2 maxOffset = normalize(averageOffset) * PixelSize * maxOutlineRange;
 		vec2 noiseUV;
 		float distanceAlongRay = 2.0;
 		int searchCount = 32;
 		bool foreground = false;
 		
 		
-		for (int i = 0; i < searchCount; i++){
+		for (int i = 0; i < searchCount; i++)
+		{
 			float fraction = float(i) / float(searchCount - 1);
 			uvec2 otherID = IDLookup(uvs + maxOffset * fraction);
 			if (otherID != thisID){
@@ -224,29 +227,21 @@ void main() // Frag
 				break;
 			}
 		}
-		float noiseVal = snoise(ObjectSpacePosLookup(noiseUV).xy);
+		float noiseVal = snoise(ObjectSpacePosLookup(noiseUV).xz);
 	
 		if (foreground) noiseVal = 1.0 - noiseVal;
 		noiseVal = noiseVal * 1.5;
 		outlineLevel = 1.0 - distanceAlongRay;
 		outlineLevel -= noiseVal;
+		outlineLevel *= 5.0;
+		outlineLevel += noiseVal;
 		outlineLevel = clamp(outlineLevel,0.0, 1.0);
 	}
-	
-	// old implementation
-	// // go around current pixel/frag compare ID
-	// for(int i = 0; i < 4; i++)
-	// {
-		// uvec2 otherID = IDLookup(uvs + neighbourTaps[i] * PixelSize * outlineThickness);
-		// if (otherID != thisID) outlineLevel = 1.0;
-	// }
 
 	// declare outline colour
 	// maybe make into uniform or 
 	// write some code for sampling each object
-	vec3 outlineColour = vec3(0.0);
+	vec3 outlineColour = vec3(0.0, 0.0, 0.0);
 	
-
-	//outlineLevel = 0.0;
 	Colour = vec4(mix(screenColour, outlineColour, outlineLevel),1.0);
 }

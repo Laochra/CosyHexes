@@ -131,10 +131,45 @@ void main() // Fragment
 		Lo += ReflectanceEquation(colour, normal, roughness, metallic, ao, viewDirection, lightDirection, attenuation, LightObjects[i].colour, F0);
 	}
 	
+	
+	// ------------------------------------------------------------------------ //
+	// ------------------------- Phoenix Toon Shading ------------------------- //
+	// ------------------------------------------------------------------------ //
+	
+	// Toon variables 
+	
+	float toonRampOffset = 0.0; 
+	float toonRampSmoothness = 0.3;
+	vec4 toonRampTinting = vec4(1.0, 0.0, 0.0, 1.0);
+	float tintingAmbient = 0.3;
+	
+	// 
+	
+	// lighting equation for toon ramp, override default pbr
+	// toon lighting output variables
+	float toonRamp = 0.0;
+	vec3 toonRampOutput = vec3(0.0);
+	
+	// directional lighting
+	for (int i = 0; i < min(DirectionalLightCount, 4); i++) {
+		DirectionalLight currentLight = DirectionalLights[i];
+		// dot product for toon ramp
+		float d = dot(N, -DirectionalLights[i].direction);
+		
+		// smoothstep make smooth based on variables 
+		toonRamp += smoothstep(toonRampOffset, toonRampOffset + toonRampSmoothness, d);
+		toonRampOutput = DirectionalLights[i].colour * (toonRamp * toonRampTinting.xyz) + tintingAmbient;
+	}
+	
+	toonRampOutput *= colour * ao;
+	
+	// NOTE: multiply with shadows here 
+	
+	
 	vec3 ambientResult = vec3(0.03) * colour * ao;
 	vec3 colourResult = ambientResult + Lo;
 	
-	FragColour = vec4(colourResult + emission, 1);
+	FragColour = vec4(toonRampOutput, 1);
 	
 	if (Selected == 1)
 	{
