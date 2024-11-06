@@ -8,7 +8,10 @@ layout( location = 4) in vec2 TexCoords;
 
 uniform mat4 ProjectionViewModel;
 
+out vec2 FragTexCoords;
+
 void main() // Vertex
 {
 	gl_Position = ProjectionViewModel * Position;
+	FragTexCoords = TexCoords;
 }
