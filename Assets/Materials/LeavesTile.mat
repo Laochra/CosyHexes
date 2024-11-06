@@ -1,0 +1,70 @@
+{
+  "Attributes": [],
+  "ShaderProgram": "PBRLit",
+  "Uniforms": [
+    {
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "AlphaCutoff"
+    },
+    {
+      "Data": "Assets\\Textures\\Tex_LeavesTile_BaseColor.tga",
+      "Name": "ColourMap"
+    },
+    {
+      "Data": [
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63
+      ],
+      "Name": "ColourTint"
+    },
+    {
+      "Data": [
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63
+      ],
+      "Name": "EmissionColour"
+    },
+    {
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "EmissionIntensity"
+    },
+    {
+      "Data": "Assets\\Textures\\Tex_LeavesTile_Normal.tga",
+      "Name": "NormalMap"
+    },
+    {
+      "Data": "None",
+      "Name": "RMAOMap"
+    }
+  ]
+}

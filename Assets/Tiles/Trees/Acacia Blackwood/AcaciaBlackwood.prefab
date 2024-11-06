@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10406389565128852962,
-      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "GUID": 1634445124278646590,
+      "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Hex_bottom.mesh",
       "Name": "Hex_bottom",
       "Pivot": [
@@ -34,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 5399738320542234889,
-      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "GUID": 11745234212915432585,
+      "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Hex_top.mesh",
       "Name": "Hex_top",
       "Pivot": [
@@ -64,8 +64,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16348479172809886656,
-      "Material": "Assets\\Materials\\TassieHabitatLeaves.mat",
+      "GUID": 14437135367219308205,
+      "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Leaves_alpha.mesh",
       "Name": "Leaves_alpha",
       "Pivot": [
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12975002075245244168,
+      "GUID": 13610138274271778242,
       "Material": "Assets\\Materials\\Tiles_Wood.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Acacia_trunk.mesh",
       "Name": "Acacia_trunk",
@@ -124,8 +124,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12389017574059008199,
-      "Material": "Assets\\Materials\\TassieHabitatLeavesTile.mat",
+      "GUID": 12603954235095521267,
+      "Material": "Assets\\Materials\\LeavesTile.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Leaves_Tiling.mesh",
       "Name": "Leaves_Tiling",
       "Pivot": [
@@ -152,7 +152,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 10136473749627529785,
+  "GUID": 2875538821886107920,
   "HexType": 0,
   "HexVariant": "Acacia Blackwood",
   "Name": "Empty",

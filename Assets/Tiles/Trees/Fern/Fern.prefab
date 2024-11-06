@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2302181275422735186,
-      "Material": "Assets\\Materials\\TassieHabitatGrass.mat",
+      "GUID": 10194064975704236274,
+      "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_Grass.mesh",
       "Name": "SM_Grass",
       "Pivot": [
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 4575716802812830143,
+      "GUID": 17472258219588463617,
       "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_Tree_Fern_Wood.mesh",
       "Name": "SM_Tree_Fern_Wood",
@@ -64,8 +64,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 4192056429239296322,
-      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "GUID": 3448328139030103708,
+      "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_HexBottom_OneUnit.mesh",
       "Name": "SM_HexBottom_OneUnit",
       "Pivot": [
@@ -94,8 +94,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 18083340813609709321,
-      "Material": "Assets\\Materials\\FernLeaves.mat",
+      "GUID": 7063661206660007718,
+      "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_Tree_Fern_Leaves.mesh",
       "Name": "SM_Tree_Fern_Leaves",
       "Pivot": [
@@ -124,8 +124,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12907577701441365507,
-      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "GUID": 12570542609234504835,
+      "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_HexTop_OneUnit.mesh",
       "Name": "SM_HexTop_OneUnit",
       "Pivot": [
@@ -152,7 +152,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 12249885140032346880,
+  "GUID": 16249880422527794174,
   "HexType": 0,
   "HexVariant": "Fern",
   "Name": "Fern",

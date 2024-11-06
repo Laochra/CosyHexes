@@ -1,8 +1,8 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 4494805088777658059,
-  "Material": "Assets\\Spirits\\Bee\\Bee.mat",
+  "GUID": 996200696446530546,
+  "Material": "Assets\\Materials\\SpiritMaterials\\Bee.mat",
   "Mesh": "Assets\\Spirits\\Bee\\Bee.mesh",
   "Name": "Bee",
   "Pivot": [

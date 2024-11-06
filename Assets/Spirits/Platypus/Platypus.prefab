@@ -1,8 +1,8 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 12841451971794439014,
-  "Material": "Assets\\Spirits\\Platypus\\Platypus.mat",
+  "GUID": 3239172215147816800,
+  "Material": "Assets\\Materials\\SpiritMaterials\\Platypus.mat",
   "Mesh": "Assets\\Spirits\\Platypus\\Platypus.mesh",
   "Name": "Platypus",
   "Pivot": [

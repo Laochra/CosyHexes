@@ -1,0 +1,70 @@
+{
+  "Attributes": [],
+  "ShaderProgram": "PBRLit",
+  "Uniforms": [
+    {
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "AlphaCutoff"
+    },
+    {
+      "Data": "DefaultColour",
+      "Name": "ColourMap"
+    },
+    {
+      "Data": [
+        205,
+        95,
+        147,
+        62,
+        132,
+        55,
+        26,
+        63,
+        73,
+        78,
+        112,
+        62
+      ],
+      "Name": "ColourTint"
+    },
+    {
+      "Data": [
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63
+      ],
+      "Name": "EmissionColour"
+    },
+    {
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "EmissionIntensity"
+    },
+    {
+      "Data": "None",
+      "Name": "NormalMap"
+    },
+    {
+      "Data": "None",
+      "Name": "RMAOMap"
+    }
+  ]
+}
