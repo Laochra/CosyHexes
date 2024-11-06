@@ -169,7 +169,7 @@ void main() // Frag
 	
 	float inCount = 0.0;
 	vec2 averageOffset;
-	float maxOutlineRange = 8.0;
+	float maxOutlineRange = 2.0;
 	
 	// how far away the algorithim should look away
 	vec2 uvOffset = vec2(0.5, 0.0);
