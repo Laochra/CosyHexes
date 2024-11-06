@@ -85,6 +85,15 @@
       ]
     }
   ],
+  "Lighting": {
+    "AmbientColour": [
+      0.1,
+      0.1,
+      0.1
+    ],
+    "AmbientIntensity": 1.0,
+    "LightObject": "Assets\\Lighting.prefab"
+  },
   "Misc Colours": {
     "Highlight": [
       25.0,
