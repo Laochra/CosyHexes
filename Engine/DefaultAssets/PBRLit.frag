@@ -272,11 +272,12 @@ float ShadowCalculation(int lightObjectIndex, vec3 lightDirection)
 	float currentDepth = coords.z;
 	
 	float shadow = 0.0;
+	float shadowBias = 0.005;
 	
 	if (LightObjects[lightObjectIndex].softShadows == 0) // Hard Shadows
 	{
 		float closestDepth = texture(ShadowMaps, vec3(coords.xy, mapIndex)).r;
-		shadow = currentDepth > closestDepth ? 1.0 : 0.0; // 1 means no light, 0 means light
+		shadow = currentDepth - shadowBias > closestDepth ? 1.0 : 0.0; // 1 means no light, 0 means light
 	}
 	else // Soft Shadows
 	{
@@ -286,7 +287,7 @@ float ShadowCalculation(int lightObjectIndex, vec3 lightDirection)
 			for (float y = -1.5; y <= 1.5; y += 1.0)
 			{
 				float pcfDepth = texture(ShadowMaps, vec3(coords.xy + vec2(x,y) * texelSize, mapIndex)).r;
-				shadow += currentDepth > pcfDepth ? 1.0 : 0.0; // 1 means no light, 0 means light
+				shadow += currentDepth - shadowBias > pcfDepth ? 1.0 : 0.0; // 1 means no light, 0 means light
 			}
 		}
 		
