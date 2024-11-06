@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 1988928098290224628,
-      "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
+      "GUID": 11466632725825600083,
+      "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Tiles\\Waters\\Log\\pCylinder39.mesh",
       "Name": "Log1",
       "Pivot": [
@@ -34,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14079390012649945865,
-      "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
+      "GUID": 11837817825224956443,
+      "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Tiles\\Waters\\Log\\pCylinder40.mesh",
       "Name": "Log2",
       "Pivot": [
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14659375972156772334,
+      "GUID": 8570970228039999304,
       "Material": "Assets\\Materials\\Water.mat",
       "Mesh": "Assets\\Tiles\\NewWaterHex.mesh",
       "Name": "NewWaterHex",
@@ -92,7 +92,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 17823482586351598455,
+  "GUID": 18212236734305595610,
   "HexType": 2,
   "HexVariant": "Log",
   "Material": "Engine\\DefaultAssets\\Default.mat",

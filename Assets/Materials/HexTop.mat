@@ -3,7 +3,16 @@
   "ShaderProgram": "PBRLit",
   "Uniforms": [
     {
-      "Data": "Assets\\Habitats\\Tassie\\Hex\\Mat_HexTop\\Tex_HexTop_BaseColour.tga",
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "AlphaCutoff"
+    },
+    {
+      "Data": "Assets\\Textures\\Tex_HexTop_BaseColour.tga",
       "Name": "ColourMap"
     },
     {

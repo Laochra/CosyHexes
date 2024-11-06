@@ -3,7 +3,16 @@
   "ShaderProgram": "PBRLit",
   "Uniforms": [
     {
-      "Data": "Assets\\Habitats\\Tassie\\Hex\\Mat_HexGround\\Tex_HexGround_BaseColor.tga",
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "AlphaCutoff"
+    },
+    {
+      "Data": "Assets\\Textures\\Tex_HexBottom_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
@@ -50,7 +59,7 @@
       "Name": "EmissionIntensity"
     },
     {
-      "Data": "None",
+      "Data": "Assets\\Textures\\Tex_HexBottom_Normal.tga",
       "Name": "NormalMap"
     },
     {

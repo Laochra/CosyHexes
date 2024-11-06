@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 17710476711855486444,
-      "Material": "Assets\\Materials\\AcaciaBlackwoodWood.mat",
+      "GUID": 13851762386805116310,
+      "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Wood.mesh",
       "Name": "SM_Mother_Wood",
       "Pivot": [
@@ -34,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14438287575626223896,
-      "Material": "Assets\\Materials\\AcaciaBlackwoodLeaves.mat",
+      "GUID": 949601288774321400,
+      "Material": "Assets\\Materials\\GrassTuft.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Leaves.mesh",
       "Name": "SM_Mother_Leaves",
       "Pivot": [
@@ -67,8 +67,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 15565885887839832443,
-          "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+          "GUID": 11973762033950614773,
+          "Material": "Assets\\Materials\\HexBottom.mat",
           "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexBottom.mesh",
           "Name": "SM_HexBottom",
           "Pivot": [
@@ -97,8 +97,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 1314900650173092511,
-          "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+          "GUID": 10242855470687592354,
+          "Material": "Assets\\Materials\\HexTop.mat",
           "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexTop.mesh",
           "Name": "SM_HexTop",
           "Pivot": [
@@ -125,7 +125,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 18112305389710985612,
+      "GUID": 350738356179826133,
       "Material": "Engine\\DefaultAssets\\Default.mat",
       "Mesh": "None",
       "Name": "Grass",
@@ -153,7 +153,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 9157093376695987792,
+  "GUID": 16231091047363293648,
   "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
   "Name": "Mother Tree",

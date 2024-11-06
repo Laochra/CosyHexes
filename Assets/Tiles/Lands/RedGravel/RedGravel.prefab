@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3344289990975188150,
-      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "GUID": 16758251791571262853,
+      "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Lands\\RedGravel\\SM_HexBottom.mesh",
       "Name": "SM_HexBottom",
       "Pivot": [
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12600170460954254366,
+      "GUID": 487002711272421639,
       "Material": "Assets\\Materials\\RedGravel.mat",
       "Mesh": "Assets\\Tiles\\Lands\\RedGravel\\SM_HexTop.mesh",
       "Name": "SM_HexTop",
@@ -62,10 +62,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 10376834686851680164,
+  "GUID": 14594863679221785918,
   "HexType": 3,
   "HexVariant": "Red Gravel",
-  "Material": "Default",
+  "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
   "Name": "Gravel",
   "Pivot": [

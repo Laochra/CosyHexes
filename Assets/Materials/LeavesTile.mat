@@ -3,7 +3,16 @@
   "ShaderProgram": "PBRLit",
   "Uniforms": [
     {
-      "Data": "Assets\\Habitats\\Tassie\\Foliage\\Mat_LeavesTile\\Tex_LeavesTile_BaseColor.tga",
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "AlphaCutoff"
+    },
+    {
+      "Data": "Assets\\Textures\\Tex_LeavesTile_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
@@ -50,7 +59,7 @@
       "Name": "EmissionIntensity"
     },
     {
-      "Data": "Assets\\Habitats\\Tassie\\Foliage\\Mat_LeavesTile\\Tex_LeavesTile_Normal.tga",
+      "Data": "Assets\\Textures\\Tex_LeavesTile_Normal.tga",
       "Name": "NormalMap"
     },
     {

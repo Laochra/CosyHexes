@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12689413733489586846,
-      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "GUID": 8093534059180807160,
+      "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexBottom.mesh",
       "Name": "SM_HexBottom",
       "Pivot": [
@@ -34,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 456385331573377710,
-      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "GUID": 2564175435584760171,
+      "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexTop.mesh",
       "Name": "SM_HexTop",
       "Pivot": [
@@ -62,10 +62,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 17258649975771362324,
+  "GUID": 4512283140298094014,
   "HexType": 3,
   "HexVariant": "Grass",
-  "Material": "Default",
+  "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
   "Name": "Grass",
   "Pivot": [

@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12845505420094376132,
+      "GUID": 16181126708565335967,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Foliage.mesh",
       "Name": "Foliage",
@@ -34,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 7566356582749118318,
-      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "GUID": 10827614990950346858,
+      "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_HexBottom.mesh",
       "Name": "SM_HexBottom",
       "Pivot": [
@@ -64,8 +64,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 17822177839514965041,
-      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "GUID": 14467318281739003861,
+      "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_HexTop.mesh",
       "Name": "SM_HexTop",
       "Pivot": [
@@ -92,10 +92,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 2569653346619761969,
+  "GUID": 15487766358158574303,
   "HexType": 1,
   "HexVariant": "Prickly Tea Tree",
-  "Material": "Default",
+  "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
   "Name": "Empty",
   "Pivot": [

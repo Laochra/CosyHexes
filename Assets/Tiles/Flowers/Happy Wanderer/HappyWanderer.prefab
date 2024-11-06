@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10342172212217491052,
+      "GUID": 10460480299977191660,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Flowers.mesh",
       "Name": "Flowers",
@@ -34,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 9322712694304045841,
-      "Material": "Assets\\Materials\\TassieHabitatGrass.mat",
+      "GUID": 14132801494709280248,
+      "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Grass.mesh",
       "Name": "Grass",
       "Pivot": [
@@ -64,8 +64,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 695240686452543052,
-      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "GUID": 11511003222354621442,
+      "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HexBottom.mesh",
       "Name": "SM_HexBottom",
       "Pivot": [
@@ -94,8 +94,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11747022374788749994,
-      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "GUID": 8825269691932821914,
+      "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HexTop.mesh",
       "Name": "SM_HexTop",
       "Pivot": [
@@ -122,10 +122,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 7812691674158989608,
+  "GUID": 6209181705247305922,
   "HexType": 1,
   "HexVariant": "Happy Wanderer",
-  "Material": "Default",
+  "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
   "Name": "Empty",
   "Pivot": [

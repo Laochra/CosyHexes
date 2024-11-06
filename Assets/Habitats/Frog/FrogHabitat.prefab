@@ -7,8 +7,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 6301840030951936367,
-          "Material": "Assets\\Materials\\FernLeaves.mat",
+          "GUID": 7837262595203649034,
+          "Material": "Assets\\Materials\\Leaves.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Fern.mesh",
           "Name": "SM_Fern",
           "Pivot": [
@@ -37,8 +37,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 17441157707012470690,
-          "Material": "Assets\\Materials\\TassieHabitatGrass.mat",
+          "GUID": 15881827840711617574,
+          "Material": "Assets\\Materials\\HexGrass.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Grass_Tall.mesh",
           "Name": "SM_Grass_Tall",
           "Pivot": [
@@ -67,8 +67,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 1399750117941744916,
-          "Material": "Assets\\Materials\\Eucalyptus.mat",
+          "GUID": 11217268818254494679,
+          "Material": "Assets\\Materials\\EucalyptusWood.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Wood_Euca.mesh",
           "Name": "SM_Wood_Euca",
           "Pivot": [
@@ -97,7 +97,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 13226330100233917509,
+          "GUID": 2867737711411793874,
           "Material": "Assets\\Materials\\Water.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Hex_Water_Habitat.mesh",
           "Name": "SM_Hex_Water_Habitat",
@@ -127,8 +127,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 2698072313628184115,
-          "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+          "GUID": 11688288537585833867,
+          "Material": "Assets\\Materials\\HexBottom.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_HexBottom_Habitat.mesh",
           "Name": "SM_HexBottom_Habitat",
           "Pivot": [
@@ -157,8 +157,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 3860712724370155246,
-          "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+          "GUID": 5194090599327738295,
+          "Material": "Assets\\Materials\\HexTop.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_HexTop_Habitat.mesh",
           "Name": "SM_HexTop_Habitat",
           "Pivot": [
@@ -187,8 +187,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 1556874253292963928,
-          "Material": "Assets\\Materials\\TassieHabitatGrass.mat",
+          "GUID": 15824436539897088655,
+          "Material": "Assets\\Materials\\HexGrass.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Grass_Habitat.mesh",
           "Name": "SM_Grass_Habitat",
           "Pivot": [
@@ -215,7 +215,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 10016390775610914129,
+      "GUID": 15666826681763179796,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -243,8 +243,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2740843757039013491,
-      "Material": "Assets\\Materials\\TassieHabitatLeaves.mat",
+      "GUID": 15995163368762292734,
+      "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Habitats\\Frog\\SM_Leaves149.mesh",
       "Name": "SM_Leaves149",
       "Pivot": [
@@ -273,8 +273,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14864510810523652892,
-      "Material": "Assets\\Materials\\TassieHabitatLeavesTile.mat",
+      "GUID": 12499678605668295291,
+      "Material": "Assets\\Materials\\LeavesTile.mat",
       "Mesh": "Assets\\Habitats\\Frog\\pCube15.mesh",
       "Name": "pCube15",
       "Pivot": [
@@ -303,7 +303,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 13396081405799544064,
+      "GUID": 10978597643593499530,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Habitats\\Frog\\polySurface15.mesh",
       "Name": "polySurface15",
@@ -331,7 +331,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 7351641181252400946,
+  "GUID": 13386907484778015085,
   "Name": "Frog",
   "Pivot": [
     0.0,

@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 13341252491591882032,
-      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "GUID": 7637993482632596658,
+      "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_RaisedGrass.mesh",
       "Name": "SM_RaisedGrass",
       "Pivot": [
@@ -34,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8790730600552421332,
-      "Material": "Assets\\Materials\\TassieHabitatGround.mat",
+      "GUID": 12544043361622540861,
+      "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HexBottom.mesh",
       "Name": "SM_HexBottom",
       "Pivot": [
@@ -64,8 +64,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 7924102013349190604,
-      "Material": "Assets\\Materials\\TassieHabitatHexTop.mat",
+      "GUID": 14415596102477142439,
+      "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HexTop.mesh",
       "Name": "SM_HexTop",
       "Pivot": [
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10167285917455211041,
+      "GUID": 5070882085380408257,
       "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_Fern_Wood.mesh",
       "Name": "SM_Fern_Wood",
@@ -124,8 +124,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 4970778231276920287,
-      "Material": "Assets\\Materials\\FernLeaves.mat",
+      "GUID": 8676238281535479131,
+      "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_Fern_Leaves.mesh",
       "Name": "SM_Fern_Leaves",
       "Pivot": [
@@ -154,8 +154,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16005844336739180186,
-      "Material": "Assets\\Materials\\TassieHabitatGrass.mat",
+      "GUID": 1445672479052175414,
+      "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_Grass.mesh",
       "Name": "SM_Grass",
       "Pivot": [
@@ -184,7 +184,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12899153339501160229,
+      "GUID": 12837812235402409959,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_EverLastDaisy_Bee.mesh",
       "Name": "SM_EverLastDaisy_Bee",
@@ -212,7 +212,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 9621872151978245946,
+  "GUID": 14488721649577819722,
   "Name": "Bee",
   "Pivot": [
     0.0,
@@ -220,9 +220,9 @@
     0.0
   ],
   "Position": [
-    -2.088728189468384,
     0.0,
-    0.7476509213447571
+    0.0,
+    0.0
   ],
   "Rotation": [
     1.0,
