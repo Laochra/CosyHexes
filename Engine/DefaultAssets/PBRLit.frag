@@ -138,8 +138,8 @@ void main() // Fragment
 	
 	// Toon variables 
 	
-	float toonRampOffset = 0.5; 
-	float toonRampSmoothness = 0.3;
+	float toonRampOffset = 1.0; 
+	float toonRampSmoothness = 0.0;
 	vec3 toonRampTinting = vec3(0.430, 0.652, 0.916);
 	float tintingAmbient = 0.3;
 	
@@ -147,30 +147,27 @@ void main() // Fragment
 	
 	// lighting equation for toon ramp, override default pbr
 	// toon lighting output variables
-	float toonRamp = 0.5;
-	vec3 toonRampOutput = vec3(0.0);
+	float toonRamp = 0.0;
 	
 	// spot light
 	vec3 lightDirection = normalize(LightObjects[0].position - FragPos);
-	float d = dot(N, lightDirection);
+	float d = dot((N), lightDirection) * 0.5 + 0.5;
 	toonRamp += smoothstep(toonRampOffset, toonRampOffset + toonRampSmoothness, d);
-	//toonRampOutput = LightObjects[0].colour * (toonRamp * toonRampTinting.xyz) + tintingAmbient;
 	
 	// NOTE: multiply with shadows here 
 	
 	float shadow = ShadowCalculation(0, lightDirection);
+	toonRamp += (1.0 - shadow);
 	
-	toonRampOutput *= (1.0 - (shadow));
+	vec3 toonRampOutput = vec3(LightObjects[0].colour * (toonRamp + toonRampTinting));
 	
-	toonRampOutput += LightObjects[0].colour * (toonRamp);
-	
-	toonRampOutput *= colour * ao;
+	toonRampOutput *= tintingAmbient * colour;
 	
 	
 	vec3 ambientResult = vec3(0.03) * colour * ao;
 	vec3 colourResult = ambientResult + Lo;
 	
-	FragColour = vec4(toonRampOutput, 1);
+	FragColour = vec4(toonRampOutput, 1.0);
 	
 	if (Selected == 1)
 	{
