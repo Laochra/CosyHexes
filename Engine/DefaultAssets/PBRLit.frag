@@ -138,36 +138,60 @@ void main() // Fragment
 	
 	// Toon variables 
 	
-	float toonRampOffset = 1.0; 
-	float toonRampSmoothness = 0.0;
-	vec3 toonRampTinting = vec3(0.430, 0.652, 0.916);
-	float tintingAmbient = 0.3;
-	
-	// 
-	
-	// lighting equation for toon ramp, override default pbr
-	// toon lighting output variables
-	float toonRamp = 0.0;
+
 	
 	// spot light
 	vec3 lightDirection = normalize(LightObjects[0].position - FragPos);
+	
+	// -------------- Toon Ramp - Version 1 -------------------
+	float toonRampOffset = 1.0; 
+	float toonRampSmoothness = 0.0;
+	vec3 toonRampTinting = vec3(0.333, 0.260, 0.462);
+	float tintingAmbient = 0.5;
+	float toonRamp = 0.0;
+	
 	float d = dot((N), lightDirection) * 0.5 + 0.5;
 	toonRamp += smoothstep(toonRampOffset, toonRampOffset + toonRampSmoothness, d);
 	
 	// NOTE: multiply with shadows here 
 	
 	float shadow = ShadowCalculation(0, lightDirection);
+	shadow = (1.0 - shadow);
 	toonRamp += (1.0 - shadow);
 	
 	vec3 toonRampOutput = vec3(LightObjects[0].colour * (toonRamp + toonRampTinting));
 	
 	toonRampOutput *= tintingAmbient * colour;
 	
+	// -------------- Toon Ramp - Version 2 -------------------
+	vec3 specColour = vec3(1.0, 1.0, 1.0);
+	float glossiness = 4.0;
+	
+	vec3 oNormal = normalize(N);
+	float NdotL = dot(lightDirection, oNormal);
+	
+	float lightIntensity = smoothstep(0.0, 0.01, NdotL);
+	float toonShadow = smoothstep(0.005, 0.01, shadow);
+	lightIntensity *= toonShadow;
+	
+	vec3 light = lightIntensity * LightObjects[0].colour;
+	
+	vec3 halfVector = normalize(LightObjects[0].position + viewDirection);
+	float NdotZ = dot(N, halfVector);
+	
+	float specularIntensity = pow(NdotZ * lightIntensity, glossiness * glossiness);
+	float specularIntensitySmooth = smoothstep(0.005, 0.01, specularIntensity);
+	vec3 toonSpecular = specularIntensitySmooth * specColour;
+	
+	
+	vec3 toonResult = colour * toonSpecular;
+	
+	// --------------------------------------------------------
 	
 	vec3 ambientResult = vec3(0.03) * colour * ao;
 	vec3 colourResult = ambientResult + Lo;
 	
-	FragColour = vec4(toonRampOutput, 1.0);
+	FragColour = vec4(toonResult, 1.0);
 	
 	if (Selected == 1)
 	{

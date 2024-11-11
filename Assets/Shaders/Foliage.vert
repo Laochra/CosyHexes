@@ -37,7 +37,6 @@ void main() // Vertex
 	vec3 leafSway = vec3(leafSwayFactor, 0, 0);
 	
 	FragPos = (ModelMatrix * Position + vec4(leafSway, 0)).xyz;
-	ObjectSpaceFragPos = (inverse(ModelMatrix) * (ModelMatrix * Position + vec4(leafSway, 0))).xyz;
 	
 	for (int i = 0; i < LightSpaceMatrixCount; i++)
 	{
