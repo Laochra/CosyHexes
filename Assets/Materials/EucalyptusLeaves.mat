@@ -50,7 +50,7 @@
       "Name": "EmissionIntensity"
     },
     {
-      "Data": "None",
+      "Data": "Assets\\Textures\\Leaves_Normal.tga",
       "Name": "NormalMap"
     },
     {

@@ -7,7 +7,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 7837262595203649034,
+          "GUID": 4133014782040202869,
           "Material": "Assets\\Materials\\Leaves.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Fern.mesh",
           "Name": "SM_Fern",
@@ -37,7 +37,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 15881827840711617574,
+          "GUID": 6038746579451486591,
           "Material": "Assets\\Materials\\HexGrass.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Grass_Tall.mesh",
           "Name": "SM_Grass_Tall",
@@ -67,8 +67,8 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 11217268818254494679,
-          "Material": "Assets\\Materials\\EucalyptusWood.mat",
+          "GUID": 6383161723677516067,
+          "Material": "Assets\\Materials\\EucalyptusWood2.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Wood_Euca.mesh",
           "Name": "SM_Wood_Euca",
           "Pivot": [
@@ -97,7 +97,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 2867737711411793874,
+          "GUID": 4166325810827632824,
           "Material": "Assets\\Materials\\Water.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Hex_Water_Habitat.mesh",
           "Name": "SM_Hex_Water_Habitat",
@@ -127,7 +127,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 11688288537585833867,
+          "GUID": 17283230941384115215,
           "Material": "Assets\\Materials\\HexBottom.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_HexBottom_Habitat.mesh",
           "Name": "SM_HexBottom_Habitat",
@@ -157,7 +157,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 5194090599327738295,
+          "GUID": 18253661550587492195,
           "Material": "Assets\\Materials\\HexTop.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_HexTop_Habitat.mesh",
           "Name": "SM_HexTop_Habitat",
@@ -187,7 +187,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 15824436539897088655,
+          "GUID": 10420831628767585594,
           "Material": "Assets\\Materials\\HexEdgeGrass.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Grass_Habitat.mesh",
           "Name": "SM_Grass_Habitat",
@@ -215,7 +215,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 15666826681763179796,
+      "GUID": 8737270756314527646,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -243,7 +243,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 15995163368762292734,
+      "GUID": 210556086287092619,
       "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Habitats\\Frog\\SM_Leaves149.mesh",
       "Name": "SM_Leaves149",
@@ -273,7 +273,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12499678605668295291,
+      "GUID": 11817897377931726064,
       "Material": "Assets\\Materials\\LeavesTile.mat",
       "Mesh": "Assets\\Habitats\\Frog\\pCube15.mesh",
       "Name": "pCube15",
@@ -303,7 +303,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10978597643593499530,
+      "GUID": 9614813526159388895,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Habitats\\Frog\\polySurface15.mesh",
       "Name": "polySurface15",
@@ -331,7 +331,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 13386907484778015085,
+  "GUID": 432293292668610817,
   "Name": "Frog",
   "Pivot": [
     0.0,
