@@ -3,7 +3,7 @@
   "ShaderProgram": "PBRLit",
   "Uniforms": [
     {
-      "Data": "Assets\\Textures\\Tex_Tree_Euca_BaseColor.tga",
+      "Data": "Assets\\Textures\\Tex_Wood_Euca1_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
