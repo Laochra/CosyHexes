@@ -1,0 +1,41 @@
+{
+  "Attributes": [
+    {
+      "Exposed": false,
+      "Name": "BiTangent",
+      "Type": "Float4"
+    },
+    {
+      "Exposed": false,
+      "Name": "Normal",
+      "Type": "Float4"
+    },
+    {
+      "Exposed": false,
+      "Name": "Position",
+      "Type": "Float4"
+    },
+    {
+      "Exposed": false,
+      "Name": "Tangent",
+      "Type": "Float4"
+    },
+    {
+      "Exposed": false,
+      "Name": "TexCoords",
+      "Type": "Float2"
+    }
+  ],
+  "Fragment": "Engine\\DefaultAssets\\DepthOnly.frag",
+  "Geometry": "None",
+  "TessControl": "None",
+  "TessEvaluation": "None",
+  "Uniforms": [
+    {
+      "Exposed": false,
+      "Name": "ProjectionViewModel",
+      "Type": "Float4x4"
+    }
+  ],
+  "Vertex": "Assets\\Shaders\\DepthOnlyFoliage.vert"
+}

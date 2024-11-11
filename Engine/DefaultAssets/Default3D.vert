@@ -18,6 +18,8 @@ uniform mat4 ProjectionViewModel;
 
 uniform mat4 ModelMatrix;
 
+uniform float Time;
+
 uniform int LightSpaceMatrixCount;
 uniform mat4 LightSpaceMatrices[24];
 out vec4 FragPosLightSpace[24];
