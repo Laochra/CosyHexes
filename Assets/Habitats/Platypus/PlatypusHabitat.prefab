@@ -5,7 +5,7 @@
       "Active": true,
       "Children": [],
       "GUID": 5362997349550707163,
-      "Material": "Assets\\Materials\\HexGrass.mat",
+      "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_Grass_Habitat.mesh",
       "Name": "SM_Grass_Habitat",
       "Pivot": [

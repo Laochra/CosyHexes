@@ -155,7 +155,7 @@
       "Active": true,
       "Children": [],
       "GUID": 1445672479052175414,
-      "Material": "Assets\\Materials\\HexGrass.mat",
+      "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_Grass.mesh",
       "Name": "SM_Grass",
       "Pivot": [
