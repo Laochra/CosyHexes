@@ -1,12 +1,10 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 11888109926272918744,
-  "HexType": 0,
-  "HexVariant": "None",
-  "Material": "Assets\\Materials\\White.mat",
-  "Mesh": "Hexagon",
-  "Name": "Empty",
+  "GUID": 5645592567574514459,
+  "Material": "Assets\\Materials\\Perimeter.mat",
+  "Mesh": "Assets\\Tiles\\Perimeter\\Perimeter.mesh",
+  "Name": "Perimeter",
   "Pivot": [
     0.0,
     0.0,
@@ -24,9 +22,9 @@
     0.0
   ],
   "Scale": [
-    0.75,
-    0.75,
-    0.75
+    1.0,
+    1.0,
+    1.0
   ],
   "TypeID": 181025226017607
 }
