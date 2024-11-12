@@ -125,6 +125,56 @@ float snoise(vec2 v){
 }
 
 
+// converted simplex 2D noise
+
+/* float SimplexNoise(vec2 v){
+	float n0, n1, n2;
+	
+	float F2 = (sqrt(3) - 1) / 2; 
+	float G2 = (3- sqrt(3)) / 6;
+	
+	float s = (v.x + v.y) *F2;
+	float xs = v.x + s;
+	float ys = v.y + s; 
+	int i = floor(xs);
+	int j = floor(ys);
+	
+	float t = float(i + j) * G2;
+	float X0 = i - t; 
+	float Y0 = j - t;
+	float x0 = x - X0;
+	float y0 = y - Y0;
+	
+	int i1, j1;
+	if(x0 > y0){
+		i1 = 1;
+		j1 = 0;
+	}
+	else{
+		i1 = 0; 
+		j1 = 1;
+	}
+	
+	float x1 = x0 - i1 + G2;
+	float y1 = y0 - j1 + G2;
+	float x2 = x0 - 1.0 + 2.0 * G2;
+	float y2 = y0 - 1.0 + 2.0 * G2;
+	
+	int gi0 = i + j;
+	int gi1 = i + i1 + (j + j1);
+	int gi2 = i + 1 + (j + 1);
+	
+	float t0 = 0.5 - x0*x0 - y0*y0;
+	if(t0 < 0.0){
+		n0 = 0.0;
+	}
+	else{
+		t0 *= t0;
+		n0 = t0 * t0 * 
+	}
+} */
+
+
 //-----------------------------------------------------------------------------------------------//
 //------------------------------------------OWN FUNCTIONS----------------------------------------//
 //-----------------------------------------------------------------------------------------------//
@@ -169,10 +219,10 @@ void main() // Frag
 	
 	float inCount = 0.0;
 	vec2 averageOffset;
-	float maxOutlineRange = 2.0;
+	float maxOutlineRange = 0.5;
 	
 	// how far away the algorithim should look away
-	vec2 uvOffset = vec2(0.5, 0.0);
+	vec2 uvOffset = vec2(1.0, 0.0);
 	
 	// tap the pixel/frag around each pixel/frag
 	// box shape around each fragment use points
@@ -191,6 +241,9 @@ void main() // Frag
 			inCount += 1.0;
 			//Colour += vec4(1.0, 0.0, 0.0, 1.0);
 			averageOffset += uvOffset;
+			Colour = vec4(vec3(0.0), 0.5);
+			return;
+			
 		}
 		
 		// update the offset to the next point in the circle
@@ -199,6 +252,14 @@ void main() // Frag
 		uvOffset.y = originalOffset.x * sinAngle + originalOffset.y * cosAngle;
 		
 	}
+
+
+	// declare outline colour
+	// maybe make into uniform or 
+	// write some code for sampling each object
+	vec3 outlineColour = vec3(0.0, 0.0, 0.0);
+	
+
 	
 	// if inCount is above 0 there may be a line at the current pixel
 	// do binary search to find the pixel
@@ -227,9 +288,18 @@ void main() // Frag
 				break;
 			}
 		}
-		float noiseVal = snoise(ObjectSpacePosLookup(noiseUV).xz);
+		float noiseVal = snoise(ObjectSpacePosLookup(noiseUV).xz * 10.0);
+		//noiseVal *= 0.5;
+		//noiseVal = clamp(noiseVal, 0.0, 1.0);
 	
-		if (foreground) noiseVal = 1.0 - noiseVal;
+		//noiseVal = pow(noiseVal, 3.5);
+		//noiseVal = abs(noiseVal);
+		//noiseVal = clamp(noiseVal, 0.0, 1.0);
+		
+		//outlineColour.r = noiseVal;
+		//outlineColour.b = 1.0-noiseVal;
+	
+		//if (foreground) noiseVal = 1.0 - noiseVal;
 		noiseVal = noiseVal * 1.5;
 		outlineLevel = 1.0 - distanceAlongRay;
 		outlineLevel -= noiseVal;
@@ -237,11 +307,19 @@ void main() // Frag
 		outlineLevel += noiseVal;
 		outlineLevel = clamp(outlineLevel,0.0, 1.0);
 	}
-
-	// declare outline colour
-	// maybe make into uniform or 
-	// write some code for sampling each object
-	vec3 outlineColour = vec3(0.0, 0.0, 0.0);
 	
-	Colour = vec4(mix(screenColour, outlineColour, outlineLevel),1.0);
+	//Colour = vec4(outlineLevel, 0.0, -outlineLevel, 1.0);
+	
+	Colour = vec4(mix(screenColour, outlineColour, (outlineLevel)),1.0);
+	
+	float testVal = snoise(uvs * 10.0);
+	
+	
+	//testVal = clamp(testVal, 0.0, 1.0);
+	testVal = pow(testVal, 3.5);
+	//testVal = testVal * 0.5 + 0.01;
+	testVal = abs(testVal);
+	
+	//Colour = vec4(clamp(testVal, 0.0, 1.0), clamp(testVal - 1.0, 0.0, 1.0), clamp(-testVal, 0.0, 1.0), 1.0);
+	
 }

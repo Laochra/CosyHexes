@@ -78,6 +78,40 @@ float Remap01(float value, float vMin, float vMax);
 float Remap(float value, float min1, float max1, float min2, float max2);
 double RemapD(double value, double min1, double max1, double min2, double max2);
 
+
+// Simplex 2D noise
+//
+vec3 permute(vec3 x) { return mod(((x*34.0)+1.0)*x, 289.0); }
+
+float snoise(vec2 v){
+  const vec4 C = vec4(0.211324865405187, 0.366025403784439,
+           -0.577350269189626, 0.024390243902439);
+  vec2 i  = floor(v + dot(v, C.yy) );
+  vec2 x0 = v -   i + dot(i, C.xx);
+  vec2 i1;
+  i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);
+  vec4 x12 = x0.xyxy + C.xxzz;
+  x12.xy -= i1;
+  i = mod(i, 289.0);
+  vec3 p = permute( permute( i.y + vec3(0.0, i1.y, 1.0 ))
+  + i.x + vec3(0.0, i1.x, 1.0 ));
+  vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy),
+    dot(x12.zw,x12.zw)), 0.0);
+  m = m*m ;
+  m = m*m ;
+  vec3 x = 2.0 * fract(p * C.www) - 1.0;
+  vec3 h = abs(x) - 0.5;
+  vec3 ox = floor(x + 0.5);
+  vec3 a0 = x - ox;
+  m *= 1.79284291400159 - 0.85373472095314 * ( a0*a0 + h*h );
+  vec3 g;
+  g.x  = a0.x  * x0.x  + h.x  * x0.y;
+  g.yz = a0.yz * x12.xz + h.yz * x12.yw;
+  return 130.0 * dot(m, g);
+}
+
+
+
 void main() // Fragment
 {	
 	// Material Inputs
@@ -147,7 +181,7 @@ void main() // Fragment
 	float toonRampOffset = 1.0; 
 	float toonRampSmoothness = 0.0;
 	vec3 toonRampTinting = vec3(0.333, 0.260, 0.462);
-	float tintingAmbient = 0.5;
+	float tintingAmbient = 0.3;
 	float toonRamp = 0.0;
 	
 	float d = dot((N), lightDirection) * 0.5 + 0.5;
@@ -165,7 +199,10 @@ void main() // Fragment
 	
 	// -------------- Toon Ramp - Version 2 -------------------
 	vec3 specColour = vec3(1.0, 1.0, 1.0);
-	float glossiness = 4.0;
+	float glossiness = 32.0;
+	vec3 rimColour = vec3(1.0);
+	float rimAmount = 0.6;
+	float rimThreshold = 0.1;
 	
 	vec3 oNormal = normalize(N);
 	float NdotL = dot(lightDirection, oNormal);
@@ -183,8 +220,22 @@ void main() // Fragment
 	float specularIntensitySmooth = smoothstep(0.005, 0.01, specularIntensity);
 	vec3 toonSpecular = specularIntensitySmooth * specColour;
 	
+	vec3 rimDot = vec3(1.0) - dot(viewDirection, N); 
+	vec3 rimIntensity = rimDot * pow(NdotL, rimThreshold);
+	rimIntensity = smoothstep(rimAmount - 0.01, rimAmount + 0.01, rimDot);
+	float rimSnoise = snoise(FragTexCoords);
+	//rimIntensity *= rimSnoise;
+	vec3 rim = rimIntensity * rimColour;
 	
-	vec3 toonResult = colour * toonSpecular;
+	
+	
+	
+	vec3 toonResult = colour * (toonRampTinting + light + toonSpecular) + rim;
+	//vec3 toonResult = colour * rimSnoise;
+	
+	
+	toonResult *= tintingAmbient;
+	
 	
 	// --------------------------------------------------------
 	
