@@ -341,7 +341,7 @@
       {
         "Name": "Red Gravel",
         "Prefab": "Assets\\Tiles\\Lands\\RedGravel\\RedGravel.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Gravel Collected.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Gravel.png"
       },
       {
         "Name": "Mushroom",
@@ -418,6 +418,32 @@
       "TextureWrap": false
     },
     {
+      "AnchorX": -1.0,
+      "AnchorY": 1.0,
+      "Enabled": true,
+      "Layer": 2,
+      "Name": "ZoomIn",
+      "OffsetX": 0.289000004529953,
+      "OffsetY": -0.09600000083446503,
+      "Scale": 0.08699999749660492,
+      "Texture": "Assets\\UI\\Control Icons\\ZoomIn.png",
+      "TextureFilter": 0,
+      "TextureWrap": false
+    },
+    {
+      "AnchorX": -1.0,
+      "AnchorY": 1.0,
+      "Enabled": true,
+      "Layer": 2,
+      "Name": "ZoomOut",
+      "OffsetX": 0.10599999874830246,
+      "OffsetY": -0.0989999994635582,
+      "Scale": 0.08900000154972076,
+      "Texture": "Assets\\UI\\Control Icons\\ZoomOut.png",
+      "TextureFilter": 0,
+      "TextureWrap": false
+    },
+    {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
       "Enabled": false,
@@ -459,12 +485,12 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "PlatypusLog",
-      "OffsetX": 0.26499998569488525,
-      "OffsetY": -0.15399999916553497,
-      "Scale": 0.08100000023841858,
+      "OffsetX": 0.289000004529953,
+      "OffsetY": -0.16099999845027924,
+      "Scale": 0.16200000047683716,
       "Texture": "Assets\\UI\\Scrapbook\\Platypus Habitat\\LogCollected.png",
       "TextureFilter": 0,
       "TextureWrap": false
@@ -472,7 +498,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "PlatypusMushroom",
       "OffsetX": -0.3070000112056732,
@@ -485,7 +511,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "PlatypusAcacia",
       "OffsetX": -0.017000000923871994,
@@ -498,12 +524,12 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "SlugWater",
       "OffsetX": 0.5019999742507935,
       "OffsetY": -0.6679999828338623,
-      "Scale": 0.09399999678134918,
+      "Scale": 0.15700000524520874,
       "Texture": "Assets\\UI\\Scrapbook\\Slug Habitat\\WaterCollected.png",
       "TextureFilter": 0,
       "TextureWrap": false
@@ -511,12 +537,12 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "SlugTeaTree",
-      "OffsetX": 0.9430000185966492,
-      "OffsetY": -0.4320000112056732,
-      "Scale": 0.09000000357627869,
+      "OffsetX": 0.9259999990463257,
+      "OffsetY": -0.4869999885559082,
+      "Scale": 0.15399999916553497,
       "Texture": "Assets\\UI\\Scrapbook\\Slug Habitat\\PricklyTeaTreeCollected.png",
       "TextureFilter": 0,
       "TextureWrap": false
@@ -524,12 +550,12 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "SlugEuca",
       "OffsetX": 0.22100000083446503,
       "OffsetY": -0.46299999952316284,
-      "Scale": 0.13300000131130219,
+      "Scale": 0.14499999582767487,
       "Texture": "Assets\\UI\\Scrapbook\\Slug Habitat\\EucaCollected.png",
       "TextureFilter": 0,
       "TextureWrap": false
@@ -541,8 +567,8 @@
       "Layer": 1,
       "Name": "FrogLilyPad",
       "OffsetX": -0.546999990940094,
-      "OffsetY": -0.6389999985694885,
-      "Scale": 0.09300000220537186,
+      "OffsetY": -0.6230000257492065,
+      "Scale": 0.15800000727176666,
       "Texture": "Assets\\UI\\Scrapbook\\Frog Habitat\\LilyPadCollected.png",
       "TextureFilter": 0,
       "TextureWrap": false
@@ -567,8 +593,8 @@
       "Layer": 1,
       "Name": "FrogFern",
       "OffsetX": -0.26600000262260437,
-      "OffsetY": -0.3880000114440918,
-      "Scale": 0.10300000011920929,
+      "OffsetY": -0.39399999380111694,
+      "Scale": 0.17299999296665192,
       "Texture": "Assets\\UI\\Scrapbook\\Frog Habitat\\FernCollected.png",
       "TextureFilter": 0,
       "TextureWrap": false
@@ -576,12 +602,12 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "TassieGravel",
-      "OffsetX": 0.49300000071525574,
-      "OffsetY": 0.32499998807907104,
-      "Scale": 0.08699999749660492,
+      "OffsetX": 0.5080000162124634,
+      "OffsetY": 0.3370000123977661,
+      "Scale": 0.15399999916553497,
       "Texture": "Assets\\UI\\Scrapbook\\Tassie Habitat\\GravelCollected.png",
       "TextureFilter": 0,
       "TextureWrap": false
@@ -589,7 +615,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "TassieEucaTwo",
       "OffsetX": 0.9459999799728394,
@@ -602,7 +628,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "TassieEucaOne",
       "OffsetX": 0.42399999499320984,
@@ -615,7 +641,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "BeeDaisyTwo",
       "OffsetX": -0.3889999985694885,
@@ -628,12 +654,12 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "BeeFern",
       "OffsetX": -0.9369999766349792,
-      "OffsetY": 0.675000011920929,
-      "Scale": 0.10999999940395355,
+      "OffsetY": 0.6710000038146973,
+      "Scale": 0.1550000011920929,
       "Texture": "Assets\\UI\\Scrapbook\\Bee Habitat\\FernCollected.png",
       "TextureFilter": 0,
       "TextureWrap": false
@@ -641,7 +667,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 1,
       "Name": "BeeDaisyOne",
       "OffsetX": -0.8809999823570251,
@@ -654,7 +680,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 0,
       "Name": "BeeHabitat",
       "OffsetX": -0.7329999804496765,
@@ -693,7 +719,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 0,
       "Name": "SlugHabitat",
       "OffsetX": 0.6039999723434448,
@@ -706,13 +732,26 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": false,
+      "Enabled": true,
       "Layer": 0,
       "Name": "PlatypusHabitat",
       "OffsetX": 0.08699999749660492,
       "OffsetY": 0.11699999868869781,
       "Scale": 0.24699999392032623,
       "Texture": "Assets\\UI\\Scrapbook\\Platypus Habitat\\PlatyHabitatCollected.png",
+      "TextureFilter": 0,
+      "TextureWrap": false
+    },
+    {
+      "AnchorX": 1.0,
+      "AnchorY": -1.0,
+      "Enabled": true,
+      "Layer": 0,
+      "Name": "RadialMenuButton ",
+      "OffsetX": -0.10700000077486038,
+      "OffsetY": 0.44600000977516174,
+      "Scale": 0.09200000017881393,
+      "Texture": "Assets\\UI\\Control Icons\\RadialMenuButton.png",
       "TextureFilter": 0,
       "TextureWrap": false
     }

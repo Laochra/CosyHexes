@@ -12,22 +12,22 @@
       "Name": "AlphaCutoff"
     },
     {
-      "Data": "Assets\\Textures\\Tex_LeavesTile_BaseColor.tga",
+      "Data": "Assets\\Textures\\Tex_Leaves_Tile_Euca_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
       "Data": [
-        0,
-        0,
-        128,
+        203,
+        48,
+        7,
         63,
-        0,
-        0,
-        128,
+        28,
+        77,
+        29,
         63,
-        0,
-        0,
-        128,
+        30,
+        13,
+        13,
         63
       ],
       "Name": "ColourTint"
@@ -59,7 +59,7 @@
       "Name": "EmissionIntensity"
     },
     {
-      "Data": "Assets\\Textures\\Tex_LeavesTile_Normal.tga",
+      "Data": "Assets\\Textures\\Tex_Leaves_Tile_Euca_Normal.tga",
       "Name": "NormalMap"
     },
     {
