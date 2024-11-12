@@ -418,6 +418,32 @@
       "TextureWrap": false
     },
     {
+      "AnchorX": -1.0,
+      "AnchorY": 1.0,
+      "Enabled": true,
+      "Layer": 2,
+      "Name": "ZoomIn",
+      "OffsetX": 0.289000004529953,
+      "OffsetY": -0.09600000083446503,
+      "Scale": 0.08699999749660492,
+      "Texture": "Assets\\UI\\Control Icons\\ZoomIn.png",
+      "TextureFilter": 0,
+      "TextureWrap": false
+    },
+    {
+      "AnchorX": -1.0,
+      "AnchorY": 1.0,
+      "Enabled": true,
+      "Layer": 2,
+      "Name": "ZoomOut",
+      "OffsetX": 0.10599999874830246,
+      "OffsetY": -0.0989999994635582,
+      "Scale": 0.08900000154972076,
+      "Texture": "Assets\\UI\\Control Icons\\ZoomOut.png",
+      "TextureFilter": 0,
+      "TextureWrap": false
+    },
+    {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
       "Enabled": false,
@@ -433,7 +459,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": true,
+      "Enabled": false,
       "Layer": 1,
       "Name": "ScrapBookBGNewTrails",
       "OffsetX": 0.0,
@@ -537,7 +563,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": true,
+      "Enabled": false,
       "Layer": 1,
       "Name": "FrogLilyPad",
       "OffsetX": -0.546999990940094,
@@ -550,7 +576,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": true,
+      "Enabled": false,
       "Layer": 1,
       "Name": "FrogEuca",
       "OffsetX": -0.9769999980926514,
@@ -563,7 +589,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": true,
+      "Enabled": false,
       "Layer": 1,
       "Name": "FrogFern",
       "OffsetX": -0.26600000262260437,
@@ -667,7 +693,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": true,
+      "Enabled": false,
       "Layer": 0,
       "Name": "TassieHabitat",
       "OffsetX": 0.7730000019073486,
@@ -680,7 +706,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": 0.0,
-      "Enabled": true,
+      "Enabled": false,
       "Layer": 0,
       "Name": "FrogHabitat",
       "OffsetX": -0.6449999809265137,
@@ -721,10 +747,10 @@
       "AnchorY": -1.0,
       "Enabled": true,
       "Layer": 0,
-      "Name": "UISprite",
-      "OffsetX": -0.10999999940395355,
-      "OffsetY": 0.2280000001192093,
-      "Scale": 0.11800000071525574,
+      "Name": "RadialMenuButton ",
+      "OffsetX": -0.10700000077486038,
+      "OffsetY": 0.44600000977516174,
+      "Scale": 0.09200000017881393,
       "Texture": "Assets\\UI\\Control Icons\\RadialMenuButton.png",
       "TextureFilter": 0,
       "TextureWrap": false
