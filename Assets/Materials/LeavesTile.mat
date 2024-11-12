@@ -12,22 +12,22 @@
       "Name": "AlphaCutoff"
     },
     {
-      "Data": "Assets\\Textures\\Tex_LeavesTile_BaseColor.tga",
+      "Data": "Assets\\Textures\\Tex_LeavesTile_BaseColor (1).tga",
       "Name": "ColourMap"
     },
     {
       "Data": [
-        0,
-        0,
-        128,
+        203,
+        48,
+        7,
         63,
-        0,
-        0,
-        128,
+        28,
+        77,
+        29,
         63,
-        0,
-        0,
-        128,
+        30,
+        13,
+        13,
         63
       ],
       "Name": "ColourTint"

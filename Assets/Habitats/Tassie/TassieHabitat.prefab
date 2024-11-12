@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 5947058976956937840,
+      "GUID": 16493675872890954695,
       "Material": "Assets\\Materials\\EucalyptusWood.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_Euca_Wood.mesh",
       "Name": "SM_Euca_Wood",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 9010758735173055519,
+      "GUID": 9220011884836606300,
       "Material": "Assets\\Materials\\LeavesTile.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_Euca_Leaves_Body.mesh",
       "Name": "SM_Euca_Leaves_Body",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3261257033704743704,
+      "GUID": 152222724732475659,
       "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_Grass.mesh",
       "Name": "SM_Grass",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2216831519090018883,
+      "GUID": 13640413477791783524,
       "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_HexTop.mesh",
       "Name": "SM_HexTop",
@@ -124,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10404425249263885939,
+      "GUID": 1081001112303006967,
       "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_HexBottom.mesh",
       "Name": "SM_HexBottom",
@@ -154,7 +154,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 15170435963811465811,
+      "GUID": 3873861553607212813,
       "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Habitats\\Tassie\\SM_Euca_Leaves_Plane.mesh",
       "Name": "SM_Euca_Leaves_Plane",
@@ -182,7 +182,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 8169043694910486235,
+  "GUID": 7497534903403910236,
   "Name": "Tassie Tiger",
   "Pivot": [
     0.0,
@@ -190,9 +190,9 @@
     0.0
   ],
   "Position": [
+    1.5918757915496826,
     0.0,
-    0.0,
-    0.0
+    0.9282665848731995
   ],
   "Rotation": [
     1.0,
