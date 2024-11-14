@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 5362997349550707163,
+      "GUID": 13586573065059555333,
       "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_Grass_Habitat.mesh",
       "Name": "SM_Grass_Habitat",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3715625410491529812,
+      "GUID": 14329418955270551203,
       "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_HexTop_Habitat.mesh",
       "Name": "SM_HexTop_Habitat",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 1846359291615257653,
+      "GUID": 675715709209314498,
       "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_HexBottom_Habitat.mesh",
       "Name": "SM_HexBottom_Habitat",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 13924491673428980497,
+      "GUID": 11341743903611510780,
       "Material": "Assets\\Materials\\Water.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_Hex_Water_Habitat.mesh",
       "Name": "SM_Hex_Water_Habitat",
@@ -124,8 +124,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2668450438985560749,
-      "Material": "Assets\\Materials\\LeavesTile.mat",
+      "GUID": 16843414272310445847,
+      "Material": "Assets\\Materials\\AcaciaLeavesTile.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_Leaves_Acacia_Inner.mesh",
       "Name": "SM_Leaves_Acacia_Inner",
       "Pivot": [
@@ -154,7 +154,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 7412327479656364954,
+      "GUID": 11256833242263129981,
       "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_Leaves_Acacia_Outer.mesh",
       "Name": "SM_Leaves_Acacia_Outer",
@@ -184,7 +184,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14523115817293253165,
+      "GUID": 5759510667974402443,
       "Material": "Assets\\Materials\\AcaciaWood.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_Wood_Acacia.mesh",
       "Name": "SM_Wood_Acacia",
@@ -214,7 +214,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 13220625349473290047,
+      "GUID": 3456182441385952376,
       "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_Grass_Tall.mesh",
       "Name": "SM_Grass_Tall",
@@ -244,7 +244,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14690542228025270714,
+      "GUID": 6129425074108015529,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Habitats\\Platypus\\SM_Reeds.mesh",
       "Name": "SM_Reeds",
@@ -272,7 +272,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 8823105676561405794,
+  "GUID": 7515073706635070520,
   "Name": "Platypus",
   "Pivot": [
     0.0,
@@ -280,7 +280,7 @@
     0.0
   ],
   "Position": [
-    0.0,
+    1.639286994934082,
     0.0,
     0.0
   ],
