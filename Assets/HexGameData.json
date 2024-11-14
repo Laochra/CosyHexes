@@ -1,6 +1,8 @@
 {
   "Audio": {
-    "Ambience": [],
+    "Ambience": [
+      "Assets\\Ambience & Soundtrack\\Ambience_[1].wav"
+    ],
     "AmbienceVolume": 1.0,
     "Music": "None",
     "MusicVolume": 1.0,
@@ -21,7 +23,13 @@
       "ScrapbookTurnPage": "None"
     },
     "SoundEffectsVolume": 1.0,
-    "SpiritSounds": null,
+    "SpiritSounds": {
+      "Bee": "None",
+      "Frog": "None",
+      "Platypus": "None",
+      "Slug": "None",
+      "Tassie Tiger": "None"
+    },
     "SpiritSoundsVolume": 1.0
   },
   "BackgroundPrefab": "Assets\\Tiles\\Fog\\Background.prefab",
