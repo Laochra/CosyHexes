@@ -4,7 +4,97 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16181126708565335967,
+      "GUID": 12776079648778451046,
+      "Material": "Assets\\Materials\\HexBottom.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\HexBottom.mesh",
+      "Name": "HexBottom",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 12552665028936116286,
+      "Material": "Assets\\Materials\\HexTop.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\HexTop.mesh",
+      "Name": "HexTop",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 12399171356748901453,
+      "Material": "Assets\\Materials\\HexEdgeGrass.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass_trim.mesh",
+      "Name": "Grass_trim",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 15221083791023760931,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Foliage.mesh",
       "Name": "Foliage",
@@ -19,38 +109,8 @@
         0.0
       ],
       "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 10827614990950346858,
-      "Material": "Assets\\Materials\\HexBottom.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_HexBottom.mesh",
-      "Name": "SM_HexBottom",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -64,10 +124,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14467318281739003861,
-      "Material": "Assets\\Materials\\HexTop.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\SM_HexTop.mesh",
-      "Name": "SM_HexTop",
+      "GUID": 8596329470830360838,
+      "Material": "Assets\\Materials\\HexGrass.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Grass_tufts.mesh",
+      "Name": "Grass_tufts",
       "Pivot": [
         0.0,
         0.0,
@@ -79,8 +139,38 @@
         0.0
       ],
       "Rotation": [
-        1.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 9826918488835827636,
+      "Material": "Assets\\Materials\\Foliage_Floral.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\Foliage.001.mesh",
+      "Name": "Foliage.001",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -92,11 +182,9 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 15487766358158574303,
+  "GUID": 2812473001535611786,
   "HexType": 1,
   "HexVariant": "Prickly Tea Tree",
-  "Material": "Engine\\DefaultAssets\\Default.mat",
-  "Mesh": "None",
   "Name": "Empty",
   "Pivot": [
     0.0,
@@ -119,5 +207,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 70103550478110
 }

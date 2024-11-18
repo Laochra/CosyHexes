@@ -4,7 +4,97 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10460480299977191660,
+      "GUID": 10242104155252039178,
+      "Material": "Assets\\Materials\\HexBottom.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HexBottom.mesh",
+      "Name": "HexBottom",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 14929862705483663980,
+      "Material": "Assets\\Materials\\HexTop.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HexTop.mesh",
+      "Name": "HexTop",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 1204722344968333267,
+      "Material": "Assets\\Materials\\HexEdgeGrass.mat",
+      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Grass_trim.mesh",
+      "Name": "Grass_trim",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 5939083827890721782,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Flowers.mesh",
       "Name": "Flowers",
@@ -19,8 +109,8 @@
         0.0
       ],
       "Rotation": [
-        1.0,
-        0.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -34,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14132801494709280248,
+      "GUID": 16506878893027738828,
       "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\Grass.mesh",
       "Name": "Grass",
@@ -49,68 +139,8 @@
         0.0
       ],
       "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 11511003222354621442,
-      "Material": "Assets\\Materials\\HexBottom.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HexBottom.mesh",
-      "Name": "SM_HexBottom",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 8825269691932821914,
-      "Material": "Assets\\Materials\\HexTop.mat",
-      "Mesh": "Assets\\Tiles\\Flowers\\Happy Wanderer\\SM_HexTop.mesh",
-      "Name": "SM_HexTop",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -122,11 +152,9 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 6209181705247305922,
+  "GUID": 7050320534815025915,
   "HexType": 1,
   "HexVariant": "Happy Wanderer",
-  "Material": "Engine\\DefaultAssets\\Default.mat",
-  "Mesh": "None",
   "Name": "Empty",
   "Pivot": [
     0.0,
@@ -149,5 +177,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 70103550478110
 }
