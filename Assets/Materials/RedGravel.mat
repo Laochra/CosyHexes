@@ -4,23 +4,23 @@
   "Uniforms": [
     {
       "Data": [
-        247,
-        144,
-        75,
+        0,
+        0,
+        128,
         63,
-        92,
-        90,
-        189,
-        62,
-        125,
-        247,
-        28,
-        62
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63
       ],
       "Name": "ColourTint"
     },
     {
-      "Data": "None",
+      "Data": "Assets\\Textures\\Tex_RedSand_BaseColour.tga",
       "Name": "ColourMap"
     },
     {
