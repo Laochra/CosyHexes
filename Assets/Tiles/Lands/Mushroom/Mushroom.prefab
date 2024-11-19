@@ -4,10 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2178985087258565253,
+      "GUID": 17450923980040256899,
       "Material": "Assets\\Materials\\HexBottom.mat",
-      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\Mesh.022.mesh",
-      "Name": "Mesh.022",
+      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\HexBottom.mesh",
+      "Name": "HexBottom",
       "Pivot": [
         0.0,
         0.0,
@@ -34,10 +34,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 9838449765969754489,
+      "GUID": 14791423839123754307,
       "Material": "Assets\\Materials\\HexBottom.mat",
-      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\Mesh.023.mesh",
-      "Name": "Mesh.023",
+      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\HexTop.mesh",
+      "Name": "HexTop",
       "Pivot": [
         0.0,
         0.0,
@@ -64,10 +64,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16690315324412424225,
-      "Material": "Assets\\Materials\\MushroomLog.mat",
-      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\Cylinder.003.mesh",
-      "Name": "Cylinder.003",
+      "GUID": 2462019189668108498,
+      "Material": "Assets\\Materials\\EucalyptusWood2.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\Log.mesh",
+      "Name": "Log",
       "Pivot": [
         0.0,
         0.0,
@@ -94,40 +94,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 13731575487933401427,
+      "GUID": 2809000670792889480,
       "Material": "Assets\\Materials\\PaleMushroom.mat",
-      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\Sphere.007.mesh",
-      "Name": "Sphere.007",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        -0.7071067094802856,
-        0.7071068286895752,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 2612737350398059883,
-      "Material": "Assets\\Materials\\MushroomGround.mat",
-      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\Cylinder.004.mesh",
-      "Name": "Cylinder.004",
+      "Mesh": "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.mesh",
+      "Name": "Mushroom",
       "Pivot": [
         0.0,
         0.0,
@@ -152,7 +122,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 12093078076470275312,
+  "GUID": 9854325092594092541,
   "HexType": 3,
   "HexVariant": "Mushroom",
   "Name": "Empty",
