@@ -4,10 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10829852438545054370,
+      "GUID": 8208369817591922576,
       "Material": "Assets\\Materials\\HexBottom.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Hex_bottom.mesh",
-      "Name": "Hex_bottom",
+      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\HexBottom.mesh",
+      "Name": "HexBottom",
       "Pivot": [
         0.0,
         0.0,
@@ -34,10 +34,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 552179972460107713,
+      "GUID": 8602416182726618894,
       "Material": "Assets\\Materials\\HexTop.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Hex_top.mesh",
-      "Name": "Hex_top",
+      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\HexTop.mesh",
+      "Name": "HexTop",
       "Pivot": [
         0.0,
         0.0,
@@ -64,10 +64,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 312451150456950257,
-      "Material": "Assets\\Materials\\LeavesTile.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Leaves_tiling.mesh",
-      "Name": "Leaves_tiling",
+      "GUID": 6219551956636589662,
+      "Material": "Assets\\Materials\\HexEdgeGrass.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\GrassTrim.mesh",
+      "Name": "GrassTrim",
       "Pivot": [
         0.0,
         0.0,
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 14898777904326680550,
+      "GUID": 2752941323344935415,
       "Material": "Assets\\Materials\\Tiles_Wood.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Trunk.mesh",
       "Name": "Trunk",
@@ -124,10 +124,70 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 504506070471999445,
+      "GUID": 2673093600844330277,
+      "Material": "Assets\\Materials\\HexGrass.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\GrassTufts.mesh",
+      "Name": "GrassTufts",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 16182656103416874147,
       "Material": "Assets\\Materials\\Leaves.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\leaves_alpha.mesh",
-      "Name": "leaves_alpha",
+      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Leaves.mesh",
+      "Name": "Leaves",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 13360762017380404004,
+      "Material": "Assets\\Materials\\LeavesTile.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\LeavesTiles.mesh",
+      "Name": "LeavesTiles",
       "Pivot": [
         0.0,
         0.0,
@@ -152,7 +212,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 9490970224483564625,
+  "GUID": 13316512232747682306,
   "HexType": 0,
   "HexVariant": "Eucalyptus",
   "Name": "Empty",

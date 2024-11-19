@@ -3,22 +3,22 @@
   "ShaderProgram": "PBRLit",
   "Uniforms": [
     {
-      "Data": "None",
+      "Data": "Assets\\Textures\\Tex_Water_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
       "Data": [
-        230,
-        231,
-        139,
-        62,
-        168,
-        135,
-        248,
-        62,
-        196,
-        137,
-        74,
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
+        63,
+        0,
+        0,
+        128,
         63
       ],
       "Name": "ColourTint"
