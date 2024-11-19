@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3973396970861020287,
+      "GUID": 17980090683351006459,
       "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Wood.mesh",
       "Name": "SM_Mother_Wood",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2816816830187631164,
+      "GUID": 12193252051725156106,
       "Material": "Assets\\Materials\\MotherTreeLeaves.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Leaves.mesh",
       "Name": "SM_Mother_Leaves",
@@ -67,7 +67,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 10069580378691272360,
+          "GUID": 1910857690556214479,
           "Material": "Assets\\Materials\\HexBottom.mat",
           "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexBottom.mesh",
           "Name": "SM_HexBottom",
@@ -82,8 +82,8 @@
             0.0
           ],
           "Rotation": [
-            1.0,
-            0.0,
+            0.7071068286895752,
+            -0.7071068286895752,
             0.0,
             0.0
           ],
@@ -97,7 +97,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 7818911182000961433,
+          "GUID": 5867889323478466737,
           "Material": "Assets\\Materials\\HexTop.mat",
           "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexTop.mesh",
           "Name": "SM_HexTop",
@@ -112,8 +112,8 @@
             0.0
           ],
           "Rotation": [
-            1.0,
-            0.0,
+            0.7071067690849304,
+            -0.7071068286895752,
             0.0,
             0.0
           ],
@@ -125,7 +125,7 @@
           "TypeID": 181025226017607
         }
       ],
-      "GUID": 12217211618440052701,
+      "GUID": 5888467619750017181,
       "Material": "Engine\\DefaultAssets\\Default.mat",
       "Mesh": "None",
       "Name": "Grass",
@@ -153,7 +153,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 16757103958523630206,
+  "GUID": 9111450617645075965,
   "Material": "Engine\\DefaultAssets\\Default.mat",
   "Mesh": "None",
   "Name": "Mother Tree",

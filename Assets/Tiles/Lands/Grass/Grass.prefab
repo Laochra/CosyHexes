@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8093534059180807160,
+      "GUID": 16246126516795766950,
       "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexBottom.mesh",
       "Name": "SM_HexBottom",
@@ -19,8 +19,8 @@
         0.0
       ],
       "Rotation": [
-        1.0,
-        0.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2564175435584760171,
+      "GUID": 16909182130600809912,
       "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexTop.mesh",
       "Name": "SM_HexTop",
@@ -49,8 +49,68 @@
         0.0
       ],
       "Rotation": [
-        1.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 10612183310005040516,
+      "Material": "Assets\\Materials\\HexEdgeGrass.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_EdgeGrass.mesh",
+      "Name": "SM_EdgeGrass",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 16291978805600740585,
+      "Material": "Assets\\Materials\\HexGrass.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_TuftGrass.mesh",
+      "Name": "SM_TuftGrass",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -62,12 +122,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 4512283140298094014,
+  "GUID": 12800426201688113793,
   "HexType": 3,
   "HexVariant": "Grass",
-  "Material": "Engine\\DefaultAssets\\Default.mat",
-  "Mesh": "None",
-  "Name": "Grass",
+  "Name": "Empty",
   "Pivot": [
     0.0,
     0.0,
@@ -89,5 +147,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 70103550478110
 }

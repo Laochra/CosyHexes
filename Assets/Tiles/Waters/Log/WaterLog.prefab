@@ -4,9 +4,9 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11466632725825600083,
-      "Material": "Assets\\Materials\\FernWood.mat",
-      "Mesh": "Assets\\Tiles\\Waters\\Log\\pCylinder39.mesh",
+      "GUID": 7594643646641112302,
+      "Material": "Assets\\Materials\\EucalyptusWood2.mat",
+      "Mesh": "Assets\\Tiles\\Waters\\Log\\Log1.mesh",
       "Name": "Log1",
       "Pivot": [
         0.0,
@@ -15,14 +15,14 @@
       ],
       "Position": [
         0.0,
-        0.09404460340738297,
+        0.0,
         0.0
       ],
       "Rotation": [
-        0.9717381000518799,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
-        0.0,
-        0.23606157302856445
+        0.0
       ],
       "Scale": [
         1.0,
@@ -34,9 +34,9 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11837817825224956443,
-      "Material": "Assets\\Materials\\FernWood.mat",
-      "Mesh": "Assets\\Tiles\\Waters\\Log\\pCylinder40.mesh",
+      "GUID": 10055832154152722027,
+      "Material": "Assets\\Materials\\EucalyptusWood2.mat",
+      "Mesh": "Assets\\Tiles\\Waters\\Log\\Log2.mesh",
       "Name": "Log2",
       "Pivot": [
         0.0,
@@ -45,12 +45,12 @@
       ],
       "Position": [
         0.0,
-        0.09363175183534622,
+        0.0,
         0.0
       ],
       "Rotation": [
-        1.0,
-        0.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -64,10 +64,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8570970228039999304,
-      "Material": "Assets\\Materials\\Water.mat",
-      "Mesh": "Assets\\Tiles\\NewWaterHex.mesh",
-      "Name": "NewWaterHex",
+      "GUID": 5777618223495523224,
+      "Material": "Assets\\Materials\\Foliage_Floral.mat",
+      "Mesh": "Assets\\Tiles\\Waters\\Log\\Grass.mesh",
+      "Name": "Grass",
       "Pivot": [
         0.0,
         0.0,
@@ -79,8 +79,38 @@
         0.0
       ],
       "Rotation": [
-        1.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 3523991297160354244,
+      "Material": "Assets\\Materials\\Water.mat",
+      "Mesh": "Assets\\Tiles\\Waters\\Log\\Water.mesh",
+      "Name": "Water",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -92,12 +122,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 18212236734305595610,
+  "GUID": 16865273694942491694,
   "HexType": 2,
   "HexVariant": "Log",
-  "Material": "Engine\\DefaultAssets\\Default.mat",
-  "Mesh": "None",
-  "Name": "WaterLog",
+  "Name": "Empty",
   "Pivot": [
     0.0,
     0.0,
@@ -119,5 +147,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 70103550478110
 }
