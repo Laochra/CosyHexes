@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 15833396577767117593,
+      "GUID": 14501515623616908957,
       "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\HexBottom.mesh",
       "Name": "HexBottom",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8787871160856506022,
+      "GUID": 15365689247883625548,
       "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\HexTop.mesh",
       "Name": "HexTop",
@@ -64,10 +64,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3233869296044042753,
+      "GUID": 15549548188491444506,
       "Material": "Assets\\Materials\\HexEdgeGrass.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\GrassTrim.mesh",
-      "Name": "GrassTrim",
+      "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\HexEdge.mesh",
+      "Name": "HexEdge",
       "Pivot": [
         0.0,
         0.0,
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10466907091112551663,
+      "GUID": 3168823587088152790,
       "Material": "Assets\\Materials\\Tiles_Wood.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Trunk.mesh",
       "Name": "Trunk",
@@ -124,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3372993927777380441,
+      "GUID": 4816929833159503919,
       "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\GrassTufts.mesh",
       "Name": "GrassTufts",
@@ -154,10 +154,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 4092625549243748838,
-      "Material": "Assets\\Materials\\LeavesTile.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\LeavesTile.mesh",
-      "Name": "LeavesTile",
+      "GUID": 11908635806719324889,
+      "Material": "Assets\\Materials\\Leaves.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Leaves.mesh",
+      "Name": "Leaves",
       "Pivot": [
         0.0,
         0.0,
@@ -184,10 +184,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 15638713166209311997,
-      "Material": "Assets\\Materials\\Leaves.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Leaves.mesh",
-      "Name": "Leaves",
+      "GUID": 2165717873156422093,
+      "Material": "Assets\\Materials\\LeavesTile.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Acacia Blackwood\\Mesh.004.mesh",
+      "Name": "Mesh.004",
       "Pivot": [
         0.0,
         0.0,
@@ -212,7 +212,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 4703543708627984254,
+  "GUID": 15915174921873211460,
   "HexType": 0,
   "HexVariant": "Acacia Blackwood",
   "Name": "Empty",
