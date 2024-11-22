@@ -104,38 +104,13 @@ void main() // Fragment
 	// Variables for Toon Shading
 	vec3 toonRampTinting = vec3(0.333, 0.260, 0.462);
 	float tintingAmbient = 0.3;
-	vec3 specColour = vec3(1.0, 1.0, 1.0);
-	float glossiness = 32.0;
-	vec3 rimColour = vec3(1.0);
-	float rimAmount = 0.6;
-	float rimThreshold = 0.1;
-
-
-	vec3 oNormal = normalize(N);
-	float NdotL = dot(lightDirection, oNormal);
 	
-	float lightIntensity = smoothstep(0.0, 0.01, NdotL);
-	float toonShadow = Remap(clamp(shadow, 0.4, 0.5), 0.4, 0.5, 0.0, 1.0);
-	lightIntensity *= toonShadow;
+	float lightIntensity = Remap(clamp(shadow, 0.4, 0.5), 0.4, 0.5, 0.0, 1.0);
 	
 	vec3 light = lightIntensity * LightObjects[0].colour;
-	
-	vec3 halfVector = normalize(LightObjects[0].position + viewDirection);
-	float NdotZ = dot(N, halfVector);
-	
-	// SPECULAR HIGHLIGHTS
-	float specularIntensity = pow(NdotZ * lightIntensity, glossiness * glossiness);
-	float specularIntensitySmooth = smoothstep(0.005, 0.01, specularIntensity);
-	vec3 toonSpecular = specularIntensitySmooth * specColour;
-	
-	// RIM LIGHT
-	vec3 rimDot = vec3(1.0) - abs(dot(viewDirection, N)) + 0.15 * Simplex2D(FragPos.xz * 30); 
-	vec3 rimIntensity = rimDot * pow(NdotL, rimThreshold);
-	rimIntensity = smoothstep(rimAmount - 0.01, rimAmount + 0.01, rimDot);
-	vec3 rim = rimIntensity * rimColour;
-		
+			
 	// FINAL RESULT
-	vec3 toonResult = colour * (toonRampTinting + light + toonSpecular) + rim;
+	vec3 toonResult = colour * (toonRampTinting + light + vec3(1));
 	toonResult *= tintingAmbient;
 	
 	
