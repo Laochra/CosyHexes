@@ -59,7 +59,7 @@
       "Name": "EmissionIntensity"
     },
     {
-      "Data": "Assets\\Textures\\Tex_Leaves_Tile_Euca_Normal.tga",
+      "Data": "Assets\\Textures\\Leaves_Normal.tga",
       "Name": "NormalMap"
     },
     {

@@ -51,6 +51,8 @@ uniform int Selected;
 
 uniform vec4 HighlightColour;
 
+uniform float Time;
+
 #define HEX_GRID_RADIUS 14
 uniform sampler2D FogMap;
 uniform vec3 FogColour;
@@ -68,39 +70,7 @@ float Remap01(float value, float vMin, float vMax);
 float Remap(float value, float min1, float max1, float min2, float max2);
 double RemapD(double value, double min1, double max1, double min2, double max2);
 
-
-// Simplex 2D noise
-//
-vec3 permute(vec3 x) { return mod(((x*34.0)+1.0)*x, 289.0); }
-
-float snoise(vec2 v){
-  const vec4 C = vec4(0.211324865405187, 0.366025403784439,
-           -0.577350269189626, 0.024390243902439);
-  vec2 i  = floor(v + dot(v, C.yy) );
-  vec2 x0 = v -   i + dot(i, C.xx);
-  vec2 i1;
-  i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);
-  vec4 x12 = x0.xyxy + C.xxzz;
-  x12.xy -= i1;
-  i = mod(i, 289.0);
-  vec3 p = permute( permute( i.y + vec3(0.0, i1.y, 1.0 ))
-  + i.x + vec3(0.0, i1.x, 1.0 ));
-  vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy),
-    dot(x12.zw,x12.zw)), 0.0);
-  m = m*m ;
-  m = m*m ;
-  vec3 x = 2.0 * fract(p * C.www) - 1.0;
-  vec3 h = abs(x) - 0.5;
-  vec3 ox = floor(x + 0.5);
-  vec3 a0 = x - ox;
-  m *= 1.79284291400159 - 0.85373472095314 * ( a0*a0 + h*h );
-  vec3 g;
-  g.x  = a0.x  * x0.x  + h.x  * x0.y;
-  g.yz = a0.yz * x12.xz + h.yz * x12.yw;
-  return 130.0 * dot(m, g);
-}
-
-
+float Simplex2D(vec2 v);
 
 void main() // Fragment
 {	
@@ -112,7 +82,7 @@ void main() // Fragment
 	
 	float fogSideLength = textureSize(FogMap, 0).x;
 	float hexSize = fogSideLength / (HEX_GRID_RADIUS * 2 + 1);
-	vec2 fogCoord = (vec2(fogSideLength * 0.5) + FragPos.xz * vec2(hexSize)) / fogSideLength;
+	vec2 fogCoord = (vec2(fogSideLength * 0.5) + FragPos.xz * vec2(hexSize)) / fogSideLength + (Simplex2D(5 * vec2(FragPos.x + 0.05 * Time, FragPos.y + 0.025 * Time)) * 2 / fogSideLength);
 	vec2 fogData = texture(FogMap, fogCoord, 0).rg;
 	double fogValue = fogData.r * 10.0 + fogData.g;
 	
@@ -145,7 +115,7 @@ void main() // Fragment
 	float NdotL = dot(lightDirection, oNormal);
 	
 	float lightIntensity = smoothstep(0.0, 0.01, NdotL);
-	float toonShadow = smoothstep(0.2, 0.205, shadow);
+	float toonShadow = Remap(clamp(shadow, 0.4, 0.5), 0.4, 0.5, 0.0, 1.0);
 	lightIntensity *= toonShadow;
 	
 	vec3 light = lightIntensity * LightObjects[0].colour;
@@ -159,18 +129,13 @@ void main() // Fragment
 	vec3 toonSpecular = specularIntensitySmooth * specColour;
 	
 	// RIM LIGHT
-	vec3 rimDot = vec3(1.0) - dot(viewDirection, N); 
+	vec3 rimDot = vec3(1.0) - abs(dot(viewDirection, N)) + 0.15 * Simplex2D(FragPos.xz * 30); 
 	vec3 rimIntensity = rimDot * pow(NdotL, rimThreshold);
 	rimIntensity = smoothstep(rimAmount - 0.01, rimAmount + 0.01, rimDot);
 	vec3 rim = rimIntensity * rimColour;
-	
-	// SNOISE
-	float rimSnoise = snoise(FragTexCoords);
-	//rimIntensity *= rimSnoise;
-	
+		
 	// FINAL RESULT
 	vec3 toonResult = colour * (toonRampTinting + light + toonSpecular) + rim;
-	//vec3 toonResult = colour * rimSnoise;
 	toonResult *= tintingAmbient;
 	
 	
@@ -197,6 +162,12 @@ void main() // Fragment
 	double inner = FogRadius - FogGradientRange;
 	double outer = FogRadius;
 	double fogFactor = RemapD(clamp(fogValue, inner, outer), inner, outer, 0, 1);
+	
+	if (fogFactor > 0)
+	{
+		IDColour = uvec2(0, 0);
+		fogFactor = 1;
+	}
 	
 	FragColour.rgb = vec3(mix(FragColour.rgb, FogColour, fogFactor));
 }
@@ -234,17 +205,17 @@ float ShadowCalculation(int lightObjectIndex, vec3 lightDirection)
 	}
 	else // Soft Shadows
 	{
-		vec2 texelSize = vec2(1.0 / textureSize(ShadowMaps, 0));
-		for (float x = -1.5; x <= 1.5; x += 1.0)
+		vec2 texelSize = vec2(1.0 / textureSize(ShadowMaps, 0) * (1 + 1 * Simplex2D(FragPos.xz * 75)));
+		for (float x = -3.5; x <= 3.5; x += 1.0)
 		{
-			for (float y = -1.5; y <= 1.5; y += 1.0)
+			for (float y = -3.5; y <= 3.5; y += 1.0)
 			{
 				float pcfDepth = texture(ShadowMaps, vec3(coords.xy + vec2(x,y) * texelSize, mapIndex)).r;
 				shadow += currentDepth - shadowBias > pcfDepth ? 1.0 : 0.0; // 1 means no light, 0 means light
 			}
 		}
 		
-		shadow /= 16.0;
+		shadow /= 64.0;
 	}
 	
 	return shadow;
@@ -262,3 +233,97 @@ double RemapD(double value, double min1, double max1, double min2, double max2)
 {
   return min2 + (value - min1) * (max2 - min2) / (max1 - min1);
 }
+
+
+
+/// Simplex 2D Noise
+/*
+ * Description : Array and textureless GLSL 2D simplex noise function.
+ *      Author : Ian McEwan, Ashima Arts.
+ *  Maintainer : ijm
+ *     Lastmod : 20110822 (ijm)
+ *     License : Copyright (C) 2011 Ashima Arts. All rights reserved.
+ *               Distributed under the MIT License.
+ *					  Copyright (C) 2011 by Ashima Arts (Simplex noise)
+ *					  Copyright (C) 2011 by Stefan Gustavson (Classic noise)
+ *					  
+ *					  Permission is hereby granted, free of charge, to any person obtaining a copy
+ *					  of this software and associated documentation files (the "Software"), to deal
+ *					  in the Software without restriction, including without limitation the rights
+ *					  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *					  copies of the Software, and to permit persons to whom the Software is
+ *					  furnished to do so, subject to the following conditions:
+ *					  
+ *					  The above copyright notice and this permission notice shall be included in
+ *					  all copies or substantial portions of the Software.
+ *					  
+ *					  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *					  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *					  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *					  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *					  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *					  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ *					  THE SOFTWARE.
+ *               https://github.com/ashima/webgl-noise
+ */
+vec3 mod289(vec3 x) {
+  return x - floor(x * (1.0 / 289.0)) * 289.0;
+}
+
+vec2 mod289(vec2 x) {
+  return x - floor(x * (1.0 / 289.0)) * 289.0;
+}
+
+vec3 permute(vec3 x) {
+  return mod289(((x*34.0)+1.0)*x);
+}
+
+float Simplex2D(vec2 v)
+  {
+  const vec4 C = vec4(0.211324865405187,  // (3.0-sqrt(3.0))/6.0
+                      0.366025403784439,  // 0.5*(sqrt(3.0)-1.0)
+                     -0.577350269189626,  // -1.0 + 2.0 * C.x
+                      0.024390243902439); // 1.0 / 41.0
+// First corner
+  vec2 i  = floor(v + dot(v, C.yy) );
+  vec2 x0 = v -   i + dot(i, C.xx);
+
+// Other corners
+  vec2 i1;
+  //i1.x = step( x0.y, x0.x ); // x0.x > x0.y ? 1.0 : 0.0
+  //i1.y = 1.0 - i1.x;
+  i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);
+  // x0 = x0 - 0.0 + 0.0 * C.xx ;
+  // x1 = x0 - i1 + 1.0 * C.xx ;
+  // x2 = x0 - 1.0 + 2.0 * C.xx ;
+  vec4 x12 = x0.xyxy + C.xxzz;
+  x12.xy -= i1;
+
+// Permutations
+  i = mod289(i); // Avoid truncation effects in permutation
+  vec3 p = permute( permute( i.y + vec3(0.0, i1.y, 1.0 ))
+    + i.x + vec3(0.0, i1.x, 1.0 ));
+
+  vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy), dot(x12.zw,x12.zw)), 0.0);
+  m = m*m ;
+  m = m*m ;
+
+// Gradients: 41 points uniformly over a line, mapped onto a diamond.
+// The ring size 17*17 = 289 is close to a multiple of 41 (41*7 = 287)
+
+  vec3 x = 2.0 * fract(p * C.www) - 1.0;
+  vec3 h = abs(x) - 0.5;
+  vec3 ox = floor(x + 0.5);
+  vec3 a0 = x - ox;
+
+// Normalise gradients implicitly by scaling m
+// Approximation of: m *= inversesqrt( a0*a0 + h*h );
+  m *= 1.79284291400159 - 0.85373472095314 * ( a0*a0 + h*h );
+
+// Compute final noise value at P
+  vec3 g;
+  g.x  = a0.x  * x0.x  + h.x  * x0.y;
+  g.yz = a0.yz * x12.xz + h.yz * x12.yw;
+  return 130.0 * dot(m, g);
+}
+///

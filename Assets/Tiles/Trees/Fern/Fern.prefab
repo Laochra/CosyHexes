@@ -4,70 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10194064975704236274,
-      "Material": "Assets\\Materials\\HexGrass.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_Grass.mesh",
-      "Name": "SM_Grass",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 17472258219588463617,
-      "Material": "Assets\\Materials\\FernWood.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_Tree_Fern_Wood.mesh",
-      "Name": "SM_Tree_Fern_Wood",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 3448328139030103708,
+      "GUID": 9916243526248109094,
       "Material": "Assets\\Materials\\HexBottom.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_HexBottom_OneUnit.mesh",
-      "Name": "SM_HexBottom_OneUnit",
+      "Mesh": "Assets\\Tiles\\Trees\\Fern\\HexBottom.mesh",
+      "Name": "HexBottom",
       "Pivot": [
         0.0,
         0.0,
@@ -79,8 +19,8 @@
         0.0
       ],
       "Rotation": [
-        1.0,
-        0.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -94,40 +34,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 7063661206660007718,
-      "Material": "Assets\\Materials\\Leaves.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_Tree_Fern_Leaves.mesh",
-      "Name": "SM_Tree_Fern_Leaves",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 12570542609234504835,
+      "GUID": 17813404220599789785,
       "Material": "Assets\\Materials\\HexTop.mat",
-      "Mesh": "Assets\\Tiles\\Trees\\Fern\\SM_HexTop_OneUnit.mesh",
-      "Name": "SM_HexTop_OneUnit",
+      "Mesh": "Assets\\Tiles\\Trees\\Fern\\HexTop.mesh",
+      "Name": "HexTop",
       "Pivot": [
         0.0,
         0.0,
@@ -139,8 +49,128 @@
         0.0
       ],
       "Rotation": [
-        1.0,
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 11998042921776293473,
+      "Material": "Assets\\Materials\\HexEdgeGrass.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Fern\\GrassTrim.mesh",
+      "Name": "GrassTrim",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 2232926573378756628,
+      "Material": "Assets\\Materials\\HexGrass.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Fern\\GrassTufts.mesh",
+      "Name": "GrassTufts",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 9089124889528242451,
+      "Material": "Assets\\Materials\\FernWood.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Fern\\Wood.mesh",
+      "Name": "Wood",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 16287120839558858963,
+      "Material": "Assets\\Materials\\Leaves.mat",
+      "Mesh": "Assets\\Tiles\\Trees\\Fern\\Leaves.mesh",
+      "Name": "Leaves",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        -0.7071067094802856,
+        0.7071068286895752,
         0.0,
         0.0
       ],
@@ -152,10 +182,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 16249880422527794174,
+  "GUID": 14419312296865472414,
   "HexType": 0,
   "HexVariant": "Fern",
-  "Name": "Fern",
+  "Name": "Empty",
   "Pivot": [
     0.0,
     0.0,

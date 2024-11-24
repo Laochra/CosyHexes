@@ -50,7 +50,7 @@
       "Name": "EmissionIntensity"
     },
     {
-      "Data": "Assets\\Textures\\Mat_Grass_Normal.tga",
+      "Data": "DefaultNormal",
       "Name": "NormalMap"
     },
     {
