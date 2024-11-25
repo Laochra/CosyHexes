@@ -5,20 +5,22 @@
     "Music": "None",
     "MusicVolume": 1.0,
     "SoundEffects": {
+      "FogMove": "None",
       "FormHabitat": "Assets\\Habitats\\FormHabitat.wav",
+      "MenuSelect": "None",
       "PlaceFlower": "Assets\\Tiles\\Flowers\\PlaceFlower.wav",
       "PlaceLand": "Assets\\Tiles\\Lands\\PlaceLand.wav",
       "PlaceTree": "Assets\\Tiles\\Trees\\PlaceTree.wav",
       "PlaceWater": "Assets\\Tiles\\Waters\\PlaceWater.wav",
       "RadialClose": "Assets\\UI\\RadialMenu\\RadialMenu_Close.wav",
-      "RadialCycleDensity": "None",
       "RadialCyclePage": "Assets\\UI\\RadialMenu\\RadialMenu_CyclePage.wav",
+      "RadialHover": "None",
       "RadialOpen": "Assets\\UI\\RadialMenu\\RadialMenu_Open.wav",
+      "RadialSelect": "None",
       "ScrapbookClose": "Assets\\UI\\Scrapbook\\Scrapbook_Close.wav",
-      "ScrapbookNewHabitatPage": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav",
-      "ScrapbookNotification": "Assets\\UI\\Scrapbook\\Scrapbook_Notification.wav",
       "ScrapbookOpen": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav",
-      "ScrapbookTurnPage": "None"
+      "ScrapbookStickerPlace": "None",
+      "VariantUnlock": "None"
     },
     "SoundEffectsVolume": 1.0,
     "SpiritSounds": null,
@@ -27,7 +29,7 @@
   "BackgroundPrefab": "Assets\\Tiles\\Fog\\Background.prefab",
   "Camera": {
     "MaxZoom": 12.0,
-    "MinZoom": 3.0,
+    "MinZoom": 2.0,
     "OffsetY": 0.6800000071525574,
     "OffsetZ": 0.7332121133804321,
     "StartZoom": 8.0

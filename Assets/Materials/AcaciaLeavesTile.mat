@@ -1,6 +1,6 @@
 {
   "Attributes": [],
-  "ShaderProgram": "PBRLit",
+  "ShaderProgram": "Assets\\Shaders\\Foliage.gpu",
   "Uniforms": [
     {
       "Data": [
@@ -12,7 +12,7 @@
       "Name": "AlphaCutoff"
     },
     {
-      "Data": "Assets\\Textures\\Tex_Leaves_Tile_Acaica_BaseColor.tga",
+      "Data": "Assets\\Textures\\Tex_Leaves_Tiled_Acacia_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
@@ -59,7 +59,7 @@
       "Name": "EmissionIntensity"
     },
     {
-      "Data": "Assets\\Textures\\Tex_Leaves_Tile_Acaica_Normal.tga",
+      "Data": "Assets\\Textures\\Tex_Leaves_Tiled_Acacia_Normal.tga",
       "Name": "NormalMap"
     },
     {
