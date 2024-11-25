@@ -7,7 +7,127 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 4133014782040202869,
+          "GUID": 13360047781049151378,
+          "Material": "Assets\\Materials\\HexEdgeGrass.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_Hex_GrassEdge_Flipped.mesh",
+          "Name": "SM_Hex_GrassEdge_Flipped",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 11187460793997652062,
+          "Material": "Assets\\Materials\\HexTop.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_HexTop_Habitat_Flipped.mesh",
+          "Name": "SM_HexTop_Habitat_Flipped",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 10988885088811808204,
+          "Material": "Assets\\Materials\\Water.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_Hex_Water_Habitat_Flipped.mesh",
+          "Name": "SM_Hex_Water_Habitat_Flipped",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 17406872661499288295,
+          "Material": "Assets\\Materials\\HexBottom.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_HexBottom_Habitat_Flipped.mesh",
+          "Name": "SM_HexBottom_Habitat_Flipped",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 8726553725175062732,
           "Material": "Assets\\Materials\\Leaves.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Fern.mesh",
           "Name": "SM_Fern",
@@ -37,7 +157,67 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 6038746579451486591,
+          "GUID": 1662911522661490895,
+          "Material": "Assets\\Materials\\Leaves.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_Leaves_Outer.mesh",
+          "Name": "SM_Leaves_Outer",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 12797385762265207967,
+          "Material": "Assets\\Materials\\EucaLeavesTile.mat",
+          "Mesh": "Assets\\Habitats\\Frog\\SM_Leaves_Inner.mesh",
+          "Name": "SM_Leaves_Inner",
+          "Pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "TypeID": 181025226017607
+        },
+        {
+          "Active": true,
+          "Children": [],
+          "GUID": 1876710492898115757,
           "Material": "Assets\\Materials\\HexGrass.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Grass_Tall.mesh",
           "Name": "SM_Grass_Tall",
@@ -67,7 +247,7 @@
         {
           "Active": true,
           "Children": [],
-          "GUID": 6383161723677516067,
+          "GUID": 3663693690700065003,
           "Material": "Assets\\Materials\\EucalyptusWood2.mat",
           "Mesh": "Assets\\Habitats\\Frog\\SM_Wood_Euca.mesh",
           "Name": "SM_Wood_Euca",
@@ -93,129 +273,9 @@
             1.0
           ],
           "TypeID": 181025226017607
-        },
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 4166325810827632824,
-          "Material": "Assets\\Materials\\Water.mat",
-          "Mesh": "Assets\\Habitats\\Frog\\SM_Hex_Water_Habitat.mesh",
-          "Name": "SM_Hex_Water_Habitat",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        },
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 17283230941384115215,
-          "Material": "Assets\\Materials\\HexBottom.mat",
-          "Mesh": "Assets\\Habitats\\Frog\\SM_HexBottom_Habitat.mesh",
-          "Name": "SM_HexBottom_Habitat",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        },
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 18253661550587492195,
-          "Material": "Assets\\Materials\\HexTop.mat",
-          "Mesh": "Assets\\Habitats\\Frog\\SM_HexTop_Habitat.mesh",
-          "Name": "SM_HexTop_Habitat",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        },
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 10420831628767585594,
-          "Material": "Assets\\Materials\\HexEdgeGrass.mat",
-          "Mesh": "Assets\\Habitats\\Frog\\SM_Grass_Habitat.mesh",
-          "Name": "SM_Grass_Habitat",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            1.0,
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
         }
       ],
-      "GUID": 8737270756314527646,
+      "GUID": 9203451723963694892,
       "Name": "Empty",
       "Pivot": [
         0.0,
@@ -243,10 +303,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 210556086287092619,
+      "GUID": 5186530208027710742,
       "Material": "Assets\\Materials\\Leaves.mat",
-      "Mesh": "Assets\\Habitats\\Frog\\SM_Leaves149.mesh",
-      "Name": "SM_Leaves149",
+      "Mesh": "Assets\\Habitats\\Frog\\polySurface268.mesh",
+      "Name": "polySurface268",
       "Pivot": [
         0.0,
         0.0,
@@ -273,40 +333,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11817897377931726064,
-      "Material": "Assets\\Materials\\LeavesTile.mat",
-      "Mesh": "Assets\\Habitats\\Frog\\pCube15.mesh",
-      "Name": "pCube15",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 9614813526159388895,
+      "GUID": 9774891278439398090,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
-      "Mesh": "Assets\\Habitats\\Frog\\polySurface15.mesh",
-      "Name": "polySurface15",
+      "Mesh": "Assets\\Habitats\\Frog\\polySurface262.mesh",
+      "Name": "polySurface262",
       "Pivot": [
         0.0,
         0.0,
@@ -331,7 +361,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 432293292668610817,
+  "GUID": 2965253582319036523,
   "Name": "Frog",
   "Pivot": [
     0.0,

@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16246126516795766950,
+      "GUID": 4195419134141408707,
       "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexBottom.mesh",
       "Name": "SM_HexBottom",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16909182130600809912,
+      "GUID": 2324189248068624042,
       "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexTop.mesh",
       "Name": "SM_HexTop",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10612183310005040516,
+      "GUID": 17803364899022949860,
       "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_EdgeGrass.mesh",
       "Name": "SM_EdgeGrass",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16291978805600740585,
+      "GUID": 1133343323346783456,
       "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_TuftGrass.mesh",
       "Name": "SM_TuftGrass",
@@ -122,7 +122,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 12800426201688113793,
+  "GUID": 12006639459446250380,
   "HexType": 3,
   "HexVariant": "Grass",
   "Name": "Empty",

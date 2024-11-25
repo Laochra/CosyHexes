@@ -1,25 +1,34 @@
 {
   "Attributes": [],
-  "ShaderProgram": "PBRLit",
+  "ShaderProgram": "Assets\\Shaders\\Foliage.gpu",
   "Uniforms": [
     {
-      "Data": "Assets\\Textures\\Tex_Tree_Euca_BaseColor.tga",
+      "Data": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "Name": "AlphaCutoff"
+    },
+    {
+      "Data": "Assets\\Textures\\Tex_Leaves_Tiled_Euca_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
       "Data": [
-        179,
-        178,
-        178,
-        62,
-        148,
-        147,
-        19,
+        203,
+        48,
+        7,
         63,
-        199,
-        198,
-        198,
-        62
+        28,
+        77,
+        29,
+        63,
+        30,
+        13,
+        13,
+        63
       ],
       "Name": "ColourTint"
     },
@@ -50,7 +59,7 @@
       "Name": "EmissionIntensity"
     },
     {
-      "Data": "Assets\\Textures\\Leaves_Normal.tga",
+      "Data": "Assets\\Textures\\Tex_Leaves_Tiled_Euca_Normal.tga",
       "Name": "NormalMap"
     },
     {

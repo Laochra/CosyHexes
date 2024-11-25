@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8208369817591922576,
+      "GUID": 11794306546199430612,
       "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\HexBottom.mesh",
       "Name": "HexBottom",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 8602416182726618894,
+      "GUID": 14736531499473781715,
       "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\HexTop.mesh",
       "Name": "HexTop",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 6219551956636589662,
+      "GUID": 8908370853654056192,
       "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\GrassTrim.mesh",
       "Name": "GrassTrim",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2752941323344935415,
+      "GUID": 12235438547122257126,
       "Material": "Assets\\Materials\\Tiles_Wood.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Trunk.mesh",
       "Name": "Trunk",
@@ -124,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2673093600844330277,
+      "GUID": 16571236219111465771,
       "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\GrassTufts.mesh",
       "Name": "GrassTufts",
@@ -154,7 +154,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16182656103416874147,
+      "GUID": 7001398894485559880,
       "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\Leaves.mesh",
       "Name": "Leaves",
@@ -184,8 +184,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 13360762017380404004,
-      "Material": "Assets\\Materials\\LeavesTile.mat",
+      "GUID": 5107904373444734929,
+      "Material": "Assets\\Materials\\EucaLeavesTile.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Eucalyptus\\LeavesTiles.mesh",
       "Name": "LeavesTiles",
       "Pivot": [
@@ -212,7 +212,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 13316512232747682306,
+  "GUID": 816762535795038502,
   "HexType": 0,
   "HexVariant": "Eucalyptus",
   "Name": "Empty",

@@ -3,7 +3,7 @@
   "ShaderProgram": "PBRLit",
   "Uniforms": [
     {
-      "Data": "Assets\\Textures\\Mat_Grass_BaseColor.tga",
+      "Data": "Assets\\Textures\\Tex_Grass_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
@@ -50,7 +50,7 @@
       "Name": "EmissionIntensity"
     },
     {
-      "Data": "Assets\\Textures\\Mat_Grass_Normal.tga",
+      "Data": "Assets\\Textures\\Tex_Grass_Normal.tga",
       "Name": "NormalMap"
     },
     {

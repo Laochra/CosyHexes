@@ -4,128 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 5787487514532540912,
-      "Material": "Assets\\Materials\\HexBottom.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_HexBottom_Habitat.mesh",
-      "Name": "SM_HexBottom_Habitat",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 16016824022420920422,
-      "Material": "Assets\\Materials\\HexEdgeGrass.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_Grass_Habitat.mesh",
-      "Name": "SM_Grass_Habitat",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 18070268840872522698,
-      "Material": "Assets\\Materials\\Water.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_Hex_Water_Habitat.mesh",
-      "Name": "SM_Hex_Water_Habitat",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 16473579720938396481,
-      "Material": "Assets\\Materials\\HexTop.mat",
-      "Mesh": "Assets\\Habitats\\Slug\\SM_HexTop_Habitat.mesh",
-      "Name": "SM_HexTop_Habitat",
-      "Pivot": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Position": [
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Rotation": [
-        1.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "Scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "TypeID": 181025226017607
-    },
-    {
-      "Active": true,
-      "Children": [],
-      "GUID": 16123446499519422333,
-      "Material": "Assets\\Materials\\EucalyptusWood.mat",
+      "GUID": 15821603976274013173,
+      "Material": "Assets\\Materials\\EucalyptusWood2.mat",
       "Mesh": "Assets\\Habitats\\Slug\\SM_Wood_Euca.mesh",
       "Name": "SM_Wood_Euca",
       "Pivot": [
@@ -154,8 +34,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 848679225757590352,
-      "Material": "Assets\\Materials\\LeavesTile.mat",
+      "GUID": 1277175359598486323,
+      "Material": "Assets\\Materials\\EucaLeavesTile.mat",
       "Mesh": "Assets\\Habitats\\Slug\\SM_Leaves_Euca_Inner.mesh",
       "Name": "SM_Leaves_Euca_Inner",
       "Pivot": [
@@ -184,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 10790523698075497838,
+      "GUID": 796623847072298905,
       "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Habitats\\Slug\\SM_Grass_Tall.mesh",
       "Name": "SM_Grass_Tall",
@@ -214,7 +94,37 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 6057860347587030691,
+      "GUID": 4006816544564951995,
+      "Material": "Assets\\Materials\\HexEdgeGrass.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_Hex_GrassEdge_Flipped.mesh",
+      "Name": "SM_Hex_GrassEdge_Flipped",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 9621201578651972069,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Habitats\\Slug\\SM_Prickly.mesh",
       "Name": "SM_Prickly",
@@ -244,7 +154,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 6119531692059761115,
+      "GUID": 10901585564687410688,
       "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Habitats\\Slug\\SM_Leaves_Euca_Outer.mesh",
       "Name": "SM_Leaves_Euca_Outer",
@@ -270,9 +180,99 @@
         1.0
       ],
       "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 399100648773202778,
+      "Material": "Assets\\Materials\\HexBottom.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HexBottom_Habitat_Flipped.mesh",
+      "Name": "SM_HexBottom_Habitat_Flipped",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 344582132926731631,
+      "Material": "Assets\\Materials\\Water.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_Hex_Water_Habitat_Flipped.mesh",
+      "Name": "SM_Hex_Water_Habitat_Flipped",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 2792542195416029454,
+      "Material": "Assets\\Materials\\HexTop.mat",
+      "Mesh": "Assets\\Habitats\\Slug\\SM_HexTop_Habitat_Flipped.mesh",
+      "Name": "SM_HexTop_Habitat_Flipped",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
     }
   ],
-  "GUID": 10054183422885635075,
+  "GUID": 8241877814892863052,
   "Name": "Slug",
   "Pivot": [
     0.0,
