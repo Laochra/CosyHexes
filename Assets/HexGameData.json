@@ -5,7 +5,7 @@
     "Music": "None",
     "MusicVolume": 1.0,
     "SoundEffects": {
-      "FogMove": "None",
+      "FogMove": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav",
       "FormHabitat": "Assets\\Habitats\\FormHabitat.wav",
       "MenuSelect": "None",
       "PlaceFlower": "Assets\\Tiles\\Flowers\\PlaceFlower.wav",
@@ -14,13 +14,13 @@
       "PlaceWater": "Assets\\Tiles\\Waters\\PlaceWater.wav",
       "RadialClose": "Assets\\UI\\RadialMenu\\RadialMenu_Close.wav",
       "RadialCyclePage": "Assets\\UI\\RadialMenu\\RadialMenu_CyclePage.wav",
-      "RadialHover": "None",
+      "RadialHover": "Assets\\UI\\RadialMenu\\RadialMenu_Select.wav",
       "RadialOpen": "Assets\\UI\\RadialMenu\\RadialMenu_Open.wav",
-      "RadialSelect": "None",
+      "RadialSelect": "Assets\\UI\\RadialMenu\\RadialMenu_Select.wav",
       "ScrapbookClose": "Assets\\UI\\Scrapbook\\Scrapbook_Close.wav",
       "ScrapbookOpen": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav",
-      "ScrapbookStickerPlace": "None",
-      "VariantUnlock": "None"
+      "ScrapbookStickerPlace": "Assets\\UI\\Scrapbook\\Scrapbook_Notification.wav",
+      "VariantUnlock": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav"
     },
     "SoundEffectsVolume": 1.0,
     "SpiritSounds": null,
@@ -29,7 +29,7 @@
   "BackgroundPrefab": "Assets\\Tiles\\Fog\\Background.prefab",
   "Camera": {
     "MaxZoom": 12.0,
-    "MinZoom": 2.0,
+    "MinZoom": 3.0,
     "OffsetY": 0.6800000071525574,
     "OffsetZ": 0.7332121133804321,
     "StartZoom": 8.0
@@ -96,6 +96,11 @@
     "AmbientIntensity": 1.0,
     "LightObject": "Assets\\Lighting.prefab"
   },
+  "MenuSprites": {
+    "ContinueScreen": "None",
+    "MainMenu": "MainMenu",
+    "PauseMenu": "PauseMenu"
+  },
   "Misc Colours": {
     "Highlight": [
       25.0,
@@ -127,24 +132,6 @@
           "Mushroom"
         ],
         "RadiusIncrease": 2,
-        "Type": 0
-      },
-      {
-        "LifeRequirement": 120,
-        "Names": [],
-        "RadiusIncrease": 1,
-        "Type": 0
-      },
-      {
-        "LifeRequirement": 120,
-        "Names": [],
-        "RadiusIncrease": 1,
-        "Type": 0
-      },
-      {
-        "LifeRequirement": 140,
-        "Names": [],
-        "RadiusIncrease": 1,
         "Type": 0
       }
     ],
@@ -754,6 +741,32 @@
       "OffsetY": 0.44600000977516174,
       "Scale": 0.09200000017881393,
       "Texture": "Assets\\UI\\Control Icons\\RadialMenuButton.png",
+      "TextureFilter": 0,
+      "TextureWrap": false
+    },
+    {
+      "AnchorX": -1.0,
+      "AnchorY": 0.0,
+      "Enabled": false,
+      "Layer": -1,
+      "Name": "MainMenu",
+      "OffsetX": 1.7769999504089355,
+      "OffsetY": 0.0,
+      "Scale": 1.0,
+      "Texture": "Assets\\UI\\Menus\\MainMenu.png",
+      "TextureFilter": 0,
+      "TextureWrap": false
+    },
+    {
+      "AnchorX": -1.0,
+      "AnchorY": 0.0,
+      "Enabled": false,
+      "Layer": -1,
+      "Name": "PauseMenu",
+      "OffsetX": 1.7769999504089355,
+      "OffsetY": 0.0,
+      "Scale": 1.0,
+      "Texture": "Assets\\UI\\Menus\\PauseMenu.png",
       "TextureFilter": 0,
       "TextureWrap": false
     }
