@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 5450469793976143540,
+      "GUID": 12479816984714274820,
       "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_HexBottom_OneUnit.mesh",
       "Name": "SM_HexBottom_OneUnit",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11575354378595879572,
+      "GUID": 12692320871574113487,
       "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_HexTop_OneUnit.mesh",
       "Name": "SM_HexTop_OneUnit",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 7888411751684860124,
+      "GUID": 14694911255824908936,
       "Material": "Assets\\Materials\\MotherBaseColour.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Wood_Mother.mesh",
       "Name": "SM_Wood_Mother",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12267915483688422119,
+      "GUID": 7224935127549903062,
       "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Leaves_Euca.mesh",
       "Name": "SM_Leaves_Euca",
@@ -124,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3298830221026866339,
+      "GUID": 14143830576060411971,
       "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Fern.mesh",
       "Name": "SM_Fern",
@@ -154,7 +154,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 17306526427475402523,
+      "GUID": 18104708709058762740,
       "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Grass_Tall.mesh",
       "Name": "SM_Grass_Tall",
@@ -184,7 +184,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 13454534055058518055,
+      "GUID": 12319522969019543746,
       "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Tiles\\MotherTree\\SM_Hex_GrassEdge.mesh",
       "Name": "SM_Hex_GrassEdge",
@@ -212,7 +212,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 6203337006969475628,
+  "GUID": 17854436416483187715,
   "Name": "Mother Tree",
   "Pivot": [
     0.0,
@@ -225,9 +225,9 @@
     0.0
   ],
   "Rotation": [
-    1.0,
+    0.8660253286361694,
     0.0,
-    0.0,
+    -0.5000000596046448,
     0.0
   ],
   "Scale": [
