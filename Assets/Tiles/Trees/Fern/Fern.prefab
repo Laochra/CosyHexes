@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 9916243526248109094,
+      "GUID": 8909562028650953472,
       "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\HexBottom.mesh",
       "Name": "HexBottom",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 17813404220599789785,
+      "GUID": 13202318926688496012,
       "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\HexTop.mesh",
       "Name": "HexTop",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11998042921776293473,
+      "GUID": 5028493039369059707,
       "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\GrassTrim.mesh",
       "Name": "GrassTrim",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 2232926573378756628,
+      "GUID": 12492364614938886551,
       "Material": "Assets\\Materials\\HexGrass.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\GrassTufts.mesh",
       "Name": "GrassTufts",
@@ -124,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 9089124889528242451,
+      "GUID": 14560664874259667685,
       "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\Wood.mesh",
       "Name": "Wood",
@@ -154,7 +154,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16287120839558858963,
+      "GUID": 13531540747129394232,
       "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Tiles\\Trees\\Fern\\Leaves.mesh",
       "Name": "Leaves",
@@ -182,7 +182,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 14419312296865472414,
+  "GUID": 7687743380289855286,
   "HexType": 0,
   "HexVariant": "Fern",
   "Name": "Empty",

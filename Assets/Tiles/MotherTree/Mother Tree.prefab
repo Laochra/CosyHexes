@@ -4,10 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 17980090683351006459,
-      "Material": "Assets\\Materials\\FernWood.mat",
-      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Wood.mesh",
-      "Name": "SM_Mother_Wood",
+      "GUID": 5450469793976143540,
+      "Material": "Assets\\Materials\\HexBottom.mat",
+      "Mesh": "Assets\\Tiles\\MotherTree\\SM_HexBottom_OneUnit.mesh",
+      "Name": "SM_HexBottom_OneUnit",
       "Pivot": [
         0.0,
         0.0,
@@ -16,7 +16,7 @@
       "Position": [
         0.0,
         0.0,
-        150.0
+        0.0
       ],
       "Rotation": [
         1.0,
@@ -34,10 +34,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 12193252051725156106,
-      "Material": "Assets\\Materials\\MotherTreeLeaves.mat",
-      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Mother_Leaves.mesh",
-      "Name": "SM_Mother_Leaves",
+      "GUID": 11575354378595879572,
+      "Material": "Assets\\Materials\\HexTop.mat",
+      "Mesh": "Assets\\Tiles\\MotherTree\\SM_HexTop_OneUnit.mesh",
+      "Name": "SM_HexTop_OneUnit",
       "Pivot": [
         0.0,
         0.0,
@@ -46,7 +46,7 @@
       "Position": [
         0.0,
         0.0,
-        150.0
+        0.0
       ],
       "Rotation": [
         1.0,
@@ -63,72 +63,11 @@
     },
     {
       "Active": true,
-      "Children": [
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 1910857690556214479,
-          "Material": "Assets\\Materials\\HexBottom.mat",
-          "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexBottom.mesh",
-          "Name": "SM_HexBottom",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            0.7071068286895752,
-            -0.7071068286895752,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        },
-        {
-          "Active": true,
-          "Children": [],
-          "GUID": 5867889323478466737,
-          "Material": "Assets\\Materials\\HexTop.mat",
-          "Mesh": "Assets\\Tiles\\Lands\\Grass\\SM_HexTop.mesh",
-          "Name": "SM_HexTop",
-          "Pivot": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Position": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "Rotation": [
-            0.7071067690849304,
-            -0.7071068286895752,
-            0.0,
-            0.0
-          ],
-          "Scale": [
-            1.0,
-            1.0,
-            1.0
-          ],
-          "TypeID": 181025226017607
-        }
-      ],
-      "GUID": 5888467619750017181,
-      "Material": "Engine\\DefaultAssets\\Default.mat",
-      "Mesh": "None",
-      "Name": "Grass",
+      "Children": [],
+      "GUID": 7888411751684860124,
+      "Material": "Assets\\Materials\\MotherBaseColour.mat",
+      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Wood_Mother.mesh",
+      "Name": "SM_Wood_Mother",
       "Pivot": [
         0.0,
         0.0,
@@ -146,16 +85,134 @@
         0.0
       ],
       "Scale": [
-        100.0,
-        100.0,
-        100.0
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 12267915483688422119,
+      "Material": "Assets\\Materials\\Leaves.mat",
+      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Leaves_Euca.mesh",
+      "Name": "SM_Leaves_Euca",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 3298830221026866339,
+      "Material": "Assets\\Materials\\Leaves.mat",
+      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Fern.mesh",
+      "Name": "SM_Fern",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 17306526427475402523,
+      "Material": "Assets\\Materials\\HexGrass.mat",
+      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Grass_Tall.mesh",
+      "Name": "SM_Grass_Tall",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 13454534055058518055,
+      "Material": "Assets\\Materials\\HexEdgeGrass.mat",
+      "Mesh": "Assets\\Tiles\\MotherTree\\SM_Hex_GrassEdge.mesh",
+      "Name": "SM_Hex_GrassEdge",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
       ],
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 9111450617645075965,
-  "Material": "Engine\\DefaultAssets\\Default.mat",
-  "Mesh": "None",
+  "GUID": 6203337006969475628,
   "Name": "Mother Tree",
   "Pivot": [
     0.0,
@@ -174,9 +231,9 @@
     0.0
   ],
   "Scale": [
-    0.009999999776482582,
-    0.009999999776482582,
-    0.009999999776482582
+    1.0,
+    1.0,
+    1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 70103550478110
 }

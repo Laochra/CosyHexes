@@ -4,7 +4,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 583227215181383056,
+      "GUID": 12142856325648184638,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\Flowers.mesh",
       "Name": "Flowers",
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 11757762360792479073,
+      "GUID": 2623318076883181485,
       "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\HexBottom.mesh",
       "Name": "HexBottom",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 6581987031566164559,
+      "GUID": 2748114795550229705,
       "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\HexTop.mesh",
       "Name": "HexTop",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 17830555546993324114,
+      "GUID": 2530067373378656416,
       "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\GrassTrim.mesh",
       "Name": "GrassTrim",
@@ -122,7 +122,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 5069935919412852535,
+  "GUID": 5360637154303373800,
   "HexType": 1,
   "HexVariant": "Everlasting Daisy",
   "Name": "Empty",
