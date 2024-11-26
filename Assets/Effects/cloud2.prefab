@@ -1,0 +1,30 @@
+{
+  "Active": true,
+  "Children": [],
+  "GUID": 11227586407495910793,
+  "Material": "Default",
+  "Mesh": "Assets\\Effects\\cloud2.mesh",
+  "Name": "cloud2",
+  "Pivot": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Position": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Rotation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "Scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "TypeID": 181025226017607
+}
