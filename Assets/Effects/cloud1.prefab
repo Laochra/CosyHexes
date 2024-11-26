@@ -1,8 +1,8 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 6003430653044754486,
-  "Material": "Default",
+  "GUID": 15074396056565532861,
+  "Material": "Assets\\Materials\\ShadowOnly.mat",
   "Mesh": "Assets\\Effects\\cloud.mesh",
   "Name": "cloud",
   "Pivot": [
@@ -12,7 +12,7 @@
   ],
   "Position": [
     0.0,
-    0.0,
+    3.0,
     0.0
   ],
   "Rotation": [
