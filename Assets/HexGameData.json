@@ -4,7 +4,7 @@
       "Assets\\Ambience & Soundtrack\\Ambience_[1].wav"
     ],
     "AmbienceVolume": 1.0,
-    "Music": "None",
+    "Music": "Assets\\Ambience & Soundtrack\\Soundtrack_[1].wav",
     "MusicVolume": 1.0,
     "SoundEffects": {
       "FogMove": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav",
@@ -25,13 +25,7 @@
       "VariantUnlock": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav"
     },
     "SoundEffectsVolume": 1.0,
-    "SpiritSounds": {
-      "Bee": "None",
-      "Frog": "None",
-      "Platypus": "None",
-      "Slug": "None",
-      "Tassie Tiger": "None"
-    },
+    "SpiritSounds": null,
     "SpiritSoundsVolume": 1.0
   },
   "BackgroundPrefab": "Assets\\Tiles\\Fog\\Background.prefab",
