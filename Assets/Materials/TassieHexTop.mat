@@ -1,6 +1,6 @@
 {
   "Attributes": [],
-  "ShaderProgram": "Assets\\Shaders\\NoHighlights.gpu",
+  "ShaderProgram": "PBRLit",
   "Uniforms": [
     {
       "Data": [
@@ -12,18 +12,18 @@
       "Name": "AlphaCutoff"
     },
     {
-      "Data": "None",
+      "Data": "Assets\\Textures\\Tex_HexTop_GravelTassie_BaseColor.tga",
       "Name": "ColourMap"
     },
     {
       "Data": [
-        200,
-        174,
-        6,
+        0,
+        0,
+        128,
         63,
-        218,
-        254,
-        70,
+        0,
+        0,
+        128,
         63,
         0,
         0,

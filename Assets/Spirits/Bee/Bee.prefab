@@ -1,7 +1,7 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 996200696446530546,
+  "GUID": 13904565523448879515,
   "Material": "Assets\\Materials\\SpiritMaterials\\Bee.mat",
   "Mesh": "Assets\\Spirits\\Bee\\Bee.mesh",
   "Name": "Bee",
@@ -13,7 +13,7 @@
   "Position": [
     0.0,
     0.0,
-    0.0
+    0.4000000059604645
   ],
   "Rotation": [
     1.0,

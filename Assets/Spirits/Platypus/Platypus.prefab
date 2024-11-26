@@ -1,7 +1,7 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 3239172215147816800,
+  "GUID": 7419774731976303848,
   "Material": "Assets\\Materials\\SpiritMaterials\\Platypus.mat",
   "Mesh": "Assets\\Spirits\\Platypus\\Platypus.mesh",
   "Name": "Platypus",
@@ -13,7 +13,7 @@
   "Position": [
     0.0,
     0.0,
-    0.0
+    0.6000000238418579
   ],
   "Rotation": [
     1.0,
