@@ -1,0 +1,5 @@
+{
+  "Attributes": [],
+  "ShaderProgram": "Assets\\Shaders\\ShadowOnly.gpu",
+  "Uniforms": []
+}
