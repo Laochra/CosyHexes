@@ -1,7 +1,7 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 284745479950013757,
+  "GUID": 9960471020350028385,
   "Material": "Assets\\Materials\\SpiritMaterials\\Frog.mat",
   "Mesh": "Assets\\Spirits\\Frog\\Frog.mesh",
   "Name": "Frog",
@@ -13,7 +13,7 @@
   "Position": [
     0.0,
     0.0,
-    0.0
+    0.6000000238418579
   ],
   "Rotation": [
     1.0,

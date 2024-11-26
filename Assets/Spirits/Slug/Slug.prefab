@@ -1,7 +1,7 @@
 {
   "Active": true,
   "Children": [],
-  "GUID": 6224011404848898995,
+  "GUID": 6747943687056136916,
   "Material": "Assets\\Materials\\SpiritMaterials\\Slug.mat",
   "Mesh": "Assets\\Spirits\\Slug\\Slug.mesh",
   "Name": "Slug",
@@ -13,7 +13,7 @@
   "Position": [
     0.0,
     0.0,
-    0.0
+    0.550000011920929
   ],
   "Rotation": [
     1.0,
