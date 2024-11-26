@@ -129,7 +129,7 @@ void main() // Fragment
 	vec3 toonSpecular = specularIntensitySmooth * specColour;
 	
 	// RIM LIGHT
-	vec3 rimDot = vec3(1.0) - abs(dot(viewDirection, N)) + 0.15 * Simplex2D(FragPos.xz * 30); 
+	vec3 rimDot = vec3(1.0) - abs(dot(viewDirection, N)) - 0.05 + 0.05 * Simplex2D(FragPos.xz * 75); 
 	vec3 rimIntensity = rimDot * pow(NdotL, rimThreshold);
 	rimIntensity = smoothstep(rimAmount - 0.01, rimAmount + 0.01, rimDot);
 	vec3 rim = rimIntensity * rimColour;

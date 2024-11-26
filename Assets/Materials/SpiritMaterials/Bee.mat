@@ -1,6 +1,6 @@
 {
   "Attributes": [],
-  "ShaderProgram": "PBRLit",
+  "ShaderProgram": "Assets\\Shaders\\Spirit.gpu",
   "Uniforms": [
     {
       "Data": [
