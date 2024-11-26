@@ -12,18 +12,18 @@
       "Name": "AlphaCutoff"
     },
     {
-      "Data": "None",
+      "Data": "Assets\\Textures\\Gradient3.0.tga",
       "Name": "ColourMap"
     },
     {
       "Data": [
-        200,
-        174,
-        6,
+        0,
+        0,
+        128,
         63,
-        218,
-        254,
-        70,
+        0,
+        0,
+        128,
         63,
         0,
         0,
