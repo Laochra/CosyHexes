@@ -31,7 +31,7 @@
   "BackgroundPrefab": "Assets\\Tiles\\Fog\\Background.prefab",
   "Camera": {
     "MaxZoom": 12.0,
-    "MinZoom": 2.0,
+    "MinZoom": 3.5,
     "OffsetY": 0.6800000071525574,
     "OffsetZ": 0.7332121133804321,
     "StartZoom": 8.0
@@ -391,7 +391,7 @@
       "OffsetX": 0.0,
       "OffsetY": 0.05000000074505806,
       "Scale": 0.027499999850988388,
-      "Texture": "Assets\\UI\\Version History Labels\\GOLD  0.1.png",
+      "Texture": "Assets\\UI\\Version History Labels\\GOLD  0.2.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
