@@ -6,7 +6,7 @@
   ],
   "Children": [],
   "FarClip": 801.0,
-  "GUID": 15979696609732658065,
+  "GUID": 16464594225941310697,
   "HDRColour": [
     1.0,
     1.0,
@@ -14,7 +14,7 @@
     1.0
   ],
   "Name": "LightObject",
-  "NearClip": 798.0,
+  "NearClip": 796.0,
   "Pivot": [
     0.0,
     0.0,
