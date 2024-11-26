@@ -4,10 +4,10 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 16758251791571262853,
-      "Material": "Assets\\Materials\\HexBottom.mat",
-      "Mesh": "Assets\\Tiles\\Lands\\RedGravel\\SM_HexBottom.mesh",
-      "Name": "SM_HexBottom",
+      "GUID": 9934199079110753991,
+      "Material": "Assets\\Materials\\RedGravel.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\RedGravel\\SM_Gravel.mesh",
+      "Name": "SM_Gravel",
       "Pivot": [
         0.0,
         0.0,
@@ -34,10 +34,40 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 487002711272421639,
+      "GUID": 2540638297912991218,
       "Material": "Assets\\Materials\\RedGravel.mat",
-      "Mesh": "Assets\\Tiles\\Lands\\RedGravel\\SM_HexTop.mesh",
-      "Name": "SM_HexTop",
+      "Mesh": "Assets\\Tiles\\Lands\\RedGravel\\SM_HexBottom_OneUnit.mesh",
+      "Name": "SM_HexBottom_OneUnit",
+      "Pivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "TypeID": 181025226017607
+    },
+    {
+      "Active": true,
+      "Children": [],
+      "GUID": 6926214369681638592,
+      "Material": "Assets\\Materials\\RedGravel.mat",
+      "Mesh": "Assets\\Tiles\\Lands\\RedGravel\\SM_HexTop_OneUnit.mesh",
+      "Name": "SM_HexTop_OneUnit",
       "Pivot": [
         0.0,
         0.0,
@@ -62,12 +92,10 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 14594863679221785918,
+  "GUID": 15765488980812832664,
   "HexType": 3,
   "HexVariant": "Red Gravel",
-  "Material": "Engine\\DefaultAssets\\Default.mat",
-  "Mesh": "None",
-  "Name": "Gravel",
+  "Name": "Empty",
   "Pivot": [
     0.0,
     0.0,
@@ -89,5 +117,5 @@
     1.0,
     1.0
   ],
-  "TypeID": 181025226017607
+  "TypeID": 70103550478110
 }
