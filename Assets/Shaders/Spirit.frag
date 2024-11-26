@@ -97,9 +97,6 @@ void main() // Fragment
 
 	// spot light
 	vec3 lightDirection = normalize(LightObjects[0].position - FragPos);
-	//shadow
-	float shadow = ShadowCalculation(0, lightDirection);
-	shadow = 1.0 - shadow;
 	
 	// Variables for Toon Shading
 	vec3 toonRampTinting = vec3(0.333, 0.260, 0.462);
@@ -114,9 +111,7 @@ void main() // Fragment
 	vec3 oNormal = normalize(N);
 	float NdotL = dot(lightDirection, oNormal);
 	
-	float lightIntensity = smoothstep(0.0, 0.01, NdotL);
-	float toonShadow = Remap(clamp(shadow, 0.4, 0.5), 0.4, 0.5, 0.0, 1.0);
-	lightIntensity *= toonShadow;
+	float lightIntensity = smoothstep(0.0, 0.01, 1.0);
 	
 	vec3 light = lightIntensity * LightObjects[0].colour;
 	
@@ -170,55 +165,6 @@ void main() // Fragment
 	}
 	
 	FragColour.rgb = vec3(mix(FragColour.rgb, FogColour, fogFactor));
-}
-
-
-float ShadowCalculation(int lightObjectIndex, vec3 lightDirection)
-{
-	int mapIndex = 0;
-	switch(LightObjects[lightObjectIndex].shadowMapCount)
-	{
-		case 0: return 0.0;
-		case 1:
-			mapIndex = LightObjects[lightObjectIndex].shadowMapIndices[0];
-			break;
-		case 6:
-			// Figure out which map to use idk
-			//mapIndex = LightObjects[lightObjectIndex].shadowMapIndices[0]; // temporary
-			break;
-	}
-	
-	vec3 coords = FragPosLightSpace[mapIndex].xyz / FragPosLightSpace[mapIndex].w;
-	coords = coords * 0.5 + 0.5;
-	
-	if (coords.z > 1.0) return 0.0;
-		
-	float currentDepth = coords.z;
-	
-	float shadow = 0.0;
-	float shadowBias = 0.005;
-	
-	if (LightObjects[lightObjectIndex].softShadows == 0) // Hard Shadows
-	{
-		float closestDepth = texture(ShadowMaps, vec3(coords.xy, mapIndex)).r;
-		shadow = currentDepth - shadowBias > closestDepth ? 1.0 : 0.0; // 1 means no light, 0 means light
-	}
-	else // Soft Shadows
-	{
-		vec2 texelSize = vec2(1.0 / textureSize(ShadowMaps, 0) * (1 + 1 * Simplex2D(FragPos.xz * 75)));
-		for (float x = -3.5; x <= 3.5; x += 1.0)
-		{
-			for (float y = -3.5; y <= 3.5; y += 1.0)
-			{
-				float pcfDepth = texture(ShadowMaps, vec3(coords.xy + vec2(x,y) * texelSize, mapIndex)).r;
-				shadow += currentDepth - shadowBias > pcfDepth ? 1.0 : 0.0; // 1 means no light, 0 means light
-			}
-		}
-		
-		shadow /= 64.0;
-	}
-	
-	return shadow;
 }
 
 float Remap01(float value, float vMin, float vMax)
