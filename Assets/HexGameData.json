@@ -25,7 +25,13 @@
       "VariantUnlock": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav"
     },
     "SoundEffectsVolume": 1.0,
-    "SpiritSounds": null,
+    "SpiritSounds": {
+      "Bee": "None",
+      "Frog": "None",
+      "Platypus": "None",
+      "Slug": "None",
+      "Tassie Tiger": "None"
+    },
     "SpiritSoundsVolume": 1.0
   },
   "BackgroundPrefab": "Assets\\Tiles\\Fog\\Background.prefab",
