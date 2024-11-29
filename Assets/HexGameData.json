@@ -317,34 +317,34 @@
       {
         "Name": "Everlasting Daisy",
         "Prefab": "Assets\\Tiles\\Flowers\\Everlasting Daisy\\EverlastingDaisy.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Flower\\Daisy.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Flower\\Daisy_C.png"
       },
       {
         "Name": "Happy Wanderer",
         "Prefab": "Assets\\Tiles\\Flowers\\Happy Wanderer\\HappyWanderer.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Flower\\Happy Wanderer.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Flower\\Wanderer_C.png"
       },
       {
         "Name": "Prickly Tea Tree",
         "Prefab": "Assets\\Tiles\\Flowers\\Prickly Tea Tree\\TeaTree.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Flower\\Prickly Tea Tree.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Flower\\TeaTree_C.png"
       }
     ],
     "Lands": [
       {
         "Name": "Grass",
         "Prefab": "Assets\\Tiles\\Lands\\Grass\\Grass.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Grass.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Grass_C.png"
       },
       {
         "Name": "Red Gravel",
         "Prefab": "Assets\\Tiles\\Lands\\RedGravel\\RedGravel.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Gravel.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Gravel_C.png"
       },
       {
         "Name": "Mushroom",
         "Prefab": "Assets\\Tiles\\Lands\\Mushroom\\Mushroom.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Mushroom.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Land\\Mushroom_C.png"
       }
     ],
     "Required": {
@@ -357,34 +357,34 @@
       {
         "Name": "Fern",
         "Prefab": "Assets\\Tiles\\Trees\\Fern\\Fern.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Tree\\NewFern.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Tree\\Fern_C.png"
       },
       {
         "Name": "Eucalyptus",
         "Prefab": "Assets\\Tiles\\Trees\\Eucalyptus\\Eucalyptus.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Tree\\NewEuca.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Tree\\Euca_C.png"
       },
       {
         "Name": "Acacia Blackwood",
         "Prefab": "Assets\\Tiles\\Trees\\Acacia Blackwood\\AcaciaBlackwood.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Tree\\NewAcacia.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Tree\\Acacia_C.png"
       }
     ],
     "Waters": [
       {
         "Name": "Water",
         "Prefab": "Assets\\Tiles\\Waters\\Water\\Water.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Water\\Water.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Water\\Water_C.png"
       },
       {
         "Name": "Lilypad",
         "Prefab": "Assets\\Tiles\\Waters\\Lilypad\\LilyPad.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Water\\LilyPad.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Water\\Lily_C.png"
       },
       {
         "Name": "Log",
         "Prefab": "Assets\\Tiles\\Waters\\Log\\WaterLog.prefab",
-        "Sprite": "Assets\\UI\\Tile Concepts\\Water\\Log.png"
+        "Sprite": "Assets\\UI\\Tile Concepts\\Water\\Log_C.png"
       }
     ]
   },
@@ -450,7 +450,7 @@
       "OffsetX": 0.0,
       "OffsetY": 0.03400000184774399,
       "Scale": 0.9100000262260437,
-      "Texture": "Assets\\UI\\Scrapbook\\ScrapBookBackground.png",
+      "Texture": "Missing",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -476,7 +476,7 @@
       "OffsetX": -0.17000000178813934,
       "OffsetY": -0.1770000010728836,
       "Scale": 0.16300000250339508,
-      "Texture": "Assets\\UI\\Scrapbook\\NewIcon.png",
+      "Texture": "Assets\\UI\\NewIcon.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
