@@ -4,8 +4,8 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 9485255623324221265,
-      "Material": "Assets\\Materials\\HexGrass.mat",
+      "GUID": 16031264712242745811,
+      "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_RaisedGrass.mesh",
       "Name": "SM_RaisedGrass",
       "Pivot": [
@@ -34,7 +34,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 9651362130139664710,
+      "GUID": 10376140219772512845,
       "Material": "Assets\\Materials\\FernWood.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_Fern_Wood.mesh",
       "Name": "SM_Fern_Wood",
@@ -64,7 +64,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 5282235706035996270,
+      "GUID": 4399747163603606361,
       "Material": "Assets\\Materials\\Leaves.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_Fern_Leaves.mesh",
       "Name": "SM_Fern_Leaves",
@@ -94,7 +94,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3305791248574425202,
+      "GUID": 17443649687334496633,
       "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_Grass.mesh",
       "Name": "SM_Grass",
@@ -124,7 +124,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 1346886654400669188,
+      "GUID": 7497628100824416562,
       "Material": "Assets\\Materials\\Foliage_Floral.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_EverLastDaisy_Bee.mesh",
       "Name": "SM_EverLastDaisy_Bee",
@@ -154,7 +154,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 4561558633746782353,
+      "GUID": 10964646312185038990,
       "Material": "Assets\\Materials\\HexEdgeGrass.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_Hex_GrassEdge_Three.mesh",
       "Name": "SM_Hex_GrassEdge_Three",
@@ -184,7 +184,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 9723105761179699330,
+      "GUID": 16134799180672873035,
       "Material": "Assets\\Materials\\HexBottom.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HexBottom_ThreeUnit.mesh",
       "Name": "SM_HexBottom_ThreeUnit",
@@ -214,7 +214,7 @@
     {
       "Active": true,
       "Children": [],
-      "GUID": 3471430648960005854,
+      "GUID": 14727298740524646783,
       "Material": "Assets\\Materials\\HexTop.mat",
       "Mesh": "Assets\\Habitats\\Bee\\SM_HexTop_ThreeUnit.mesh",
       "Name": "SM_HexTop_ThreeUnit",
@@ -242,7 +242,7 @@
       "TypeID": 181025226017607
     }
   ],
-  "GUID": 8593339379288769016,
+  "GUID": 5461334397465885905,
   "Name": "Bee",
   "Pivot": [
     0.0,
