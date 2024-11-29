@@ -25,7 +25,13 @@
       "VariantUnlock": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav"
     },
     "SoundEffectsVolume": 1.0,
-    "SpiritSounds": null,
+    "SpiritSounds": {
+      "Bee": "Assets\\Spirits\\Bee\\BeeSound_1.wav",
+      "Frog": "Assets\\Spirits\\Frog\\FrogSound_1.wav",
+      "Platypus": "Assets\\Spirits\\Platypus\\PlatSound_1.wav",
+      "Slug": "Assets\\Spirits\\Slug\\SlugSound_1.wav",
+      "Tassie Tiger": "None"
+    },
     "SpiritSoundsVolume": 1.0
   },
   "BackgroundPrefab": "Assets\\Tiles\\Fog\\Background.prefab",
@@ -99,7 +105,8 @@
     "LightObject": "Assets\\Lighting.prefab"
   },
   "MenuSprites": {
-    "ContinueScreen": "None",
+    "ContinueScreen": "ContinueScreen",
+    "CreditsScreen": "CreditsScreen",
     "MainMenu": "MainMenu",
     "PauseMenu": "PauseMenu"
   },
@@ -769,6 +776,32 @@
       "OffsetY": 0.0,
       "Scale": 1.0,
       "Texture": "Assets\\UI\\Menus\\PauseMenu.png",
+      "TextureFilter": 0,
+      "TextureWrap": false
+    },
+    {
+      "AnchorX": 0.0,
+      "AnchorY": 0.0,
+      "Enabled": false,
+      "Layer": -1,
+      "Name": "ContinueScreen",
+      "OffsetX": 0.0,
+      "OffsetY": 0.0,
+      "Scale": 1.0,
+      "Texture": "Assets\\UI\\Menus\\ContinueScreen.png",
+      "TextureFilter": 0,
+      "TextureWrap": false
+    },
+    {
+      "AnchorX": 0.0,
+      "AnchorY": 0.0,
+      "Enabled": false,
+      "Layer": -1,
+      "Name": "CreditsScreen",
+      "OffsetX": 0.0,
+      "OffsetY": 0.0,
+      "Scale": 1.0,
+      "Texture": "Assets\\UI\\Menus\\CreditsScreen.png",
       "TextureFilter": 0,
       "TextureWrap": false
     }

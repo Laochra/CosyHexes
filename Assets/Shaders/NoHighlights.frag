@@ -110,7 +110,7 @@ void main() // Fragment
 	vec3 light = lightIntensity * LightObjects[0].colour;
 			
 	// FINAL RESULT
-	vec3 toonResult = colour * (toonRampTinting + light + vec3(1));
+	vec3 toonResult = colour * (toonRampTinting + light + vec3(0.01));
 	toonResult *= tintingAmbient;
 	
 	
@@ -171,7 +171,7 @@ float ShadowCalculation(int lightObjectIndex, vec3 lightDirection)
 	float currentDepth = coords.z;
 	
 	float shadow = 0.0;
-	float shadowBias = 0.005;
+	float shadowBias = 0.02;
 	
 	if (LightObjects[lightObjectIndex].softShadows == 0) // Hard Shadows
 	{
@@ -180,7 +180,8 @@ float ShadowCalculation(int lightObjectIndex, vec3 lightDirection)
 	}
 	else // Soft Shadows
 	{
-		vec2 texelSize = vec2(1.0 / textureSize(ShadowMaps, 0) * (1 + 1 * Simplex2D(FragPos.xz * 75)));
+		vec2 texelSize = vec2(1.0 / textureSize(ShadowMaps, 0)) * vec2(1 + 1 * Simplex2D(FragPos.xz * 75));
+		
 		for (float x = -3.5; x <= 3.5; x += 1.0)
 		{
 			for (float y = -3.5; y <= 3.5; y += 1.0)
