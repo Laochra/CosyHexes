@@ -53,45 +53,90 @@
       "Name": "Bee",
       "PrefabFilepath": "Assets\\Habitats\\Bee\\BeeHabitat.prefab",
       "RequiredTiles": [
-        "Fern",
-        "Everlasting Daisy",
-        "Everlasting Daisy"
+        {
+          "Type": 0,
+          "Variant": 0
+        },
+        {
+          "Type": 1,
+          "Variant": 0
+        },
+        {
+          "Type": 1,
+          "Variant": 0
+        }
       ]
     },
     {
       "Name": "Tassie Tiger",
       "PrefabFilepath": "Assets\\Habitats\\Tassie\\TassieHabitat.prefab",
       "RequiredTiles": [
-        "Eucalyptus",
-        "Eucalyptus",
-        "Red Gravel"
+        {
+          "Type": 0,
+          "Variant": 1
+        },
+        {
+          "Type": 0,
+          "Variant": 1
+        },
+        {
+          "Type": 3,
+          "Variant": 1
+        }
       ]
     },
     {
       "Name": "Frog",
       "PrefabFilepath": "Assets\\Habitats\\Frog\\FrogHabitat.prefab",
       "RequiredTiles": [
-        "Fern",
-        "Eucalyptus",
-        "Lilypad"
+        {
+          "Type": 0,
+          "Variant": 0
+        },
+        {
+          "Type": 0,
+          "Variant": 1
+        },
+        {
+          "Type": 2,
+          "Variant": 1
+        }
       ]
     },
     {
       "Name": "Slug",
       "PrefabFilepath": "Assets\\Habitats\\Slug\\SlugHabitat.prefab",
       "RequiredTiles": [
-        "Eucalyptus",
-        "Prickly Tea Tree",
-        "Water"
+        {
+          "Type": 0,
+          "Variant": 1
+        },
+        {
+          "Type": 1,
+          "Variant": 2
+        },
+        {
+          "Type": 2,
+          "Variant": 0
+        }
       ]
     },
     {
       "Name": "Platypus",
       "PrefabFilepath": "Assets\\Habitats\\Platypus\\PlatypusHabitat.prefab",
       "RequiredTiles": [
-        "Acacia Blackwood",
-        "Mushroom",
-        "Log"
+        {
+          "Type": 0,
+          "Variant": 2
+        },
+        {
+          "Type": 2,
+          "Variant": 2
+        },
+        {
+          "Type": 3,
+          "Variant": 2
+        }
       ]
     }
   ],
@@ -123,34 +168,68 @@
     "LifeMilestones": [
       {
         "LifeRequirement": 40,
-        "Names": [
-          "Eucalyptus",
-          "Happy Wanderer",
-          "Lilypad",
-          "Red Gravel"
-        ],
         "RadiusIncrease": 2,
-        "Type": 0
+        "VariantUnlocks": [
+          {
+            "Type": 0,
+            "Variant": 1
+          },
+          {
+            "Type": 1,
+            "Variant": 1
+          },
+          {
+            "Type": 2,
+            "Variant": 1
+          },
+          {
+            "Type": 3,
+            "Variant": 1
+          }
+        ]
       },
       {
         "LifeRequirement": 120,
-        "Names": [
-          "Acacia Blackwood",
-          "Prickly Tea Tree",
-          "Log",
-          "Mushroom"
-        ],
         "RadiusIncrease": 2,
-        "Type": 0
+        "VariantUnlocks": [
+          {
+            "Type": 0,
+            "Variant": 2
+          },
+          {
+            "Type": 1,
+            "Variant": 2
+          },
+          {
+            "Type": 2,
+            "Variant": 2
+          },
+          {
+            "Type": 3,
+            "Variant": 2
+          }
+        ]
       }
     ],
     "NewVariantsIcon": "NewVariantsIcon",
     "StartingRadius": 3,
     "StartingVariants": [
-      "Fern",
-      "Everlasting Daisy",
-      "Water",
-      "Grass"
+      {
+        "Type": -4,
+        "Variant": 0
+      },
+      {
+        "Type": 1,
+        "Variant": 0
+      },
+      {
+        "Type": 2,
+        "Variant": 0
+      },
+      {
+        "Type": 3,
+        "Variant": 0
+      }
     ],
     "TileLifeBonus": 1
   },
@@ -184,13 +263,17 @@
         "Habitat": "BeeHabitat",
         "HabitatTextures": [
           "Assets\\UI\\Tile Concepts\\Habitats\\Bee_A.png",
+          "Assets\\UI\\Tile Concepts\\Habitats\\Bee_A.png",
           "Assets\\UI\\Tile Concepts\\Habitats\\Bee_B.png"
         ],
         "TileTextures": [
           "Assets\\UI\\Tile Concepts\\Tree\\Fern_B.png",
+          "Assets\\UI\\Tile Concepts\\Tree\\Fern_B.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Fern_C.png",
           "Assets\\UI\\Tile Concepts\\Flower\\Daisy_B.png",
+          "Assets\\UI\\Tile Concepts\\Flower\\Daisy_B.png",
           "Assets\\UI\\Tile Concepts\\Flower\\Daisy_C.png",
+          "Assets\\UI\\Tile Concepts\\Flower\\Daisy_B.png",
           "Assets\\UI\\Tile Concepts\\Flower\\Daisy_B.png",
           "Assets\\UI\\Tile Concepts\\Flower\\Daisy_C.png"
         ],
@@ -203,14 +286,18 @@
       {
         "Habitat": "TassieHabitat",
         "HabitatTextures": [
+          "Assets\\UI\\Tile Concepts\\Habitats\\Tassie_A.png",
           "Assets\\UI\\Tile Concepts\\Habitats\\Tassie_B.png",
           "Assets\\UI\\Tile Concepts\\Habitats\\Tassie_C.png"
         ],
         "TileTextures": [
+          "Assets\\UI\\Tile Concepts\\Tree\\Euca_A.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Euca_B.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Euca_C.png",
+          "Assets\\UI\\Tile Concepts\\Tree\\Euca_A.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Euca_B.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Euca_C.png",
+          "Assets\\UI\\Tile Concepts\\Land\\Gravel_A.png",
           "Assets\\UI\\Tile Concepts\\Land\\Gravel_B.png",
           "Assets\\UI\\Tile Concepts\\Land\\Gravel_C.png"
         ],
@@ -223,14 +310,18 @@
       {
         "Habitat": "FrogHabitat",
         "HabitatTextures": [
+          "Assets\\UI\\Tile Concepts\\Habitats\\Frog_A.png",
           "Assets\\UI\\Tile Concepts\\Habitats\\Frog_B.png",
           "Assets\\UI\\Tile Concepts\\Habitats\\Frog_C.png"
         ],
         "TileTextures": [
+          "Assets\\UI\\Tile Concepts\\Tree\\Fern_A.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Fern_B.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Fern_C.png",
+          "Assets\\UI\\Tile Concepts\\Tree\\Euca_A.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Euca_B.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Euca_C.png",
+          "Assets\\UI\\Tile Concepts\\Water\\Lily_A.png",
           "Assets\\UI\\Tile Concepts\\Water\\Lily_B.png",
           "Assets\\UI\\Tile Concepts\\Water\\Lily_C.png"
         ],
@@ -243,14 +334,18 @@
       {
         "Habitat": "SlugHabitat",
         "HabitatTextures": [
+          "Assets\\UI\\Tile Concepts\\Habitats\\Slug_A.png",
           "Assets\\UI\\Tile Concepts\\Habitats\\Slug_B.png",
           "Assets\\UI\\Tile Concepts\\Habitats\\Slug_C.png"
         ],
         "TileTextures": [
+          "Assets\\UI\\Tile Concepts\\Tree\\Euca_A.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Euca_B.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Euca_C.png",
+          "Assets\\UI\\Tile Concepts\\Flower\\TeaTree_A.png",
           "Assets\\UI\\Tile Concepts\\Flower\\TeaTree_B.png",
           "Assets\\UI\\Tile Concepts\\Flower\\TeaTree_C.png",
+          "Assets\\UI\\Tile Concepts\\Water\\Water_A.png",
           "Assets\\UI\\Tile Concepts\\Water\\Water_B.png",
           "Assets\\UI\\Tile Concepts\\Water\\Water_C.png"
         ],
@@ -263,14 +358,18 @@
       {
         "Habitat": "PlatypusHabitat",
         "HabitatTextures": [
+          "Assets\\UI\\Tile Concepts\\Habitats\\Plat_A.png",
           "Assets\\UI\\Tile Concepts\\Habitats\\Plat_B.png",
           "Assets\\UI\\Tile Concepts\\Habitats\\Plat_C.png"
         ],
         "TileTextures": [
+          "Assets\\UI\\Tile Concepts\\Tree\\Acacia_A.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Acacia_B.png",
           "Assets\\UI\\Tile Concepts\\Tree\\Acacia_C.png",
+          "Assets\\UI\\Tile Concepts\\Land\\Mushroom_A.png",
           "Assets\\UI\\Tile Concepts\\Land\\Mushroom_B.png",
           "Assets\\UI\\Tile Concepts\\Land\\Mushroom_C.png",
+          "Assets\\UI\\Tile Concepts\\Water\\Log_A.png",
           "Assets\\UI\\Tile Concepts\\Water\\Log_B.png",
           "Assets\\UI\\Tile Concepts\\Water\\Log_C.png"
         ],
@@ -503,7 +602,7 @@
       "OffsetX": 0.289000004529953,
       "OffsetY": -0.16099999845027924,
       "Scale": 0.15000000596046448,
-      "Texture": "Assets\\UI\\Tile Concepts\\Water\\Log_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Water\\Log_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -516,7 +615,7 @@
       "OffsetX": -0.2709999978542328,
       "OffsetY": -0.06300000101327896,
       "Scale": 0.1599999964237213,
-      "Texture": "Assets\\UI\\Tile Concepts\\Land\\Mushroom_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Land\\Mushroom_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -529,7 +628,7 @@
       "OffsetX": -0.017000000923871994,
       "OffsetY": 0.367000013589859,
       "Scale": 0.17900000512599945,
-      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Acacia_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Acacia_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -542,7 +641,7 @@
       "OffsetX": 0.5199999809265137,
       "OffsetY": -0.6679999828338623,
       "Scale": 0.1289999932050705,
-      "Texture": "Assets\\UI\\Tile Concepts\\Water\\Water_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Water\\Water_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -555,7 +654,7 @@
       "OffsetX": 0.9259999990463257,
       "OffsetY": -0.4869999885559082,
       "Scale": 0.15399999916553497,
-      "Texture": "Assets\\UI\\Tile Concepts\\Flower\\TeaTree_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Flower\\TeaTree_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -568,7 +667,7 @@
       "OffsetX": 0.20399999618530273,
       "OffsetY": -0.46299999952316284,
       "Scale": 0.20900000631809235,
-      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Euca_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Euca_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -581,7 +680,7 @@
       "OffsetX": -0.546999990940094,
       "OffsetY": -0.6230000257492065,
       "Scale": 0.15800000727176666,
-      "Texture": "Assets\\UI\\Tile Concepts\\Water\\Lily_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Water\\Lily_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -594,7 +693,7 @@
       "OffsetX": -0.9610000252723694,
       "OffsetY": -0.39899998903274536,
       "Scale": 0.1679999977350235,
-      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Euca_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Euca_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -607,7 +706,7 @@
       "OffsetX": -0.26600000262260437,
       "OffsetY": -0.39399999380111694,
       "Scale": 0.15299999713897705,
-      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Fern_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Fern_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -620,7 +719,7 @@
       "OffsetX": 0.5080000162124634,
       "OffsetY": 0.3370000123977661,
       "Scale": 0.15399999916553497,
-      "Texture": "Assets\\UI\\Tile Concepts\\Land\\Gravel_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Land\\Gravel_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -633,7 +732,7 @@
       "OffsetX": 0.9160000085830688,
       "OffsetY": 0.33799999952316284,
       "Scale": 0.18299999833106995,
-      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Euca_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Euca_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -646,7 +745,7 @@
       "OffsetX": 0.38199999928474426,
       "OffsetY": 0.6570000052452087,
       "Scale": 0.17499999701976776,
-      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Euca_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Euca_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -659,7 +758,7 @@
       "OffsetX": -0.37700000405311584,
       "OffsetY": 0.47999998927116394,
       "Scale": 0.16899999976158142,
-      "Texture": "Assets\\UI\\Tile Concepts\\Flower\\Daisy_B.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Flower\\Daisy_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -672,7 +771,7 @@
       "OffsetX": -0.9449999928474426,
       "OffsetY": 0.6940000057220459,
       "Scale": 0.1550000011920929,
-      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Fern_B.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Tree\\Fern_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -685,7 +784,7 @@
       "OffsetX": -0.8560000061988831,
       "OffsetY": 0.20100000500679016,
       "Scale": 0.18199999630451202,
-      "Texture": "Assets\\UI\\Tile Concepts\\Flower\\Daisy_B.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Flower\\Daisy_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -698,7 +797,7 @@
       "OffsetX": -0.7329999804496765,
       "OffsetY": 0.4869999885559082,
       "Scale": 0.19599999487400055,
-      "Texture": "Assets\\UI\\Tile Concepts\\Habitats\\Bee_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Habitats\\Bee_B.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -711,7 +810,7 @@
       "OffsetX": 0.7730000019073486,
       "OffsetY": 0.6129999756813049,
       "Scale": 0.23000000417232513,
-      "Texture": "Assets\\UI\\Tile Concepts\\Habitats\\Tassie_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Habitats\\Tassie_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -724,7 +823,7 @@
       "OffsetX": -0.6449999809265137,
       "OffsetY": -0.3070000112056732,
       "Scale": 0.2669999897480011,
-      "Texture": "Assets\\UI\\Tile Concepts\\Habitats\\Frog_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Habitats\\Frog_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -737,7 +836,7 @@
       "OffsetX": 0.6039999723434448,
       "OffsetY": -0.3479999899864197,
       "Scale": 0.23399999737739563,
-      "Texture": "Assets\\UI\\Tile Concepts\\Habitats\\Slug_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Habitats\\Slug_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
@@ -750,7 +849,7 @@
       "OffsetX": 0.08699999749660492,
       "OffsetY": 0.11699999868869781,
       "Scale": 0.24699999392032623,
-      "Texture": "Assets\\UI\\Tile Concepts\\Habitats\\Plat_A.png",
+      "Texture": "Assets\\UI\\Tile Concepts\\Habitats\\Plat_C.png",
       "TextureFilter": 0,
       "TextureWrap": false
     },
