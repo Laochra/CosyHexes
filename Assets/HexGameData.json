@@ -901,7 +901,7 @@
       "OffsetX": 0.0,
       "OffsetY": 0.0,
       "Scale": 1.0,
-      "Texture": "Assets\\UI\\Menus\\CreditsScreen.png",
+      "Texture": "Assets\\UI\\Menus\\CreditsPageB.png",
       "TextureFilter": 0,
       "TextureWrap": false
     }
