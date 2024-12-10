@@ -7,7 +7,7 @@
     "Music": "Assets\\Ambience & Soundtrack\\Soundtrack_[1].wav",
     "MusicVolume": 1.0,
     "SoundEffects": {
-      "FogMove": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav",
+      "FogMove": "Assets\\Tiles\\Fog\\Fog.wav",
       "FormHabitat": "Assets\\Habitats\\FormHabitat.wav",
       "MenuSelect": "None",
       "PlaceFlower": "Assets\\Tiles\\Flowers\\PlaceFlower.wav",
@@ -22,7 +22,7 @@
       "ScrapbookClose": "Assets\\UI\\Scrapbook\\Scrapbook_Close.wav",
       "ScrapbookOpen": "Assets\\UI\\Scrapbook\\Scrapbook_Open.wav",
       "ScrapbookStickerPlace": "Assets\\UI\\Scrapbook\\Scrapbook_Notification.wav",
-      "VariantUnlock": "Assets\\UI\\Scrapbook\\Scrapbook_NewHabitat.wav"
+      "VariantUnlock": "Assets\\UI\\VariantMeter\\VarientUnlocked.wav"
     },
     "SoundEffectsVolume": 1.0,
     "SpiritSounds": {
@@ -30,7 +30,7 @@
       "Frog": "Assets\\Spirits\\Frog\\FrogSound_1.wav",
       "Platypus": "Assets\\Spirits\\Platypus\\PlatSound_1.wav",
       "Slug": "Assets\\Spirits\\Slug\\SlugSound_1.wav",
-      "Tassie Tiger": "None"
+      "Tassie Tiger": "Assets\\Spirits\\Tasmanian Tiger\\DogSound_1.wav"
     },
     "SpiritSoundsVolume": 1.0
   },
