@@ -501,7 +501,7 @@
     {
       "AnchorX": 0.0,
       "AnchorY": -1.0,
-      "Enabled": true,
+      "Enabled": false,
       "Layer": 10,
       "Name": "Version History ",
       "OffsetX": 0.0,
