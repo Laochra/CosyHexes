@@ -9,11 +9,19 @@
     "SoundEffects": {
       "FogMove": "Assets\\Tiles\\Fog\\Fog.wav",
       "FormHabitat": "Assets\\Habitats\\FormHabitat.wav",
-      "MenuSelect": "None",
+      "MenuSelect": "Assets\\UI\\Menus\\UISELECT.wav",
       "PlaceFlower": "Assets\\Tiles\\Flowers\\PlaceFlower.wav",
+      "PlaceFlower2": "Assets\\Tiles\\Flowers\\PlaceFlower2.wav",
+      "PlaceFlower3": "Assets\\Tiles\\Flowers\\PlaceFlower3.wav",
       "PlaceLand": "Assets\\Tiles\\Lands\\PlaceLand.wav",
+      "PlaceLand2": "Assets\\Tiles\\Lands\\PlaceLand2.wav",
+      "PlaceLand3": "Assets\\Tiles\\Lands\\PlaceLand3.wav",
       "PlaceTree": "Assets\\Tiles\\Trees\\PlaceTree.wav",
+      "PlaceTree2": "Assets\\Tiles\\Trees\\PlaceTree2.wav",
+      "PlaceTree3": "Assets\\Tiles\\Trees\\PlaceTree3.wav",
       "PlaceWater": "Assets\\Tiles\\Waters\\PlaceWater.wav",
+      "PlaceWater2": "Assets\\Tiles\\Waters\\PlaceWater2.wav",
+      "PlaceWater3": "Assets\\Tiles\\Waters\\PlaceWater3.wav",
       "RadialClose": "Assets\\UI\\RadialMenu\\RadialMenu_Close.wav",
       "RadialCyclePage": "Assets\\UI\\RadialMenu\\RadialMenu_CyclePage.wav",
       "RadialHover": "Assets\\UI\\RadialMenu\\RadialMenu_Select.wav",
@@ -42,6 +50,7 @@
     "OffsetZ": 0.7332121133804321,
     "StartZoom": 8.0
   },
+  "Clouds": [],
   "Fog": {
     "Range": 0.25,
     "Speed": 1.0,
